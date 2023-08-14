@@ -1,7 +1,7 @@
 Instance: chf-bodyweight-change-measure
 InstanceOf: CPGComputableMetric
 Usage: #example
-Title: "CHF Body Weight Change Metric"
+* title = "CHF Body Weight Change Metric"
 * insert MeasureMetadata(chf-bodyweight-change-measure)
 * name = "CHFBodyWeightChange"
 * description = "Body weight change metric as a feature of a congestive heart failure pathway"

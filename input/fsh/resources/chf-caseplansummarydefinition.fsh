@@ -6,7 +6,7 @@ Usage: #definition
   * url = Canonical(cpg-identifier)
   * valueIdentifier
     * use = #official
-    * system = "http://hl7.org/fhir/uv/cpg/ImplementationGuide/chf"
+    * system = $chf-implementationguide
     * value = "CHFCasePlanSummaryDefinition"
 * extension[+]
   * url = Canonical(cpg-title)

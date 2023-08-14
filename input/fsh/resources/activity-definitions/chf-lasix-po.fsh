@@ -2,7 +2,7 @@ Instance: chf-lasix-po
 InstanceOf: CPGComputableActivityDefinition
 Usage: #example
 Title: "CHF LASIX PO Activity Defintion"
-* insert ActivityDefinitionMetadata()
+* insert ActivityDefinitionMetadata(chf-lasix-po)
 * name = "CHFLASIXPO"
 * description = "Activity definition to administer LASIX PO as part of a congestive heart failure pathway"
 * kind = #MedicationRequest

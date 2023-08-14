@@ -3,9 +3,9 @@ RuleSet: MetaProfile(profile-id)
 
 RuleSet: CaseFeatureOfExtension(plan-id)
 * ^extension[+].url = Canonical(cpg-caseFeatureOf)
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/{plan-id}"
+* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/{plan-id}"
 
-RuleSet: KnowledgeArtifactCaseFeatureMetadata(id)
+RuleSet: CaseFeatureMetadataWithPublisher(id)
 * ^meta.profile = Canonical(cpg-casefeaturedefinition)
 * ^extension[+].url = Canonical(cpg-knowledgeCapability)
 * ^extension[=].valueCode = #shareable
@@ -19,7 +19,7 @@ RuleSet: KnowledgeArtifactCaseFeatureMetadata(id)
 * ^publisher = "Health Level Seven International (Orders and Observations Workgroup)"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://www.hl7.org/Special/committees/orders/index.cfm Orders and Observations"
-* ^url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/{id}"
+* ^url = "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/{id}"
 
 RuleSet: CPGExpressionExtensions
 * ^extension[+].url = Canonical(cpg-inferenceExpression)
@@ -37,8 +37,16 @@ RuleSet: CPGExpressionExtensions
 
 RuleSet: CaseFeatureMetadata(id)
 * ^meta.profile = Canonical(cpg-casefeaturedefinition)
+* ^extension[+].url = Canonical(cpg-knowledgeCapability)
+* ^extension[=].valueCode = #shareable
+* ^extension[+].url = Canonical(cpg-knowledgeCapability)
+* ^extension[=].valueCode = #computable
+* ^extension[+].url = Canonical(cpg-knowledgeCapability)
+* ^extension[=].valueCode = #publishable
+* ^extension[+].url = Canonical(cpg-knowledgeRepresentationLevel)
+* ^extension[=].valueCode = #structured
 * ^experimental = true
-* ^url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/{id}"
+* ^url = "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/{id}"
 
 RuleSet: CodeSystemMetadata(id)
 * ^meta.profile = Canonical(cpg-publishablecodesystem)
@@ -53,7 +61,7 @@ RuleSet: CodeSystemMetadata(id)
 * ^experimental = true
 * ^caseSensitive = true
 * ^content = #complete
-* ^url = "http://hl7.org/fhir/uv/cpg/CodeSystem/{id}"
+* ^url = "http://hl7.org/fhir/uv/cpg/chf/CodeSystem/{id}"
 
 RuleSet: ActivityDefinitionMetadata(id)
 * extension[+]
@@ -68,7 +76,7 @@ RuleSet: ActivityDefinitionMetadata(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/ActivityDefinition/{id}"
+* url = "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -87,7 +95,7 @@ RuleSet: LibraryMetaData(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/Library/{id}"
+* url = "http://hl7.org/fhir/uv/cpg/chf/Library/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -114,7 +122,7 @@ RuleSet: MeasureMetadata(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/Measure/{id}"
+* url = "http://hl7.org/fhir/uv/cpg/chf/Measure/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -133,7 +141,7 @@ RuleSet: PlanDefinitionMetadata(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/PlanDefinition/{id}"
+* url = "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -142,7 +150,7 @@ RuleSet: PlanDefinitionMetadata(id)
 RuleSet: PlanDefinitionPartOfExtension(partOf)
 * extension[+]
   * url = Canonical(cpg-partOf)
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/{partOf}"
+  * valueCanonical = "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/{partOf}"
 
 RuleSet: PlanDefinitionEnabledExtension
 * extension[+]
@@ -154,7 +162,7 @@ RuleSet: CaseSummaryDefinitionMetadata(id)
   * profile[+] = Canonical(cpg-shareablegraphdefinition)
   * profile[+] = Canonical(cpg-computablegraphdefinition)
   * profile[+] = Canonical(cpg-caseplansummarydefinition)
-* url = "http://hl7.org/fhir/uv/cpg/GraphDefinition/{id}"
+* url = "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/{id}"
 * extension[+]
   * url = Canonical(cpg-knowledgeCapability)
   * valueCode = #shareable
@@ -198,6 +206,8 @@ RuleSet: CaseSummaryDefinitionMetadata(id)
     * type = #citation
     * citation = "Representation primitives, process models and patient data in computer-interpretable clinical practice guidelines: A literature review of guideline representation models. Dongwen Wang, Mor Peleg, Samson W Tu, Aziz A Boxwala, Robert A Greenes, Vimla L Patel, Edward H Shortliffe. International Journal of Medical Informatics, Volume 68, Issues 1–3, 2002, Pages 59-70, ISSN 1386-5056, https://doi.org/10.1016/S1386-5056(02)00065-5."
 * experimental = true
+* version = "1.0.0"
 * status = #active
+* publisher = "HL7 International - Clinical Decision Support WG"
 
 

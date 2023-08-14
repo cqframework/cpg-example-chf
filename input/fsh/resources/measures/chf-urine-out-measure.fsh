@@ -1,7 +1,7 @@
 Instance: chf-urine-out-measure
 InstanceOf: CPGComputableMetric
 Usage: #example
-Title: "CHF Urine Out Metric"
+* title = "CHF Urine Out Metric"
 * insert MeasureMetadata(chf-urine-out-measure)
 * name = "CHFUrineOut"
 * description = "Urine output metric as a feature of a congestive heart failure pathway"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="cds" url="http://fhir.org/fhir/uv/cpg/chf">
+<specification xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ciUrl="" defaultVersion="current" defaultWorkgroup="cds" url="http://hl7.org/fhir/uv/cpg/chf">
 <version code="current" url=""/>
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
@@ -8,9 +8,7 @@
 <artifact id="ActivityDefinition/chf-bodyweight-ad" key="ActivityDefinition-chf-bodyweight-ad" name="CHF Body Weight Activity Defintion"/>
 <artifact id="StructureDefinition/chf-bodyweight-change" key="StructureDefinition-chf-bodyweight-change" name="CHF Body Weight Change"/>
 <artifact id="ActivityDefinition/chf-bodyweight-change-ad" key="ActivityDefinition-chf-bodyweight-change-ad" name="CHF Body Weight Change Activity Defintion"/>
-<artifact id="Measure/chf-bodyweight-change-measure" key="Measure-chf-bodyweight-change-measure" name="CHF Body Weight Change Metric"/>
 <artifact id="PlanDefinition/chf-bodyweight-change-pd" key="PlanDefinition-chf-bodyweight-change-pd" name="CHF Body Weight Change Recommendation"/>
-<artifact id="Measure/chf-bodyweight-measure" key="Measure-chf-bodyweight-measure" name="CHF Body Weight Metric"/>
 <artifact id="PlanDefinition/chf-bodyweight-pd" key="PlanDefinition-chf-bodyweight-pd" name="CHF Body Weight Recommendation"/>
 <artifact id="StructureDefinition/chf-cardiology-consult" key="StructureDefinition-chf-cardiology-consult" name="CHF Cardiology Consult"/>
 <artifact id="StructureDefinition/chf-cardiology-consult-request" key="StructureDefinition-chf-cardiology-consult-request" name="CHF Cardiology Consult Request"/>
@@ -48,19 +46,21 @@
 <artifact id="ActivityDefinition/chf-report-urine-out" key="ActivityDefinition-chf-report-urine-out" name="CHF Report Urine Out Activity Defintion"/>
 <artifact id="StructureDefinition/chf-urine-out" key="StructureDefinition-chf-urine-out" name="CHF Urine Out"/>
 <artifact id="ActivityDefinition/chf-urine-out-ad" key="ActivityDefinition-chf-urine-out-ad" name="CHF Urine Out Activity Defintion"/>
-<artifact id="Measure/chf-urine-out-measure" key="Measure-chf-urine-out-measure" name="CHF Urine Out Metric"/>
 <artifact id="PlanDefinition/chf-urine-out-pd" key="PlanDefinition-chf-urine-out-pd" name="CHF Urine Out Recommendation"/>
 <artifact id="StructureDefinition/chf-egfr" key="StructureDefinition-chf-egfr" name="CHF eGFR"/>
 <artifact id="ActivityDefinition/chf-egfr-ad" key="ActivityDefinition-chf-egfr-ad" name="CHF eGFR Activity Defintion"/>
 <artifact id="PlanDefinition/chf-egfr-pd" key="PlanDefinition-chf-egfr-pd" name="CHF eGFR Recommendation"/>
 <artifact id="PlanDefinition/chf-pathway" key="PlanDefinition-chf-pathway" name="Congestive Heart Failure Care Pathway"/>
 <artifact id="Library/CHF" key="Library-CHF" name="Congestive Heart Failure Logic"/>
+<artifact id="Measure/chf-bodyweight-change-measure" key="Measure-chf-bodyweight-change-measure" name="chf-bodyweight-change-measure"/>
+<artifact id="Measure/chf-bodyweight-measure" key="Measure-chf-bodyweight-measure" name="chf-bodyweight-measure"/>
 <artifact id="CareTeam/chf-careteamdefinition" key="CareTeam-chf-careteamdefinition" name="chf-careteamdefinition"/>
 <artifact id="GraphDefinition/chf-caseplansummarydefinition" key="GraphDefinition-chf-caseplansummarydefinition" name="chf-caseplansummarydefinition"/>
 <artifact id="GraphDefinition/chf-casesummarydefinition" key="GraphDefinition-chf-casesummarydefinition" name="chf-casesummarydefinition"/>
 <artifact id="Group/chf-groupdefinition" key="Group-chf-groupdefinition" name="chf-groupdefinition"/>
 <artifact id="Location/chf-locationdefinition" key="Location-chf-locationdefinition" name="chf-locationdefinition"/>
 <artifact id="PractitionerRole/chf-practitionerroledefinition" key="PractitionerRole-chf-practitionerroledefinition" name="chf-practitionerroledefinition"/>
+<artifact id="Measure/chf-urine-out-measure" key="Measure-chf-urine-out-measure" name="chf-urine-out-measure"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>

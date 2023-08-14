@@ -1,5 +1,252 @@
 == Suppressed Messages ==
 
-# Add warning and/or information messages here after you've confirmed that they aren't really a problem
-# (And include comments like this justifying why)
-# See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+# The slice is valid in a derived profile
+INFORMATION: Composition/chf-scenario1-caseplanprogressingnote: Composition.section[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplanprogressingnote|1.0.0
+INFORMATION: ActivityDefinition/chf-report-bodyweight: ActivityDefinition.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0
+INFORMATION: ActivityDefinition/chf-report-bodyweight-change: ActivityDefinition.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0
+INFORMATION: ActivityDefinition/chf-report-urine-out: ActivityDefinition.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+== fsh-generated/resources/GraphDefinition-chf-casesummarydefinition.json ==
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[4]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[5]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[6]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[8]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[9]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[10]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[11]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[8]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[9]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[10]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[11]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[8]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[9]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[10]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[11]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[8]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[9]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[10]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[11]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition.extension[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[8]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[9]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[10]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[11]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[7]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[8]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[9]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[10]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[11]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extension[12]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0
+INFORMATION: Library/CHF: Library.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablelibrary|1.0.0
+INFORMATION: Library/CHF: Library.content[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablelibrary|1.0.0
+INFORMATION: Library/CHF: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablelibrary|1.0.0
+
+# This code is valid, not sure where this message is coming from
+WARNING: Observation/chf-scenario1-potassium1: Observation.code: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/observation-vitalsignresult because the value set or code system is not known to the validator]
+
+# Confirmed profile validation messages
+INFORMATION: ActivityDefinition/chf-bodyweight: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-bodyweight: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-bodyweight-change-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-bodyweight-change-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-cardiology-consultation: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-cardiology-consultation: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-creatinine-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-creatinine-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-egfr-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-egfr-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-jvp-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-jvp-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-lasix-iv: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-lasix-iv: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-lasix-po: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-lasix-po: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-net-io-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-net-io-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-o2-sat-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-o2-sat-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-potassium-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-potassium-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-report-bodyweight: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-report-bodyweight: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-report-bodyweight-change: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-report-bodyweight-change: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-report-urine-out: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-report-urine-out: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: ActivityDefinition/chf-urine-out-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ActivityDefinition
+INFORMATION: ActivityDefinition/chf-urine-out-ad: ActivityDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity|1.0.0 - listed in meta
+INFORMATION: CareTeam/chf-careteamdefinition: CareTeam: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-careteamdefinition
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/GraphDefinition
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0 - listed in meta
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0 - listed in meta
+INFORMATION: GraphDefinition/chf-caseplansummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition|1.0.0 - listed in meta
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/GraphDefinition
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition|1.0.0 - listed in meta
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition|1.0.0 - listed in meta
+INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casesummarydefinition|1.0.0 - listed in meta
+INFORMATION: Group/chf-groupdefinition: Group: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-groupdefinition
+INFORMATION: ImplementationGuide/chf: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+INFORMATION: ImplementationGuide/chf: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareableig|1.0.0 - listed in meta
+INFORMATION: ImplementationGuide/chf: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-publishableguideline - listed in meta
+INFORMATION: ImplementationGuide/chf: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableguideline|1.0.0 - listed in meta
+INFORMATION: Library/CHF: Library: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Library
+INFORMATION: Library/CHF: Library: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablelibrary|1.0.0 - listed in meta
+INFORMATION: Library/CHF: Library: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablelibrary - listed in meta
+INFORMATION: Location/chf-locationdefinition: Location: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-locationdefinition
+INFORMATION: Measure/chf-bodyweight-measure: Measure: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Measure
+INFORMATION: Measure/chf-bodyweight-measure: Measure: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablemetric - listed in meta
+INFORMATION: Measure/chf-bodyweight-change-measure: Measure: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Measure
+INFORMATION: Measure/chf-bodyweight-change-measure: Measure: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablemetric - listed in meta
+INFORMATION: Measure/chf-urine-out-measure: Measure: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Measure
+INFORMATION: Measure/chf-urine-out-measure: Measure: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablemetric - listed in meta
+INFORMATION: PlanDefinition/chf-bodyweight-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-bodyweight-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-bodyweight-change-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-bodyweight-change-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-cardiology-consultation-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-cardiology-consultation-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-creatinine-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-creatinine-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-daily-management: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-daily-management: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-strategydefinition - listed in meta
+INFORMATION: PlanDefinition/chf-egfr-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-egfr-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-hypervolemia: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-hypervolemia: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-strategydefinition - listed in meta
+INFORMATION: PlanDefinition/chf-jvp-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-jvp-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-lasix: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-lasix: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-net-io-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-net-io-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-o2-sat-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-o2-sat-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-pathway: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-pathway: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pathwaydefinition - listed in meta
+INFORMATION: PlanDefinition/chf-potassium-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-potassium-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PlanDefinition/chf-urine-out-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/PlanDefinition
+INFORMATION: PlanDefinition/chf-urine-out-pd: PlanDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition - listed in meta
+INFORMATION: PractitionerRole/chf-practitionerroledefinition: PractitionerRole: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-practitionerroledefinition
+INFORMATION: StructureDefinition/chf-bodyweight: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-bodyweight: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-bodyweight-change: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-bodyweight-change: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-cardiology-consult: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-cardiology-consult: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-cardiology-consult-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-cardiology-consult-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-creatinine: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-creatinine: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-egfr: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-egfr: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-jvp: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-jvp: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-jvp-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-jvp-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-lasix-iv-administration: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-lasix-iv-administration: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-lasix-iv-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-lasix-iv-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-lasix-po-administration: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-lasix-po-administration: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-lasix-po-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-lasix-po-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-net-io: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-net-io: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-o2-sat: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-o2-sat: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-o2-sat-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-o2-sat-request: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-potassium: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-potassium: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: StructureDefinition/chf-urine-out: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/chf-urine-out: StructureDefinition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition - listed in meta
+INFORMATION: CarePlan/chf-scenario1: CarePlan: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-careplan
+INFORMATION: CareTeam/chf-scenario1-careteam: CareTeam: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-careteam
+INFORMATION: ClinicalImpression/chf-scenario1-clinicalimpression: ClinicalImpression: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-clinicalimpression
+INFORMATION: Composition/chf-scenario1-caseplanprogressingnote: Composition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplanprogressingnote|1.0.0
+INFORMATION: Composition/chf-scenario1-caseplansummary: Composition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummary
+INFORMATION: Composition/chf-scenario1-casesummary: Composition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casesummary
+INFORMATION: Condition/chf-scenario1-condition: Condition: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-condition
+INFORMATION: Encounter/chf-scenario1-encounter: Encounter: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-encounter
+INFORMATION: EpisodeOfCare/chf-scenario1-eoc: EpisodeOfCare: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-case
+INFORMATION: Goal/chf-scenario1-cardiology-consultation-goal: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-creatinine: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-egfr: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-jvp: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-lasix-iv: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-lasix-po: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-net-io: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-o2-sat: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-potassium: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-urine-out: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-weight: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Goal/chf-scenario1-weight-change: Goal: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goal
+INFORMATION: Group/chf-scenario1-group: Group: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-group
+INFORMATION: Location/chf-scenario1-location: Location: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-location
+INFORMATION: MeasureReport/chf-scenario1-bodyweight-change1: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MeasureReport/chf-scenario1-bodyweight-change2: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MeasureReport/chf-scenario1-bodyweight-change3: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MeasureReport/chf-scenario1-bodyweight1: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MeasureReport/chf-scenario1-bodyweight2: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MeasureReport/chf-scenario1-bodyweight3: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MeasureReport/chf-scenario1-bodyweight4: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MeasureReport/chf-scenario1-urineout3: MeasureReport: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-metricreport
+INFORMATION: MedicationAdministration/chf-scenario1-lasix-iv: MedicationAdministration: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-lasix-iv-administration
+INFORMATION: MedicationAdministration/chf-scenario1-lasix-po: MedicationAdministration: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-lasix-po-administration
+INFORMATION: MedicationRequest/chf-scenario1-lasix-po: MedicationRequest: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-lasix-po-request
+INFORMATION: MedicationRequest/chf-scenario1-stop-lasix-iv: MedicationRequest: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-lasix-iv-request
+INFORMATION: Observation/chf-scenario1-bodyweight-change1: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight-change
+INFORMATION: Observation/chf-scenario1-bodyweight-change2: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight-change
+INFORMATION: Observation/chf-scenario1-bodyweight-change3: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight-change
+INFORMATION: Observation/chf-scenario1-bodyweight1: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight
+INFORMATION: Observation/chf-scenario1-bodyweight2: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight
+INFORMATION: Observation/chf-scenario1-bodyweight3: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight
+INFORMATION: Observation/chf-scenario1-bodyweight4: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight
+INFORMATION: Observation/chf-scenario1-creatinine1: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-creatinine
+INFORMATION: Observation/chf-scenario1-egfr1: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-egfr
+INFORMATION: Observation/chf-scenario1-jvp1: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp
+INFORMATION: Observation/chf-scenario1-jvp2: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp
+INFORMATION: Observation/chf-scenario1-jvp3: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp
+INFORMATION: Observation/chf-scenario1-jvp4: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp
+INFORMATION: Observation/chf-scenario1-jvp5: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp
+INFORMATION: Observation/chf-scenario1-netio3: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-net-io
+INFORMATION: Observation/chf-scenario1-o2sat1: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-o2-sat
+INFORMATION: Observation/chf-scenario1-o2sat2: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-o2-sat
+INFORMATION: Observation/chf-scenario1-potassium1: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-potassium
+INFORMATION: Observation/chf-scenario1-urineout3: Observation: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-urine-out
+INFORMATION: Organization/chf-scenario1-organization: Organization: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-organization
+INFORMATION: Patient/chf-scenario1-patient: Patient: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-patient
+INFORMATION: Practitioner/chf-scenario1-practitioner: Practitioner: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-practitioner
+INFORMATION: PractitionerRole/chf-scenario1-practitionerrole: PractitionerRole: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-practitionerrole
+INFORMATION: Procedure/chf-scenario1-cardiology-consult: Procedure: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-cardiology-consult
+INFORMATION: RelatedPerson/chf-scenario1: RelatedPerson: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-relatedperson
+INFORMATION: RequestGroup/chf-scenario1-daily-management: RequestGroup: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-strategy
+INFORMATION: RequestGroup/chf-scenario1-hypervolemia: RequestGroup: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-strategy
+INFORMATION: ServiceRequest/chf-scenario1-cardiology-consultation: ServiceRequest: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-cardiology-consult-request
+INFORMATION: ServiceRequest/chf-scenario1-jvp: ServiceRequest: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp-request
+INFORMATION: ServiceRequest/chf-scenario1-o2-sat: ServiceRequest: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-o2-sat-request
+INFORMATION: CodeSystem/chf-codes: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+INFORMATION: CodeSystem/chf-codes: CodeSystem: Validate resource against profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-publishablecodesystem - listed in meta

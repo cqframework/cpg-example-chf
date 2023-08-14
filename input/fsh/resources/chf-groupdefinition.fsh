@@ -1,6 +1,7 @@
 Instance: chf-groupdefinition
 InstanceOf: Group
 Usage: #example
+Description: "CHF Group"
 * extension
   * url = "http://hl7.org/fhir/StructureDefinition/cqf-expression"
   * valueExpression

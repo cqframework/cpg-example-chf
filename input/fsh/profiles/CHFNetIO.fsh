@@ -6,7 +6,7 @@ Description: "This profile defines how to represent net intake/output observatio
 * insert CaseFeatureOfExtension(chf-pathway)
 * insert CaseFeatureOfExtension(chf-daily-management)
 * insert CaseFeatureOfExtension(chf-net-io-pd)
-* insert KnowledgeArtifactCaseFeatureMetadata(chf-net-io)
+* insert CaseFeatureMetadataWithPublisher(chf-net-io)
 * code ^short = "Intake/output"
   * ^definition = "Intake/output over 24 hours, measured in L/day."
   * coding ^slicing.discriminator[0].type = #value
