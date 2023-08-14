@@ -13,3 +13,13 @@ Alias: $cpg-common-process-cs = http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common
 Alias: $cpg-common-persona-cs = http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-persona-cs
 Alias: $unitsofmeasure = http://unitsofmeasure.org
 Alias: $chf-implementationguide =   http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf
+
+Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
+Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
+Alias: $v3-ActCode = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $v3-ParticipationType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
+Alias: $diagnosis-role = http://terminology.hl7.org/CodeSystem/diagnosis-role
+Alias: $goal-achievement = http://terminology.hl7.org/CodeSystem/goal-achievement
+Alias: $chf-codes = http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes
+Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
