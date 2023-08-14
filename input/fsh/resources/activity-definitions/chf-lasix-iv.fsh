@@ -1,28 +1,12 @@
 Instance: chf-lasix-iv
-InstanceOf: ActivityDefinition
+InstanceOf: CPGComputableActivityDefinition
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #shareable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #computable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #publishable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"
-  * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/ActivityDefinition/chf-lasix-iv"
+Title: "CHF LASIX IV Activity Defintion"
+* insert ActivityDefinitionMetadata(chf-lasix-iv)
 * name = "CHFLASIXIV"
-* title = "CHF LASIX IV"
-* status = #draft
-* experimental = true
 * description = "Activity definition to administer LASIX IV as part of a congestive heart failure pathway"
-* publisher = "HL7 International - Clinical Decision Support WG"
 * kind = #MedicationRequest
-* profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-medicationrequest"
+* profile = Canonical(cpg-medicationrequest)
 * code = $cpg-activity-type-cs#order-medication "Order a medication"
 * intent = #proposal
 * priority = #routine

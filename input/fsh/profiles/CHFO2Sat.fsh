@@ -1,33 +1,12 @@
 Profile: CHFO2Sat
-Parent: $vitalsigns
+Parent: observation-vitalsigns
 Id: chf-o2-sat
 Title: "CHF Oxygen Saturation"
-Description: "CHF Oxygen Saturation (%) Profile"
-* ^meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition"
-* ^extension[0].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-pathway"
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-hypervolemia"
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-o2-sat-pd"
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-* ^extension[=].valueCode = #shareable
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-* ^extension[=].valueCode = #computable
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-* ^extension[=].valueCode = #publishable
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"
-* ^extension[=].valueCode = #structured
-* ^version = "1.0.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2018-08-11"
-* ^publisher = "Health Level Seven International (Orders and Observations Workgroup)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://www.hl7.org/Special/committees/orders/index.cfm Orders and Observations"
-* . 0..*
-  * ^short = "CHF O2 Sat Profile"
-  * ^definition = "This profile defines how to represent oxygen saturation observations in FHIR using a standard LOINC code and UCUM units of measure."
+Description: "This profile defines how to represent oxygen saturation observations in FHIR using a standard LOINC code and UCUM units of measure."
+* insert CaseFeatureOfExtension(chf-pathway)
+* insert CaseFeatureOfExtension(chf-hypervolemia)
+* insert CaseFeatureOfExtension(chf-o2-sat-pd)
+* insert KnowledgeArtifactCaseFeatureMetadata(chf-o2-sat)
 * code ^short = "O2 Sat"
   * ^definition = "Oxygen Saturation."
   * coding ^slicing.discriminator[0].type = #value
@@ -40,7 +19,7 @@ Description: "CHF Oxygen Saturation (%) Profile"
   * coding[O2SatCode]
     * system 1..1
     * system only uri
-    * system = "http://loinc.org" (exactly)
+    * system = $loinc (exactly)
     * code 1..1
     * code only code
     * code = #2708-6 (exactly)
@@ -51,7 +30,7 @@ Description: "CHF Oxygen Saturation (%) Profile"
   * unit only string
   * system 1..1 MS
   * system only uri
-  * system = "http://unitsofmeasure.org" (exactly)
+  * system = $unitsofmeasure (exactly)
   * code 1..1
   * code only code
   * code = #% (exactly)

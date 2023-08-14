@@ -2,32 +2,11 @@ Profile: CHFJVP
 Parent: Observation
 Id: chf-jvp
 Title: "CHF Jugular Venous Pressure"
-Description: "CHF Jugular Venous Pressure (in cmH2O) Profile"
-* ^meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-casefeaturedefinition"
-* ^extension[0].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-pathway"
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-hypervolemia"
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-jvp-pd"
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-* ^extension[=].valueCode = #shareable
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-* ^extension[=].valueCode = #computable
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-* ^extension[=].valueCode = #publishable
-* ^extension[+].url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"
-* ^extension[=].valueCode = #structured
-* ^version = "1.0.0"
-* ^status = #draft
-* ^experimental = true
-* ^date = "2018-08-11"
-* ^publisher = "Health Level Seven International (Orders and Observations Workgroup)"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://www.hl7.org/Special/committees/orders/index.cfm Orders and Observations"
-* . 0..*
-  * ^short = "CHF JVP Profile"
-  * ^definition = "This profile defines how to represent jugular venous pressure observations in FHIR using a CHF code and UCUM units of measure."
+Description: "This profile defines how to represent jugular venous pressure observations in FHIR using a CHF code and UCUM units of measure (in cmH2O)."
+* insert CaseFeatureOfExtension(chf-pathway)
+* insert CaseFeatureOfExtension(chf-hypervolemia)
+* insert CaseFeatureOfExtension(chf-jvp-pd)
+* insert KnowledgeArtifactCaseFeatureMetadata(chf-jvp)
 * code ^short = "JVP"
   * ^definition = "Jugular venous pressure, measured in cmH2O."
   * coding ^slicing.discriminator[0].type = #value
@@ -40,7 +19,7 @@ Description: "CHF Jugular Venous Pressure (in cmH2O) Profile"
   * coding[JVPCode]
     * system 1..1
     * system only uri
-    * system = "http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes" (exactly)
+    * system = Canonical(chf-codes) (exactly)
     * code 1..1
     * code only code
     * code = #jvp (exactly)
@@ -51,7 +30,7 @@ Description: "CHF Jugular Venous Pressure (in cmH2O) Profile"
   * unit only string
   * system 1..1 MS
   * system only uri
-  * system = "http://unitsofmeasure.org" (exactly)
+  * system = $unitsofmeasure (exactly)
   * code 1..1
   * code only code
   * code = #cm[H2O] (exactly)

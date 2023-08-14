@@ -1,1 +1,1 @@
-# Congestive Heart Failure IG
+# CPG Example - Congestive Heart Failure IG

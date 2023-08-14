@@ -6,7 +6,7 @@ Usage: #example
   * valueExpression
     * language = #text/cql-identifier
     * expression = "Eligibility Criteria"
-    * reference = "http://hl7.org/fhir/uv/cpg/Library/CHF"
+    * reference = Canonical(CHF)
 * active = true
 * type = #person
 * actual = false

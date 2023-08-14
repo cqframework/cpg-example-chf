@@ -1,34 +1,18 @@
 Instance: chf-report-bodyweight
-InstanceOf: ActivityDefinition
+InstanceOf: CPGComputableActivityDefinition
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #shareable
+Title: "CHF Report Body Weight Activity Defintion"
+* insert ActivityDefinitionMetadata(chf-report-bodyweight)
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #computable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #publishable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"
-  * valueCode = #structured
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-reportWith"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/Measure/chf-bodyweight-measure"
-* url = "http://hl7.org/fhir/uv/cpg/ActivityDefinition/chf-report-bodyweight"
+  * url = Canonical(cpg-reportWith)
+  * valueCanonical = Canonical(chf-bodyweight-measure)
 * name = "CHFReportBodyWeight"
-* title = "CHF Report Body Weight"
-* status = #draft
-* experimental = true
 * description = "Record body weight metric"
-* publisher = "HL7 International - Clinical Decision Support WG"
 * kind = #Task
-* profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-generatereporttask"
+* profile = Canonical(cpg-generatereporttask)
 * code = $cpg-activity-type-cs#generate-report "Generate a metric or case report"
 * doNotPerform = false
-* dynamicValue[0]
+* dynamicValue[+]
   * path = "input.type"
   * expression
     * language = #text/cql

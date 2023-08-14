@@ -1,33 +1,11 @@
 Instance: chf-bodyweight-change-measure
-InstanceOf: Measure
+InstanceOf: CPGComputableMetric
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablemetric"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #shareable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #computable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"
-  * valueCode = #publishable
-* extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"
-  * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/Measure/chf-bodyweight-change-measure"
-* version = "1.0.0"
+Title: "CHF Body Weight Change Metric"
+* insert MeasureMetadata(chf-bodyweight-change-measure)
 * name = "CHFBodyWeightChange"
-* title = "CHF Body Weight Change Metric"
-* status = #draft
-* experimental = true
-* date = "2020-11-29T15:54:22-07:00"
 * description = "Body weight change metric as a feature of a congestive heart failure pathway"
-* publisher = "HL7 International - Clinical Decision Support WG"
-* contact.telecom
-  * system = #url
-  * value = "http://hl7.org/Special/committees/dss"
-* jurisdiction = $m49.htm#001
-* library = "http://hl7.org/fhir/uv/cpg/Library/CHF"
+* library = Canonical(CHF)
 * scoring = $measure-scoring#continuous-variable
 * improvementNotation = $measure-improvement-notation#decrease
 * group.population
