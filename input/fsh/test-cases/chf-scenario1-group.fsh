@@ -1,6 +1,7 @@
 Instance: chf-scenario1-group
 InstanceOf: Group
 Usage: #example
+Description: "CHF Scenario One"
 * active = true
 * type = #person
 * actual = true

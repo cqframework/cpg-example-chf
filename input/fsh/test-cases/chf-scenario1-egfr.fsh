@@ -1,9 +1,10 @@
 Instance: chf-scenario1-egfr
 InstanceOf: Goal
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-egfr-pd"
+  * url = Canonical(cpg-goalFor)
+  * valueCanonical = Canonical(chf-egfr-pd)
 * lifecycleStatus = #active
 * achievementStatus = $goal-achievement#improving
 * description.text = "eGFR > 60 mol/mm/m2"

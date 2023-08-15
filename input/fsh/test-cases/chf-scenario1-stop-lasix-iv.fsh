@@ -1,6 +1,7 @@
 Instance: chf-scenario1-stop-lasix-iv
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "CHF Scenario One"
 * status = #draft
 * intent = #proposal
 * priority = #routine

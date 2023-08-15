@@ -1,12 +1,13 @@
 Instance: chf-scenario1-hypervolemia
 InstanceOf: RequestGroup
 Usage: #example
-* instantiatesCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-hypervolemia"
+Description: "CHF Scenario One"
+* instantiatesCanonical = Canonical(chf-hypervolemia)
 * status = #active
 * intent = #plan
 * subject = Reference(chf-scenario1-patient)
 * encounter = Reference(chf-scenario1-encounter)
-* action[0]
+* action[+]
   * title = "JVP"
   * description = "Measure JVP daily"
   * code = $cpg-common-process-cs#diagnostic-testing
@@ -77,7 +78,7 @@ Usage: #example
   * title = "LASIX"
   * description = "LASIX"
   * code = $cpg-common-process-cs#guideline-based-care
-  * action[0]
+  * action[+]
     * id = "lasix-iv"
     * title = "LASIX IV"
     * description = "Administer LASIX IV"

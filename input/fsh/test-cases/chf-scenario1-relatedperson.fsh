@@ -1,6 +1,7 @@
 Instance: chf-scenario1-relatedperson
 InstanceOf: RelatedPerson
 Usage: #example
+Description: "CHF Scenario One"
 * active = true
 * patient = Reference(chf-scenario1-patient)
 * relationship = $v3-RoleCode#SPS "spouse"

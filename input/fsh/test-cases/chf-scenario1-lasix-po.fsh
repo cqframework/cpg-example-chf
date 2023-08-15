@@ -1,8 +1,9 @@
 Instance: chf-scenario1-lasix-po
 InstanceOf: MedicationAdministration
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/StructureDefinition/event-basedOn"
+  * url = Canonical(event-basedOn)
   * valueReference = Reference(chf-scenario1-lasix-po-mr)
 * status = #on-hold
 * medicationCodeableConcept = $chf-codes#lasix-po "LASIX PO"

@@ -1,9 +1,10 @@
 Instance: chf-scenario1-net-io
 InstanceOf: Goal
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-net-io-pd"
+  * url = Canonical(cpg-goalFor)
+  * valueCanonical = Canonical(chf-net-io-pd)
 * lifecycleStatus = #active
 * achievementStatus = $goal-achievement#improving
 * description.text = "Net intake/output -1.5 L/day"

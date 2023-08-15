@@ -1,12 +1,12 @@
 Instance: chf-scenario1-clinicalimpression
-InstanceOf: ClinicalImpression
+InstanceOf: CPGClinicalImpression
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-clinicalimpression"
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-impressionFor"
+  * url = Canonical(cpg-impressionFor)
   * valueReference = Reference(chf-scenario1-eoc)
 * status = #completed
 * subject = Reference(chf-scenario1-patient)
 * encounter = Reference(chf-scenario1-encounter)
 * assessor = Reference(chf-scenario1-practitionerrole)
-* protocol = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-pathway"
+* protocol = Canonical(chf-pathway)

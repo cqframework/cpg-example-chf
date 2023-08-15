@@ -1,10 +1,11 @@
 Instance: chf-scenario1-jvp
 InstanceOf: ServiceRequest
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-rationale"
+  * url = Canonical(cpg-rationale)
   * valueMarkdown = "TODO: ACC recommends measuring jugular venous pressure as part of management of hypervolemia?"
-* instantiatesCanonical = "http://hl7.org/fhir/uv/cpg/ActivityDefinition/chf-jvp-ad"
+* instantiatesCanonical = Canonical(chf-jvp-ad)
 * status = #completed
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
@@ -16,7 +17,7 @@ Usage: #example
 * encounter = Reference(chf-scenario1-encounter)
 * occurrenceDateTime = "2019-02-03T09:41:00Z"
 * authoredOn = "2019-02-03"
-* supportingInfo[0] = Reference(chf-scenario1-jvp1)
+* supportingInfo[+] = Reference(chf-scenario1-jvp1)
 * supportingInfo[+] = Reference(chf-scenario1-jvp2)
 * supportingInfo[+] = Reference(chf-scenario1-jvp3)
 * supportingInfo[+] = Reference(chf-scenario1-jvp4)

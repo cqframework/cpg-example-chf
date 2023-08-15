@@ -1,9 +1,10 @@
 Instance: chf-scenario1-bodyweight1
 InstanceOf: MeasureReport
 Usage: #example
+Description: "CHF Scenario One"
 * status = #complete
 * type = #individual
-* measure = "http://hl7.org/fhir/uv/cpg/Measure/chf-bodyweight-measure"
+* measure = Canonical(chf-bodyweight-measure)
 * subject = Reference(chf-scenario1-patient)
 * date = "2019-01-31"
 * period

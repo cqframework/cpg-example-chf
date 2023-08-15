@@ -1,12 +1,12 @@
 Instance: chf-scenario1-urineout3-observation
-InstanceOf: Observation
+InstanceOf: CHFUrineOut
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-urine-out"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-urine-out"
+Description: "CHF Scenario One"
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType"
+  * url = Canonical(cpg-instantiatesCaseFeature)
+  * valueCanonical = Canonical(chf-urine-out)
+* extension[+]
+  * url = Canonical(cpg-caseFeatureType)
   * valueCode = #asserted
 * status = #final
 * category = $observation-category#vital-signs

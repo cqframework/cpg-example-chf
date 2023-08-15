@@ -1,6 +1,7 @@
 Instance: chf-scenario1-lasix-iv
 InstanceOf: MedicationAdministration
 Usage: #example
+Description: "CHF Scenario One"
 * status = #completed
 * medicationCodeableConcept = $chf-codes#lasix-iv "LASIX IV"
 * subject = Reference(chf-scenario1-patient)

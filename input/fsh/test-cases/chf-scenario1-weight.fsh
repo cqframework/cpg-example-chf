@@ -1,9 +1,10 @@
 Instance: chf-scenario1-weight
 InstanceOf: Goal
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-bodyweight-pd"
+  * url = Canonical(cpg-goalFor)
+  * valueCanonical = Canonical(chf-bodyweight-pd)
 * lifecycleStatus = #active
 * achievementStatus = $goal-achievement#improving
 * description.text = "Body weight 92kg"

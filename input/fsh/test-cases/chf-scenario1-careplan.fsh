@@ -1,10 +1,11 @@
 Instance: chf-scenario1-careplan
 InstanceOf: CarePlan
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-planFor"
+  * url = Canonical(cpg-planFor)
   * valueReference = Reference(chf-scenario1-eoc)
-* instantiatesCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-pathway"
+* instantiatesCanonical = Canonical(chf-pathway)
 * status = #active
 * intent = #plan
 * category.text = "Heart Failure Care Pathway"
@@ -16,7 +17,7 @@ Usage: #example
 * created = "2019-01-31T07:00:00Z"
 * careTeam = Reference(chf-scenario1-careteam)
 * addresses = Reference(chf-scenario1-condition)
-* goal[0] = Reference(chf-scenario1-weight)
+* goal[+] = Reference(chf-scenario1-weight)
 * goal[+] = Reference(chf-scenario1-weight-change)
 * goal[+] = Reference(chf-scenario1-urine-out)
 * goal[+] = Reference(chf-scenario1-net-io)
@@ -28,5 +29,5 @@ Usage: #example
 * goal[+] = Reference(chf-scenario1-lasix-iv-goal)
 * goal[+] = Reference(chf-scenario1-lasix-po-goal)
 * goal[+] = Reference(chf-scenario1-cardiology-consultation-goal)
-* activity[0].reference = Reference(chf-scenario1-daily-management)
+* activity[+].reference = Reference(chf-scenario1-daily-management)
 * activity[+].reference = Reference(chf-scenario1-hypervolemia)

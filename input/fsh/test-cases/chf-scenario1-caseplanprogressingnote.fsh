@@ -1,12 +1,12 @@
 Instance: chf-scenario1-caseplanprogressingnote
-InstanceOf: Composition
+InstanceOf: CPGCasePlanProgressingNote
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplanprogressingnote"
-* extension[0]
-  * url = "http://hl7.org/fhir/StructureDefinition/workflow-instantiatesCanonical"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/GraphDefinition/chf-caseplansummarydefinition"
+Description: "CHF Scenario One"
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryFor"
+  * url = Canonical(workflow-instantiatesCanonical)
+  * valueCanonical = Canonical(chf-caseplansummarydefinition)
+* extension[+]
+  * url = Canonical(cpg-summaryFor)
   * valueReference = Reference(chf-scenario1-eoc)
 * status = #final
 * type = $loinc#11506-3 "Progress note"
@@ -25,7 +25,7 @@ Usage: #example
   * code = $sct#42343007 "Congestive heart failure (disorder)"
   * period.start = "2019-01-31T05:03:00Z"
   * detail = Reference(chf-scenario1-eoc)
-* section[0]
+* section[+]
   * title = "Clinical Impression"
   * code = $loinc#51848-0
   * entry = Reference(chf-scenario1-clinicalimpression)
@@ -33,10 +33,10 @@ Usage: #example
   * title = "Pathway Events"
   * code.text = "Pathway Events"
   * entry = Reference(chf-scenario1-encounter)
-  * section[0]
+  * section[+]
     * title = "Weight"
     * code.text = "Weight"
-    * entry[0] = Reference(chf-scenario1-bodyweight1-observation)
+    * entry[+] = Reference(chf-scenario1-bodyweight1-observation)
     * entry[+] = Reference(chf-scenario1-bodyweight2-observation)
     * entry[+] = Reference(chf-scenario1-bodyweight3-observation)
     * entry[+] = Reference(chf-scenario1-bodyweight4-observation)
@@ -47,7 +47,7 @@ Usage: #example
   * section[+]
     * title = "Weight Change"
     * code.text = "Weight Change"
-    * entry[0] = Reference(chf-scenario1-bodyweight-change1-observation)
+    * entry[+] = Reference(chf-scenario1-bodyweight-change1-observation)
     * entry[+] = Reference(chf-scenario1-bodyweight-change2-observation)
     * entry[+] = Reference(chf-scenario1-bodyweight-change3-observation)
     * entry[+] = Reference(chf-scenario1-bodyweight-change1)
@@ -56,7 +56,7 @@ Usage: #example
   * section[+]
     * title = "Urine Out"
     * code.text = "Urine Out"
-    * entry[0] = Reference(chf-scenario1-urineout3-observation)
+    * entry[+] = Reference(chf-scenario1-urineout3-observation)
     * entry[+] = Reference(chf-scenario1-urineout3)
   * section[+]
     * title = "Net IO's"
@@ -65,7 +65,7 @@ Usage: #example
   * section[+]
     * title = "JVP"
     * code.text = "JVP"
-    * entry[0] = Reference(chf-scenario1-jvp1)
+    * entry[+] = Reference(chf-scenario1-jvp1)
     * entry[+] = Reference(chf-scenario1-jvp2)
     * entry[+] = Reference(chf-scenario1-jvp3)
     * entry[+] = Reference(chf-scenario1-jvp4)
@@ -74,7 +74,7 @@ Usage: #example
   * section[+]
     * title = "O2 Sat"
     * code.text = "O2 Sat"
-    * entry[0] = Reference(chf-scenario1-o2sat1)
+    * entry[+] = Reference(chf-scenario1-o2sat1)
     * entry[+] = Reference(chf-scenario1-o2sat2)
     * entry[+] = Reference(chf-scenario1-o2-sat)
   * section[+]
@@ -92,6 +92,6 @@ Usage: #example
   * section[+]
     * title = "LASIX IV"
     * code.text = "LASIX IV"
-    * entry[0] = Reference(chf-scenario1-lasix-iv)
+    * entry[+] = Reference(chf-scenario1-lasix-iv)
     * entry[+] = Reference(chf-scenario1-stop-lasix-iv)
     * entry[+] = Reference(chf-scenario1-lasix-po-mr)

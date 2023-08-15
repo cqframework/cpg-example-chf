@@ -1,11 +1,12 @@
 Instance: chf-scenario1-careteam
 InstanceOf: CareTeam
 Usage: #example
+Description: "CHF Scenario One"
 * status = #active
 * name = "CHF Care Team"
 * subject = Reference(chf-scenario1-patient)
 * encounter = Reference(chf-scenario1-encounter)
-* participant[0]
+* participant[+]
   * role = $sct#17561000 "Cardiologist"
   * member = Reference(chf-scenario1-practitionerrole)
 * participant[+]

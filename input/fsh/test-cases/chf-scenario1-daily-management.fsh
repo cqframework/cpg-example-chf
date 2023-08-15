@@ -1,16 +1,17 @@
 Instance: chf-scenario1-daily-management
 InstanceOf: RequestGroup
 Usage: #example
-* instantiatesCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-daily-management"
+Description: "CHF Scenario One"
+* instantiatesCanonical = Canonical(chf-daily-management)
 * status = #active
 * intent = #plan
 * subject = Reference(chf-scenario1-patient)
 * encounter = Reference(chf-scenario1-encounter)
-* action[0]
+* action[+]
   * title = "Weight"
   * description = "Measure weight daily"
   * code = $cpg-common-process-cs#diagnostic-testing
-  * action[0]
+  * action[+]
     * id = "weight"
     * title = "Weight"
     * description = "Measure weight daily"
@@ -30,7 +31,7 @@ Usage: #example
   * title = "Weight Change"
   * description = "Manage weight change"
   * code = $cpg-common-process-cs#diagnostic-testing
-  * action[0]
+  * action[+]
     * id = "weight-change"
     * title = "Weight change"
     * description = "Measure weight change daily"
@@ -50,7 +51,7 @@ Usage: #example
   * title = "Urine Output"
   * description = "Measure urine output daily"
   * code = $cpg-common-process-cs#diagnostic-testing
-  * action[0]
+  * action[+]
     * id = "urine-out-action"
     * title = "Urine Out"
     * description = "Measure urine output daily"

@@ -1,6 +1,7 @@
 Instance: chf-scenario1-encounter
 InstanceOf: Encounter
 Usage: #example
+Description: "CHF Scenario One"
 * status = #in-progress
 * class = $v3-ActCode#IMP "inpatient encounter"
 * type = $sct#183807002 "Inpatient stay 9 days"

@@ -1,6 +1,7 @@
 Instance: chf-scenario1-patient
 InstanceOf: Patient
 Usage: #example
+Description: "CHF Scenario One"
 * active = true
 * name
   * use = #usual

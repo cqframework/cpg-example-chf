@@ -1,7 +1,8 @@
 Instance: chf-scenario1-cardiology-consultation
 InstanceOf: ServiceRequest
 Usage: #example
-* instantiatesCanonical = "http://hl7.org/fhir/uv/cpg/ActivityDefinition/chf-cardiology-consultation"
+Description: "CHF Scenario One"
+* instantiatesCanonical = Canonical(chf-cardiology-consultation)
 * status = #active
 * intent = #plan
 * category = $sct#386053000 "Evaluation procedure (procedure)"

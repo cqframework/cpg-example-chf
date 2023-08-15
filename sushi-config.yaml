@@ -5,8 +5,8 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.uv.cpg.chf
 canonical: http://hl7.org/fhir/uv/cpg/chf
-name: CPGChronicKidneyDiseaseExamples
-title: CPG Chronic Kidney Disease Examples
+name: CPGCongestiveHeartFailureExamples
+title: CPG Congestive Heart Failure Examples
 description: Examples of CPG computable content representing a congestive heart failure pathway
 status: active # draft | active | retired | unknown
 version: 1.0.0

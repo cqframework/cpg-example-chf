@@ -1,12 +1,12 @@
 Instance: chf-scenario1-egfr1
-InstanceOf: Observation
+InstanceOf: CHFEGFR
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-egfr"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-egfr"
+Description: "CHF Scenario One"
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType"
+  * url = Canonical(cpg-instantiatesCaseFeature)
+  * valueCanonical = Canonical(chf-egfr)
+* extension[+]
+  * url = Canonical(cpg-caseFeatureType)
   * valueCode = #asserted
 * status = #final
 * category = $observation-category#vital-signs

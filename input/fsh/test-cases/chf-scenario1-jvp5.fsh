@@ -1,24 +1,24 @@
 Instance: chf-scenario1-jvp5
-InstanceOf: Observation
+InstanceOf: CHFJVP
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-jvp"
+Description: "CHF Scenario One"
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType"
+  * url = Canonical(cpg-instantiatesCaseFeature)
+  * valueCanonical = Canonical(chf-jvp)
+* extension[+]
+  * url = Canonical(cpg-caseFeatureType)
   * valueCode = #asserted
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeaturePertinence"
+  * url = Canonical(cpg-caseFeaturePertinence)
   * valueCode = #strongly-positive
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pertinent"
+  * url = Canonical(cpg-pertinent)
   * valueReference = Reference(chf-scenario1-jvp4)
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pertinent"
+  * url = Canonical(cpg-pertinent)
   * valueReference = Reference(chf-scenario1-bodyweight4-observation)
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pertinent"
+  * url = Canonical(cpg-pertinent)
   * valueReference = Reference(chf-scenario1-urineout3-observation)
 * basedOn = Reference(chf-scenario1-jvp)
 * status = #final

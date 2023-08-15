@@ -1,12 +1,12 @@
 Instance: chf-scenario1-bodyweight-change1-observation
-InstanceOf: Observation
+InstanceOf: CHFBodyWeightChange
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight-change"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-bodyweight-change"
+Description: "CHF Scenario One"
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType"
+  * url = Canonical(cpg-instantiatesCaseFeature)
+  * valueCanonical = Canonical(chf-bodyweight-change)
+* extension[+]
+  * url = Canonical(cpg-caseFeatureType)
   * valueCode = #inferred
 * status = #final
 * category = $observation-category#vital-signs

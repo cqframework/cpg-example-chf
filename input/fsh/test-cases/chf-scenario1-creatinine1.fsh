@@ -1,12 +1,12 @@
 Instance: chf-scenario1-creatinine1
-InstanceOf: Observation
+InstanceOf: CHFCreatinine
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-creatinine"
-* extension[0]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-creatinine"
+Description: "CHF Scenario One"
 * extension[+]
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType"
+  * url = Canonical(cpg-instantiatesCaseFeature)
+  * valueCanonical = Canonical(chf-creatinine)
+* extension[+]
+  * url = Canonical(cpg-caseFeatureType)
   * valueCode = #asserted
 * status = #final
 * code = $loinc#39802-4

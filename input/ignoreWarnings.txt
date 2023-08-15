@@ -61,6 +61,16 @@ INFORMATION: GraphDefinition/chf-casesummarydefinition: GraphDefinition.extensio
 INFORMATION: Library/CHF: Library.content[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablelibrary|1.0.0
 INFORMATION: Library/CHF: Library.content[2]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablelibrary|1.0.0
 INFORMATION: Library/CHF: Library.content[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-executablelibrary|1.0.0
+INFORMATION: Observation/chf-scenario1-bodyweight-change1-observation: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change|1.0.0
+INFORMATION: Observation/chf-scenario1-bodyweight-change2-observation: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change|1.0.0
+INFORMATION: Observation/chf-scenario1-bodyweight-change3-observation: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change|1.0.0
+INFORMATION: Observation/chf-scenario1-egfr1: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr|1.0.0
+INFORMATION: Observation/chf-scenario1-jvp1: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp|1.0.0
+INFORMATION: Observation/chf-scenario1-jvp2: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp|1.0.0
+INFORMATION: Observation/chf-scenario1-jvp3: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp|1.0.0
+INFORMATION: Observation/chf-scenario1-jvp4: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp|1.0.0
+INFORMATION: Observation/chf-scenario1-jvp5: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp|1.0.0
+INFORMATION: Observation/chf-scenario1-netio3: Observation.code.coding[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io|1.0.0
 
 # This code is valid, not sure where this message is coming from
 WARNING: Observation/chf-scenario1-potassium1: Observation.code: [Unable to determine whether the provided codes are in the value set http://hl7.org/fhir/ValueSet/observation-vitalsignresult because the value set or code system is not known to the validator]

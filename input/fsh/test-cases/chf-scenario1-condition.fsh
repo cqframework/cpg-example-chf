@@ -1,6 +1,7 @@
 Instance: chf-scenario1-condition
 InstanceOf: Condition
 Usage: #example
+Description: "CHF Scenario One"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * category = $condition-category#problem-list-item

@@ -1,9 +1,10 @@
 Instance: chf-scenario1-cardiology-consult
 InstanceOf: Procedure
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/StructureDefinition/chf-cardiology-consult"
+  * url = Canonical(cpg-instantiatesCaseFeature)
+  * valueCanonical = Canonical(chf-cardiology-consult)
 * basedOn = Reference(chf-scenario1-cardiology-consultation)
 * status = #preparation
 * category = $sct#386053000 "Evaluation procedure (procedure)"

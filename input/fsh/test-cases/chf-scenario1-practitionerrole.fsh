@@ -1,6 +1,7 @@
 Instance: chf-scenario1-practitionerrole
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "CHF Scenario One"
 * active = true
 * practitioner = Reference(chf-scenario1-practitioner)
 * organization = Reference(chf-scenario1-organization)

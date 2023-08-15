@@ -1,6 +1,7 @@
 Instance: chf-scenario1-location
 InstanceOf: Location
 Usage: #example
+Description: "CHF Scenario One"
 * status = #active
 * name = "Unit 3 East"
 * mode = #instance

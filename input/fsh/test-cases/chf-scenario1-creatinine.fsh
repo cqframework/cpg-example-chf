@@ -1,9 +1,10 @@
 Instance: chf-scenario1-creatinine
 InstanceOf: Goal
 Usage: #example
+Description: "CHF Scenario One"
 * extension
-  * url = "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/PlanDefinition/chf-creatinine-pd"
+  * url = Canonical(cpg-goalFor)
+  * valueCanonical = Canonical(chf-creatinine-pd)
 * lifecycleStatus = #active
 * achievementStatus = $goal-achievement#improving
 * description.text = "Creatinine < 1.2 mg/dL"

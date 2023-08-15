@@ -1,12 +1,13 @@
 Instance: chf-scenario1-lasix-po-mr
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "CHF Scenario One"
 * status = #draft
 * intent = #proposal
 * priority = #routine
 * medicationCodeableConcept = $chf-codes#lasix-po "LASIX PO"
 * subject = Reference(chf-scenario1-patient)
-* instantiatesCanonical = "http://hl7.org/fhir/uv/cpg/ActivityDefinition/chf-lasix-po"
+* instantiatesCanonical = Canonical(chf-lasix-po)
 * dosageInstruction
   * sequence = 1
   * text = "40mg"
