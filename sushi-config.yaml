@@ -6,7 +6,7 @@
 id: hl7.fhir.uv.cpg.chf
 canonical: http://hl7.org/fhir/uv/cpg/chf
 name: CPGCongestiveHeartFailureExamples
-title: CPG Congestive Heart Failure Examples
+title: Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure
 description: Examples of CPG computable content representing a congestive heart failure pathway
 status: active # draft | active | retired | unknown
 version: 1.0.0
