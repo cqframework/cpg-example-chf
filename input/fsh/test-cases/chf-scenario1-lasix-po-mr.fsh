@@ -1,5 +1,5 @@
 Instance: chf-scenario1-lasix-po-mr
-InstanceOf: MedicationRequest
+InstanceOf: chf-lasix-po-request
 Usage: #example
 Description: "CHF Scenario One"
 * status = #draft

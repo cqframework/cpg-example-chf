@@ -1,5 +1,5 @@
 Instance: chf-practitionerroledefinition
-InstanceOf: PractitionerRole
+InstanceOf: cpg-practitionerroledefinition
 Usage: #example
 Description: "CHF practitioner role"
 * code = $cpg-common-persona-cs#2212 "Specialist medical practitioner"

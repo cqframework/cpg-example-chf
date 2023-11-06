@@ -1,5 +1,5 @@
 Instance: chf-locationdefinition
-InstanceOf: Location
+InstanceOf: cpg-locationdefinition
 Usage: #example
 Description: "CHF location"
 * name = "Cardiovascular diagnostics or therapeutics unit"

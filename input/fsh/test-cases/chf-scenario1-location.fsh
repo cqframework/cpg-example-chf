@@ -1,5 +1,5 @@
 Instance: chf-scenario1-location
-InstanceOf: Location
+InstanceOf: cpg-location
 Usage: #example
 Description: "CHF Scenario One"
 * status = #active

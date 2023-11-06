@@ -1,5 +1,5 @@
 Instance: chf-scenario1-careteam
-InstanceOf: CareTeam
+InstanceOf: cpg-careteam
 Usage: #example
 Description: "CHF Scenario One"
 * status = #active

@@ -1,5 +1,5 @@
 Instance: chf-scenario1-organization
-InstanceOf: Organization
+InstanceOf: cpg-organization
 Usage: #example
 Description: "CHF Scenario One"
 * active = true

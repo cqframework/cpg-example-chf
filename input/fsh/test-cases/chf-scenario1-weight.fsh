@@ -1,5 +1,5 @@
 Instance: chf-scenario1-weight
-InstanceOf: Goal
+InstanceOf: cpg-goal
 Usage: #example
 Description: "CHF Scenario One"
 * extension

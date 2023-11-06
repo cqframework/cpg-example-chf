@@ -1,5 +1,5 @@
 Instance: chf-scenario1-jvp
-InstanceOf: ServiceRequest
+InstanceOf: chf-jvp-request
 Usage: #example
 Description: "CHF Scenario One"
 * extension

@@ -1,5 +1,5 @@
 Instance: chf-scenario1-relatedperson
-InstanceOf: RelatedPerson
+InstanceOf: cpg-relatedperson
 Usage: #example
 Description: "CHF Scenario One"
 * active = true

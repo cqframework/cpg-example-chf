@@ -1,5 +1,5 @@
 Instance: chf-scenario1-lasix-po
-InstanceOf: MedicationAdministration
+InstanceOf: chf-lasix-po-administration
 Usage: #example
 Description: "CHF Scenario One"
 * extension

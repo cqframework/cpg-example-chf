@@ -1,5 +1,5 @@
 Instance: chf-casesummarydefinition
-InstanceOf: GraphDefinition
+InstanceOf: cpg-casesummarydefinition
 Usage: #definition
 * insert CaseSummaryDefinitionMetadata(chf-casesummarydefinition)
 * extension[+]

@@ -1,5 +1,5 @@
 Instance: chf-scenario1-cardiology-consultation
-InstanceOf: ServiceRequest
+InstanceOf: chf-cardiology-consult-request
 Usage: #example
 Description: "CHF Scenario One"
 * instantiatesCanonical = Canonical(chf-cardiology-consultation)

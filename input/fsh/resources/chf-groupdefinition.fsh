@@ -1,5 +1,5 @@
 Instance: chf-groupdefinition
-InstanceOf: Group
+InstanceOf: cpg-groupdefinition
 Usage: #example
 Description: "CHF Group"
 * extension

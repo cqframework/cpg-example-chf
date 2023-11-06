@@ -1,5 +1,5 @@
 Instance: chf-careteamdefinition
-InstanceOf: CareTeam
+InstanceOf: cpg-careteamdefinition
 Usage: #example
 Description: "CHF care team"
 * name = "CHF Care Team (definition)"

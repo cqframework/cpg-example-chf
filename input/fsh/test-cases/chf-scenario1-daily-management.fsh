@@ -1,5 +1,5 @@
 Instance: chf-scenario1-daily-management
-InstanceOf: RequestGroup
+InstanceOf: cpg-strategy
 Usage: #example
 Description: "CHF Scenario One"
 * instantiatesCanonical = Canonical(chf-daily-management)

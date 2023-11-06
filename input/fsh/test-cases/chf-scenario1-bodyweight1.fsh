@@ -1,5 +1,5 @@
 Instance: chf-scenario1-bodyweight1
-InstanceOf: MeasureReport
+InstanceOf: cpg-metricreport
 Usage: #example
 Description: "CHF Scenario One"
 * status = #complete

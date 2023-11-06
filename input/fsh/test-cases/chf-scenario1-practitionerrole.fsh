@@ -1,5 +1,5 @@
 Instance: chf-scenario1-practitionerrole
-InstanceOf: PractitionerRole
+InstanceOf: cpg-practitionerrole
 Usage: #example
 Description: "CHF Scenario One"
 * active = true

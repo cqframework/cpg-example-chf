@@ -1,5 +1,5 @@
 Instance: chf-scenario1-eoc
-InstanceOf: EpisodeOfCare
+InstanceOf: cpg-case
 Usage: #example
 Description: "CHF Scenario One"
 * extension

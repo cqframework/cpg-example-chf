@@ -1,5 +1,5 @@
 Instance: chf-scenario1-careplan
-InstanceOf: CarePlan
+InstanceOf: cpg-careplan
 Usage: #example
 Description: "CHF Scenario One"
 * extension

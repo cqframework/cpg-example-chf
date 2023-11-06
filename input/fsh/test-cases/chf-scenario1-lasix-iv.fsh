@@ -1,5 +1,5 @@
 Instance: chf-scenario1-lasix-iv
-InstanceOf: MedicationAdministration
+InstanceOf: chf-lasix-iv-administration
 Usage: #example
 Description: "CHF Scenario One"
 * status = #completed

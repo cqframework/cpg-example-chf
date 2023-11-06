@@ -1,5 +1,5 @@
 Instance: chf-scenario1-o2-sat
-InstanceOf: ServiceRequest
+InstanceOf: chf-o2-sat-request
 Usage: #example
 Description: "CHF Scenario One"
 * instantiatesCanonical = Canonical(chf-o2-sat-ad)

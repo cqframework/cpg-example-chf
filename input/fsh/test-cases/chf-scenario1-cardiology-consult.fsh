@@ -1,5 +1,5 @@
 Instance: chf-scenario1-cardiology-consult
-InstanceOf: Procedure
+InstanceOf: chf-cardiology-consult
 Usage: #example
 Description: "CHF Scenario One"
 * extension
