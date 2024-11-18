@@ -3,7 +3,7 @@ RuleSet: MetaProfile(profile-id)
 
 RuleSet: CaseFeatureOfExtension(plan-id)
 * ^extension[+].url = Canonical(cpg-caseFeatureOf)
-* ^extension[=].valueCanonical = "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/{plan-id}"
+* ^extension[=].valueCanonical = "http://cqframework.cpg-example-chf/PlanDefinition/{plan-id}"
 
 RuleSet: CaseFeatureMetadataWithPublisher(id)
 * ^meta.profile = Canonical(cpg-casefeaturedefinition)
@@ -19,7 +19,7 @@ RuleSet: CaseFeatureMetadataWithPublisher(id)
 * ^publisher = "Health Level Seven International (Orders and Observations Workgroup)"
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://www.hl7.org/Special/committees/orders/index.cfm Orders and Observations"
-* ^url = "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/{id}"
+* ^url = "http://cqframework.cpg-example-chf/StructureDefinition/{id}"
 
 RuleSet: CPGExpressionExtensions
 * ^extension[+].url = Canonical(cpg-inferenceExpression)
@@ -46,7 +46,7 @@ RuleSet: CaseFeatureMetadata(id)
 * ^extension[+].url = Canonical(cpg-knowledgeRepresentationLevel)
 * ^extension[=].valueCode = #structured
 * ^experimental = true
-* ^url = "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/{id}"
+* ^url = "http://cqframework.cpg-example-chf/StructureDefinition/{id}"
 
 RuleSet: CodeSystemMetadata(id)
 * ^meta.profile = Canonical(cpg-publishablecodesystem)
@@ -61,7 +61,7 @@ RuleSet: CodeSystemMetadata(id)
 * ^experimental = true
 * ^caseSensitive = true
 * ^content = #complete
-* ^url = "http://hl7.org/fhir/uv/cpg/chf/CodeSystem/{id}"
+* ^url = "http://cqframework.cpg-example-chf/CodeSystem/{id}"
 
 RuleSet: ActivityDefinitionMetadata(id)
 * extension[+]
@@ -76,7 +76,7 @@ RuleSet: ActivityDefinitionMetadata(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/{id}"
+* url = "http://cqframework.cpg-example-chf/ActivityDefinition/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -95,7 +95,7 @@ RuleSet: LibraryMetaData(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/chf/Library/{id}"
+* url = "http://cqframework.cpg-example-chf/Library/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -122,7 +122,7 @@ RuleSet: MeasureMetadata(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/chf/Measure/{id}"
+* url = "http://cqframework.cpg-example-chf/Measure/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -141,7 +141,7 @@ RuleSet: PlanDefinitionMetadata(id)
 * extension[+]
   * url = Canonical(cpg-knowledgeRepresentationLevel)
   * valueCode = #structured
-* url = "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/{id}"
+* url = "http://cqframework.cpg-example-chf/PlanDefinition/{id}"
 * experimental = true
 * version = "1.0.0"
 * status = #active
@@ -150,7 +150,7 @@ RuleSet: PlanDefinitionMetadata(id)
 RuleSet: PlanDefinitionPartOfExtension(partOf)
 * extension[+]
   * url = Canonical(cpg-partOf)
-  * valueCanonical = "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/{partOf}"
+  * valueCanonical = "http://cqframework.cpg-example-chf/PlanDefinition/{partOf}"
 
 RuleSet: PlanDefinitionEnabledExtension
 * extension[+]
@@ -162,7 +162,7 @@ RuleSet: CaseSummaryDefinitionMetadata(id)
   * profile[+] = Canonical(cpg-shareablegraphdefinition)
   * profile[+] = Canonical(cpg-computablegraphdefinition)
   * profile[+] = Canonical(cpg-caseplansummarydefinition)
-* url = "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/{id}"
+* url = "http://cqframework.cpg-example-chf/GraphDefinition/{id}"
 * extension[+]
   * url = Canonical(cpg-knowledgeCapability)
   * valueCode = #shareable

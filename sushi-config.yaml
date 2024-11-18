@@ -3,8 +3,8 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.uv.cpg.chf
-canonical: http://hl7.org/fhir/uv/cpg/chf
+id: cqframework.cpg-example-chf
+canonical: http://cqframework.org/cpg-example-chf
 name: CPGCongestiveHeartFailureExamples
 title: Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure
 description: Examples of CPG computable content representing a congestive heart failure pathway
