@@ -1,0 +1,39 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/Group/chf-groupdefinition> a fhir:Group ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-groupdefinition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Group chf-groupdefinition</b></p><a name=\"chf-groupdefinition\"> </a><a name=\"hcchf-groupdefinition\"> </a><a name=\"chf-groupdefinition-en-US\"> </a><p><b>CQF Expression</b>: <a href=\"http://hl7.org/fhir/uv/cpg/chf/Library/CHF\"><span title=\"text/cql-identifier\"><code>Eligibility Criteria</code></span></a></p><p><b>active</b>: true</p><p><b>type</b>: Person</p><p><b>actual</b>: false</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 42343007}\">Congestive heart failure (disorder)</span></p><p><b>name</b>: Congestive Heart Failure Patients (definition)</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/cqf-expression"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Expression ;
+       fhir:language [ fhir:v "text/cql-identifier" ] ;
+       fhir:expression [ fhir:v "Eligibility Criteria" ] ;
+       fhir:reference [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/Library/CHF"^^xsd:anyURI ]
+     ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type [ fhir:v "person"] ; # 
+  fhir:actual [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:42343007 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "42343007" ] ;
+       fhir:display [ fhir:v "Congestive heart failure (disorder)" ]
+     ] )
+  ] ; # 
+  fhir:name [ fhir:v "Congestive Heart Failure Patients (definition)"] . # 
+
+# -------------------------------------------------------------------------------------
+

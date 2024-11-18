@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Group xmlns="http://hl7.org/fhir">
+  <id value="chf-groupdefinition"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Group chf-groupdefinition</b></p><a name="chf-groupdefinition"> </a><a name="hcchf-groupdefinition"> </a><a name="chf-groupdefinition-en-US"> </a><p><b>CQF Expression</b>: <a href="http://hl7.org/fhir/uv/cpg/chf/Library/CHF"><span title="text/cql-identifier"><code>Eligibility Criteria</code></span></a></p><p><b>active</b>: true</p><p><b>type</b>: Person</p><p><b>actual</b>: false</p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 42343007}">Congestive heart failure (disorder)</span></p><p><b>name</b>: Congestive Heart Failure Patients (definition)</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/cqf-expression">
+    <valueExpression>
+      <language value="text/cql-identifier"/>
+      <expression value="Eligibility Criteria"/>
+      <reference value="http://hl7.org/fhir/uv/cpg/chf/Library/CHF"/>
+    </valueExpression>
+  </extension>
+  <active value="true"/>
+  <type value="person"/>
+  <actual value="false"/>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="42343007"/>
+      <display value="Congestive heart failure (disorder)"/>
+    </coding>
+  </code>
+  <name value="Congestive Heart Failure Patients (definition)"/>
+</Group>

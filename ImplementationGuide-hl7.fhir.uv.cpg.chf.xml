@@ -1,0 +1,1894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="hl7.fhir.uv.cpg.chf"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.cpg.chf</b></p><a name="hl7.fhir.uv.cpg.chf"> </a><a name="hchl7.fhir.uv.cpg.chf"> </a><a name="hl7.fhir.uv.cpg.chf-en-US"> </a><h2>CPGCongestiveHeartFailureExamples</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf</pre><div><p>Examples of CPG computable content representing a congestive heart failure pathway</p>
+</div></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf"/>
+  <version value="1.0.0"/>
+  <name value="CPGCongestiveHeartFailureExamples"/>
+  <title value="Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure"/>
+  <status value="active"/>
+  <date value="2024-11-18T18:36:46+00:00"/>
+  <publisher value="HL7 International - Clinical Decision Support WG"/>
+  <contact>
+    <name value="HL7 International - Clinical Decision Support WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss/index.cfm"/>
+    </telecom>
+  </contact>
+  <description value="Examples of CPG computable content representing a congestive heart failure pathway"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="hl7.fhir.uv.cpg.chf"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
+    </extension>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="6.0.2"/>
+  </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r4"/>
+    <version value="5.1.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_cpg">
+    <uri value="http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg"/>
+    <packageId value="hl7.fhir.uv.cpg"/>
+    <version value="1.0.0"/>
+  </dependsOn>
+  <definition>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2023+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-binary"/>
+      </extension>
+      <extension url="value">
+        <valueString value="./input/cql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/uv/cpg/chf/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
+      <valueCode value="hl7.fhir.uv.tools.r4#0.3.0"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="copyrightyear"/>
+      </extension>
+      <extension url="value">
+        <valueString value="2023+"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="releaselabel"/>
+      </extension>
+      <extension url="value">
+        <valueString value="ci-build"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-copyright"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-binary"/>
+      </extension>
+      <extension url="value">
+        <valueString value="./input/cql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/uv/cpg/chf/history.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="autoload-resources"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-liquid"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/liquid"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-qa"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/qa"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-temp"/>
+      </extension>
+      <extension url="value">
+        <valueString value="temp/pages"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-output"/>
+      </extension>
+      <extension url="value">
+        <valueString value="output"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-suppressed-warnings"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-html"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="template-md"/>
+      </extension>
+      <extension url="value">
+        <valueString value="template-page-md.html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-context"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-wg"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="active-tables"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="excludelogbinaryformat"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="tabbed-snapshots"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-bodyweight"/>
+      </reference>
+      <name value="CHF Body Weight"/>
+      <description value="This profile defines how to represent body weight observations in FHIR using a standard LOINC code and UCUM units of measure (in kg)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-bodyweight-ad"/>
+      </reference>
+      <name value="CHF Body Weight Activity Defintion"/>
+      <description value="Measure body weight"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-bodyweight-change"/>
+      </reference>
+      <name value="CHF Body Weight Change"/>
+      <description value="This profile defines how to represent body weight change observations in FHIR using a CHF code and UCUM units of measure (in kg)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-bodyweight-change-ad"/>
+      </reference>
+      <name value="CHF Body Weight Change Activity Defintion"/>
+      <description value="Record body weight change"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Measure"/>
+      </extension>
+      <reference>
+        <reference value="Measure/chf-bodyweight-change-measure"/>
+      </reference>
+      <name value="CHF Body Weight Change Metric"/>
+      <description value="Body weight change metric as a feature of a congestive heart failure pathway"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-bodyweight-change-pd"/>
+      </reference>
+      <name value="CHF Body Weight Change Recommendation"/>
+      <description value="Measure body weight change daily"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Measure"/>
+      </extension>
+      <reference>
+        <reference value="Measure/chf-bodyweight-measure"/>
+      </reference>
+      <name value="CHF Body Weight Metric"/>
+      <description value="Body weight metric as a feature of a congestive heart failure pathway"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-bodyweight-pd"/>
+      </reference>
+      <name value="CHF Body Weight Recommendation"/>
+      <description value="Measure body weight daily"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-cardiology-consult"/>
+      </reference>
+      <name value="CHF Cardiology Consult"/>
+      <description value="Documents a procedure as an activity within the context of a computable clinical practice guideline"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-cardiology-consult-request"/>
+      </reference>
+      <name value="CHF Cardiology Consult Request"/>
+      <description value="Request for a cardiology consultation as part of a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-cardiology-consultation"/>
+      </reference>
+      <name value="CHF Cardiology Consultation Activity Defintion"/>
+      <description value="Cardiology consultation as part of a congestive heart failure care pathway"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-cardiology-consultation-pd"/>
+      </reference>
+      <name value="CHF Cardiology Consultation Recommendation"/>
+      <description value="Cardiology consultation within 24 hrs"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/chf-codes"/>
+      </reference>
+      <name value="CHF Codes"/>
+      <description value="Codes used in the congestive heart failure pathway. Ideally these shouldn't exist, but where I couldn't find an appropriate code in a standard terminology, I defined codes here."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-creatinine"/>
+      </reference>
+      <name value="CHF Creatinine"/>
+      <description value="This profile defines how to represent creatinine observations in FHIR using a LOINC code and UCUM units of measure (in mg/dL)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-creatinine-ad"/>
+      </reference>
+      <name value="CHF Creatinine Activity Defintion"/>
+      <description value="Monitor Creatinine"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-creatinine-pd"/>
+      </reference>
+      <name value="CHF Creatinine Recommendation"/>
+      <description value="Monitor creatinine"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-daily-management"/>
+      </reference>
+      <name value="CHF Daily Management Strategy"/>
+      <description value="Daily management strategy as part of a care pathway for patients with admitting diagnosis of congestive heart failure"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-egfr"/>
+      </reference>
+      <name value="CHF eGFR"/>
+      <description value="This profile defines how to represent eGFR in FHIR using a CHF code and UCUM units of measure (in mol/mm/m2)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-egfr-ad"/>
+      </reference>
+      <name value="CHF eGFR Activity Defintion"/>
+      <description value="Measure eGFR"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-egfr-pd"/>
+      </reference>
+      <name value="CHF eGFR Recommendation"/>
+      <description value="Monitor eGFR"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-hypervolemia"/>
+      </reference>
+      <name value="CHF Hypervolemia Strategy"/>
+      <description value="Hypervolemia strategy as part of a care pathway for patients with admitting diagnosis of congestive heart failure"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-jvp"/>
+      </reference>
+      <name value="CHF Jugular Venous Pressure"/>
+      <description value="This profile defines how to represent jugular venous pressure observations in FHIR using a CHF code and UCUM units of measure (in cmH2O)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-jvp-ad"/>
+      </reference>
+      <name value="CHF Jugular Venous Pressure Activity Defintion"/>
+      <description value="Measure jugular venous pressure"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-jvp-pd"/>
+      </reference>
+      <name value="CHF Jugular Venous Pressure Recommendation"/>
+      <description value="Measure jugular venous pressure"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-jvp-request"/>
+      </reference>
+      <name value="CHF Jugular Venous Pressure Request"/>
+      <description value="Request to measure jugular venous pressure as part of a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-lasix-iv"/>
+      </reference>
+      <name value="CHF LASIX IV Activity Defintion"/>
+      <description value="Activity definition to administer LASIX IV as part of a congestive heart failure pathway"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-lasix-iv-administration"/>
+      </reference>
+      <name value="CHF LASIX IV Administration"/>
+      <description value="Documents the administration of LASIX IV as a pathway event within a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-lasix-iv-request"/>
+      </reference>
+      <name value="CHF LASIX IV Request"/>
+      <description value="Request to administer LASIX IV as part of a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-lasix-po"/>
+      </reference>
+      <name value="CHF LASIX PO Activity Defintion"/>
+      <description value="Activity definition to administer LASIX PO as part of a congestive heart failure pathway"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-lasix-po-administration"/>
+      </reference>
+      <name value="CHF LASIX PO Administration"/>
+      <description value="Documents the administration of LASIX PO as a pathway event within a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-lasix-po-request"/>
+      </reference>
+      <name value="CHF LASIX PO Request"/>
+      <description value="Request to administer LASIX PO as part of a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-lasix"/>
+      </reference>
+      <name value="CHF LASIX Recommendation"/>
+      <description value="Administer LASIX IV, transition to PO as appropriate"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-net-io"/>
+      </reference>
+      <name value="CHF Net Intake/Output"/>
+      <description value="This profile defines how to represent net intake/output observations in FHIR using a CHF code and UCUM units of measure (in L/day)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-net-io-ad"/>
+      </reference>
+      <name value="CHF Net IO Activity Defintion"/>
+      <description value="Measure net intake/output"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-net-io-pd"/>
+      </reference>
+      <name value="CHF Net IO Recommendation"/>
+      <description value="Measure net intake/output daily"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-o2-sat"/>
+      </reference>
+      <name value="CHF Oxygen Saturation"/>
+      <description value="This profile defines how to represent oxygen saturation observations in FHIR using a standard LOINC code and UCUM units of measure."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-o2-sat-ad"/>
+      </reference>
+      <name value="CHF Oxygen Saturation Activity Defintion"/>
+      <description value="Monitor Oxygen Saturation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-o2-sat-pd"/>
+      </reference>
+      <name value="CHF Oxygen Saturation Recommendation"/>
+      <description value="Monitor oxygen saturation"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-o2-sat-request"/>
+      </reference>
+      <name value="CHF Oxygen Saturation Request"/>
+      <description value="Request to measure oxygen saturation as part of a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-potassium"/>
+      </reference>
+      <name value="CHF Potassium"/>
+      <description value="This profile defines how to represent potassium observations in FHIR using a standard LOINC code and UCUM units of measure (in meq/L)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-potassium-ad"/>
+      </reference>
+      <name value="CHF Potassium Activity Defintion"/>
+      <description value="Monitor Potassium"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-potassium-pd"/>
+      </reference>
+      <name value="CHF Potassium Recommendation"/>
+      <description value="Monitor potassium"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-report-bodyweight"/>
+      </reference>
+      <name value="CHF Report Body Weight Activity Defintion"/>
+      <description value="Record body weight metric"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-report-bodyweight-change"/>
+      </reference>
+      <name value="CHF Report Body Weight Change Activity Defintion"/>
+      <description value="Record body weight change metric"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-report-urine-out"/>
+      </reference>
+      <name value="CHF Report Urine Out Activity Defintion"/>
+      <description value="Record urine output metric"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/chf-urine-out"/>
+      </reference>
+      <name value="CHF Urine Out"/>
+      <description value="This profile defines how to represent urine output observations in FHIR using a LOINC code and UCUM units of measure (in L/day)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActivityDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActivityDefinition/chf-urine-out-ad"/>
+      </reference>
+      <name value="CHF Urine Out Activity Defintion"/>
+      <description value="Measure urine output"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Measure"/>
+      </extension>
+      <reference>
+        <reference value="Measure/chf-urine-out-measure"/>
+      </reference>
+      <name value="CHF Urine Out Metric"/>
+      <description value="Urine output metric as a feature of a congestive heart failure pathway"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-urine-out-pd"/>
+      </reference>
+      <name value="CHF Urine Out Recommendation"/>
+      <description value="Measure urine output daily"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CareTeam"/>
+      </extension>
+      <reference>
+        <reference value="CareTeam/chf-careteamdefinition"/>
+      </reference>
+      <name value="chf-careteamdefinition"/>
+      <description value="CHF care team"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="GraphDefinition"/>
+      </extension>
+      <reference>
+        <reference value="GraphDefinition/chf-caseplansummarydefinition"/>
+      </reference>
+      <name value="chf-caseplansummarydefinition"/>
+      <description value="Definition of the case plan summary document for a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="GraphDefinition"/>
+      </extension>
+      <reference>
+        <reference value="GraphDefinition/chf-casesummarydefinition"/>
+      </reference>
+      <name value="chf-casesummarydefinition"/>
+      <description value="Definition of the case summary document for a congestive heart failure pathway"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Group"/>
+      </extension>
+      <reference>
+        <reference value="Group/chf-groupdefinition"/>
+      </reference>
+      <name value="chf-groupdefinition"/>
+      <description value="CHF Group"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/chf-locationdefinition"/>
+      </reference>
+      <name value="chf-locationdefinition"/>
+      <description value="CHF location"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/chf-practitionerroledefinition"/>
+      </reference>
+      <name value="chf-practitionerroledefinition"/>
+      <description value="CHF practitioner role"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-bodyweight-change1"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight-change1"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-bodyweight-change1-observation"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight-change1-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-bodyweight-change2"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight-change2"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-bodyweight-change2-observation"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight-change2-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-bodyweight-change3"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight-change3"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-bodyweight-change3-observation"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight-change3-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-bodyweight1"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight1"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-bodyweight1-observation"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight1-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-bodyweight2"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight2"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-bodyweight2-observation"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight2-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-bodyweight3"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight3"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-bodyweight3-observation"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight3-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-bodyweight4"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight4"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-bodyweight4-observation"/>
+      </reference>
+      <name value="chf-scenario1-bodyweight4-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Procedure"/>
+      </extension>
+      <reference>
+        <reference value="Procedure/chf-scenario1-cardiology-consult"/>
+      </reference>
+      <name value="chf-scenario1-cardiology-consult"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/chf-scenario1-cardiology-consultation"/>
+      </reference>
+      <name value="chf-scenario1-cardiology-consultation"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-cardiology-consultation-goal"/>
+      </reference>
+      <name value="chf-scenario1-cardiology-consultation-goal"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CareTeam"/>
+      </extension>
+      <reference>
+        <reference value="CareTeam/chf-scenario1-careteam"/>
+      </reference>
+      <name value="chf-scenario1-careteam"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ClinicalImpression"/>
+      </extension>
+      <reference>
+        <reference value="ClinicalImpression/chf-scenario1-clinicalimpression"/>
+      </reference>
+      <name value="chf-scenario1-clinicalimpression"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/chf-scenario1-condition"/>
+      </reference>
+      <name value="chf-scenario1-condition"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-creatinine"/>
+      </reference>
+      <name value="chf-scenario1-creatinine"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-creatinine1"/>
+      </reference>
+      <name value="chf-scenario1-creatinine1"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RequestGroup"/>
+      </extension>
+      <reference>
+        <reference value="RequestGroup/chf-scenario1-daily-management"/>
+      </reference>
+      <name value="chf-scenario1-daily-management"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-egfr"/>
+      </reference>
+      <name value="chf-scenario1-egfr"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-egfr1"/>
+      </reference>
+      <name value="chf-scenario1-egfr1"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/chf-scenario1-encounter"/>
+      </reference>
+      <name value="chf-scenario1-encounter"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="EpisodeOfCare"/>
+      </extension>
+      <reference>
+        <reference value="EpisodeOfCare/chf-scenario1-eoc"/>
+      </reference>
+      <name value="chf-scenario1-eoc"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Group"/>
+      </extension>
+      <reference>
+        <reference value="Group/chf-scenario1-group"/>
+      </reference>
+      <name value="chf-scenario1-group"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RequestGroup"/>
+      </extension>
+      <reference>
+        <reference value="RequestGroup/chf-scenario1-hypervolemia"/>
+      </reference>
+      <name value="chf-scenario1-hypervolemia"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/chf-scenario1-jvp"/>
+      </reference>
+      <name value="chf-scenario1-jvp"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-jvp-goal"/>
+      </reference>
+      <name value="chf-scenario1-jvp-goal"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-jvp1"/>
+      </reference>
+      <name value="chf-scenario1-jvp1"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-jvp2"/>
+      </reference>
+      <name value="chf-scenario1-jvp2"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-jvp3"/>
+      </reference>
+      <name value="chf-scenario1-jvp3"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-jvp4"/>
+      </reference>
+      <name value="chf-scenario1-jvp4"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-jvp5"/>
+      </reference>
+      <name value="chf-scenario1-jvp5"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationAdministration"/>
+      </extension>
+      <reference>
+        <reference value="MedicationAdministration/chf-scenario1-lasix-iv"/>
+      </reference>
+      <name value="chf-scenario1-lasix-iv"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-lasix-iv-goal"/>
+      </reference>
+      <name value="chf-scenario1-lasix-iv-goal"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationAdministration"/>
+      </extension>
+      <reference>
+        <reference value="MedicationAdministration/chf-scenario1-lasix-po"/>
+      </reference>
+      <name value="chf-scenario1-lasix-po"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-lasix-po-goal"/>
+      </reference>
+      <name value="chf-scenario1-lasix-po-goal"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/chf-scenario1-lasix-po-mr"/>
+      </reference>
+      <name value="chf-scenario1-lasix-po-mr"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/chf-scenario1-location"/>
+      </reference>
+      <name value="chf-scenario1-location"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-net-io"/>
+      </reference>
+      <name value="chf-scenario1-net-io"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-netio3"/>
+      </reference>
+      <name value="chf-scenario1-netio3"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/chf-scenario1-o2-sat"/>
+      </reference>
+      <name value="chf-scenario1-o2-sat"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-o2-sat-goal"/>
+      </reference>
+      <name value="chf-scenario1-o2-sat-goal"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-o2sat1"/>
+      </reference>
+      <name value="chf-scenario1-o2sat1"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-o2sat2"/>
+      </reference>
+      <name value="chf-scenario1-o2sat2"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/chf-scenario1-organization"/>
+      </reference>
+      <name value="chf-scenario1-organization"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/chf-scenario1-patient"/>
+      </reference>
+      <name value="chf-scenario1-patient"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-potassium"/>
+      </reference>
+      <name value="chf-scenario1-potassium"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-potassium1"/>
+      </reference>
+      <name value="chf-scenario1-potassium1"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/chf-scenario1-practitioner"/>
+      </reference>
+      <name value="chf-scenario1-practitioner"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/chf-scenario1-practitionerrole"/>
+      </reference>
+      <name value="chf-scenario1-practitionerrole"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RelatedPerson"/>
+      </extension>
+      <reference>
+        <reference value="RelatedPerson/chf-scenario1-relatedperson"/>
+      </reference>
+      <name value="chf-scenario1-relatedperson"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicationRequest"/>
+      </extension>
+      <reference>
+        <reference value="MedicationRequest/chf-scenario1-stop-lasix-iv"/>
+      </reference>
+      <name value="chf-scenario1-stop-lasix-iv"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-urine-out"/>
+      </reference>
+      <name value="chf-scenario1-urine-out"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MeasureReport"/>
+      </extension>
+      <reference>
+        <reference value="MeasureReport/chf-scenario1-urineout3"/>
+      </reference>
+      <name value="chf-scenario1-urineout3"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/chf-scenario1-urineout3-observation"/>
+      </reference>
+      <name value="chf-scenario1-urineout3-observation"/>
+      <description value="CHF Scenario One"/>
+      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-weight"/>
+      </reference>
+      <name value="chf-scenario1-weight"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Goal"/>
+      </extension>
+      <reference>
+        <reference value="Goal/chf-scenario1-weight-change"/>
+      </reference>
+      <name value="chf-scenario1-weight-change"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/chf-pathway"/>
+      </reference>
+      <name value="Congestive Heart Failure Care Pathway"/>
+      <description value="Treatment and management care pathway for patients with admitting diagnosis of congestive heart failure"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/chf-scenario1-casesummary"/>
+      </reference>
+      <name value="Congestive Heart Failure Case Summary"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/chf-scenario1-caseplanprogressingnote"/>
+      </reference>
+      <name value="Congestive Heart Failure Case/Plan Progressing Note"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/chf-scenario1-caseplansummary"/>
+      </reference>
+      <name value="Congestive Heart Failure Case/Plan Summary"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Library"/>
+      </extension>
+      <reference>
+        <reference value="Library/CHF"/>
+      </reference>
+      <name value="Congestive Heart Failure Logic"/>
+      <description value="Logic for an example congestive heart failure pathway"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CarePlan"/>
+      </extension>
+      <reference>
+        <reference value="CarePlan/chf-scenario1-careplan"/>
+      </reference>
+      <name value="Heart Failure Care Pathway"/>
+      <description value="CHF Scenario One"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <page>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+        <valueUrl value="toc.html"/>
+      </extension>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+          <valueUrl value="index.html"/>
+        </extension>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

@@ -1,0 +1,249 @@
+{
+  "resourceType" : "Composition",
+  "id" : "chf-scenario1-caseplanprogressingnote",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplanprogressingnote"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Composition chf-scenario1-caseplanprogressingnote</b></p><a name=\"chf-scenario1-caseplanprogressingnote\"> </a><a name=\"hcchf-scenario1-caseplanprogressingnote\"> </a><a name=\"chf-scenario1-caseplanprogressingnote-en-US\"> </a><p><b>Definition</b>: <a href=\"GraphDefinition-chf-caseplansummarydefinition.html\">CHFCasePlanSummaryDefinition</a></p><p><b>summaryFor</b>: <a href=\"EpisodeOfCare-chf-scenario1-eoc.html\">EpisodeOfCare: extension = http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway; status = active; period = 2019-01-31 05:03:00+0000 --&gt; (ongoing)</a></p><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Codes:{http://loinc.org 11506-3}\">Progress note</span></p><p><b>category</b>: <span title=\"Codes:{http://loinc.org 11503-0}\">Medical records</span></p><p><b>encounter</b>: <a href=\"Encounter-chf-scenario1-encounter.html\">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = Inpatient stay 9 days; priority = High priority; period = 2019-01-31 05:03:00+0000 --&gt; (ongoing)</a></p><p><b>date</b>: 2019-02-03</p><p><b>author</b>: <a href=\"PractitionerRole-chf-scenario1-practitionerrole.html\">PractitionerRole Specialist medical practitioner</a></p><p><b>title</b>: Congestive Heart Failure Case/Plan Progressing Note</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style=\"display: none\">*</td><td>Professional</td><td>2019-02-03</td><td><a href=\"PractitionerRole-chf-scenario1-practitionerrole.html\">PractitionerRole Specialist medical practitioner</a></td></tr></table><p><b>custodian</b>: <a href=\"Organization-chf-scenario1-organization.html\">Organization ACME Hospital</a></p><h3>Events</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Period</b></td><td><b>Detail</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 42343007}\">Congestive heart failure (disorder)</span></td><td>2019-01-31 05:03:00+0000 --&gt; (ongoing)</td><td><a href=\"EpisodeOfCare-chf-scenario1-eoc.html\">EpisodeOfCare: extension = http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway; status = active; period = 2019-01-31 05:03:00+0000 --&gt; (ongoing)</a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/workflow-instantiatesCanonical",
+    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryFor",
+    "valueReference" : {
+      "reference" : "EpisodeOfCare/chf-scenario1-eoc"
+    }
+  }],
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "11506-3",
+      "display" : "Progress note"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "11503-0",
+      "display" : "Medical records"
+    }]
+  }],
+  "subject" : {
+    "reference" : "Patient/chf-scenario1-patient"
+  },
+  "encounter" : {
+    "reference" : "Encounter/chf-scenario1-encounter"
+  },
+  "date" : "2019-02-03",
+  "author" : [{
+    "reference" : "PractitionerRole/chf-scenario1-practitionerrole"
+  }],
+  "title" : "Congestive Heart Failure Case/Plan Progressing Note",
+  "attester" : [{
+    "mode" : "professional",
+    "time" : "2019-02-03",
+    "party" : {
+      "reference" : "PractitionerRole/chf-scenario1-practitionerrole"
+    }
+  }],
+  "custodian" : {
+    "reference" : "Organization/chf-scenario1-organization"
+  },
+  "event" : [{
+    "code" : [{
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "42343007",
+        "display" : "Congestive heart failure (disorder)"
+      }]
+    }],
+    "period" : {
+      "start" : "2019-01-31T05:03:00Z"
+    },
+    "detail" : [{
+      "reference" : "EpisodeOfCare/chf-scenario1-eoc"
+    }]
+  }],
+  "section" : [{
+    "title" : "Clinical Impression",
+    "code" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "51848-0"
+      }]
+    },
+    "entry" : [{
+      "reference" : "ClinicalImpression/chf-scenario1-clinicalimpression"
+    }]
+  },
+  {
+    "title" : "Pathway Events",
+    "code" : {
+      "text" : "Pathway Events"
+    },
+    "entry" : [{
+      "reference" : "Encounter/chf-scenario1-encounter"
+    }],
+    "section" : [{
+      "title" : "Weight",
+      "code" : {
+        "text" : "Weight"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-bodyweight1-observation"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-bodyweight2-observation"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-bodyweight3-observation"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-bodyweight4-observation"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-bodyweight1"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-bodyweight2"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-bodyweight3"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-bodyweight4"
+      }]
+    },
+    {
+      "title" : "Weight Change",
+      "code" : {
+        "text" : "Weight Change"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-bodyweight-change1-observation"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-bodyweight-change2-observation"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-bodyweight-change3-observation"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-bodyweight-change1"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-bodyweight-change2"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-bodyweight-change3"
+      }]
+    },
+    {
+      "title" : "Urine Out",
+      "code" : {
+        "text" : "Urine Out"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-urineout3-observation"
+      },
+      {
+        "reference" : "MeasureReport/chf-scenario1-urineout3"
+      }]
+    },
+    {
+      "title" : "Net IO's",
+      "code" : {
+        "text" : "Net IO's"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-netio3"
+      }]
+    },
+    {
+      "title" : "JVP",
+      "code" : {
+        "text" : "JVP"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-jvp1"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-jvp2"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-jvp3"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-jvp4"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-jvp5"
+      },
+      {
+        "reference" : "ServiceRequest/chf-scenario1-jvp"
+      }]
+    },
+    {
+      "title" : "O2 Sat",
+      "code" : {
+        "text" : "O2 Sat"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-o2sat1"
+      },
+      {
+        "reference" : "Observation/chf-scenario1-o2sat2"
+      },
+      {
+        "reference" : "ServiceRequest/chf-scenario1-o2-sat"
+      }]
+    },
+    {
+      "title" : "Potassium",
+      "code" : {
+        "text" : "Potassium"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-potassium1"
+      }]
+    },
+    {
+      "title" : "Creatinine",
+      "code" : {
+        "text" : "Creatinine"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-creatinine1"
+      }]
+    },
+    {
+      "title" : "eGFR",
+      "code" : {
+        "text" : "eGFR"
+      },
+      "entry" : [{
+        "reference" : "Observation/chf-scenario1-egfr1"
+      }]
+    },
+    {
+      "title" : "LASIX IV",
+      "code" : {
+        "text" : "LASIX IV"
+      },
+      "entry" : [{
+        "reference" : "MedicationAdministration/chf-scenario1-lasix-iv"
+      },
+      {
+        "reference" : "MedicationRequest/chf-scenario1-stop-lasix-iv"
+      },
+      {
+        "reference" : "MedicationRequest/chf-scenario1-lasix-po-mr"
+      }]
+    }]
+  }]
+}

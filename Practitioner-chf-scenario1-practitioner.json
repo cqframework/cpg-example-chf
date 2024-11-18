@@ -1,0 +1,15 @@
+{
+  "resourceType" : "Practitioner",
+  "id" : "chf-scenario1-practitioner",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Practitioner chf-scenario1-practitioner</b></p><a name=\"chf-scenario1-practitioner\"> </a><a name=\"hcchf-scenario1-practitioner\"> </a><a name=\"chf-scenario1-practitioner-en-US\"> </a><p><b>active</b>: true</p><p><b>name</b>: Rodriguez, Jesse</p></div>"
+  },
+  "active" : true,
+  "name" : [{
+    "use" : "usual",
+    "text" : "Rodriguez, Jesse",
+    "family" : "Rodriguez",
+    "given" : ["Jesse"]
+  }]
+}

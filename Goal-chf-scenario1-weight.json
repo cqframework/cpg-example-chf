@@ -1,0 +1,39 @@
+{
+  "resourceType" : "Goal",
+  "id" : "chf-scenario1-weight",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Goal chf-scenario1-weight</b></p><a name=\"chf-scenario1-weight\"> </a><a name=\"hcchf-scenario1-weight\"> </a><a name=\"chf-scenario1-weight-en-US\"> </a><p><b>goalFor</b>: <a href=\"PlanDefinition-chf-bodyweight-pd.html\">CHFBodyWeight</a></p><p><b>lifecycleStatus</b>: Active</p><p><b>achievementStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/goal-achievement improving}\">Improving</span></p><p><b>description</b>: <span title=\"Codes:\">Body weight 92kg</span></p><p><b>subject</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://loinc.org 29463-7}\">Body weight</span></td><td>92 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor",
+    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd"
+  }],
+  "lifecycleStatus" : "active",
+  "achievementStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/goal-achievement",
+      "code" : "improving"
+    }]
+  },
+  "description" : {
+    "text" : "Body weight 92kg"
+  },
+  "subject" : {
+    "reference" : "Patient/chf-scenario1-patient"
+  },
+  "target" : [{
+    "measure" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "29463-7"
+      }]
+    },
+    "detailQuantity" : {
+      "value" : 92,
+      "unit" : "kg",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg"
+    }
+  }]
+}

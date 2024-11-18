@@ -1,0 +1,21 @@
+{
+  "resourceType" : "Location",
+  "id" : "chf-scenario1-location",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location chf-scenario1-location</b></p><a name=\"chf-scenario1-location\"> </a><a name=\"hcchf-scenario1-location\"> </a><a name=\"chf-scenario1-location-en-US\"> </a><p><b>status</b>: Active</p><p><b>name</b>: Unit 3 East</p><p><b>mode</b>: Instance</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode CVDX}\">Cardiovascular diagnostics or therapeutics unit</span></p><p><b>managingOrganization</b>: <a href=\"Organization-chf-scenario1-organization.html\">Organization ACME Hospital</a></p></div>"
+  },
+  "status" : "active",
+  "name" : "Unit 3 East",
+  "mode" : "instance",
+  "type" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "code" : "CVDX",
+      "display" : "Cardiovascular diagnostics or therapeutics unit"
+    }]
+  }],
+  "managingOrganization" : {
+    "reference" : "Organization/chf-scenario1-organization"
+  }
+}

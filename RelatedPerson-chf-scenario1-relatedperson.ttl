@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/RelatedPerson/chf-scenario1-relatedperson> a fhir:RelatedPerson ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-scenario1-relatedperson"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson chf-scenario1-relatedperson</b></p><a name=\"chf-scenario1-relatedperson\"> </a><a name=\"hcchf-scenario1-relatedperson\"> </a><a name=\"chf-scenario1-relatedperson-en-US\"> </a><p><b>active</b>: true</p><p><b>patient</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode SPS}\">spouse</span></p><p><b>name</b>: Patterson, Maggie</p></div>"
+  ] ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:patient [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
+  ] ; # 
+  fhir:relationship ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "SPS" ] ;
+       fhir:display [ fhir:v "spouse" ]
+     ] )
+  ] ) ; # 
+  fhir:name ( [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:text [ fhir:v "Patterson, Maggie" ] ;
+     fhir:family [ fhir:v "Patterson" ] ;
+     fhir:given ( [ fhir:v "Maggie" ] )
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

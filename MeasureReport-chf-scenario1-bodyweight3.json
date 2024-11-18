@@ -1,0 +1,45 @@
+{
+  "resourceType" : "MeasureReport",
+  "id" : "chf-scenario1-bodyweight3",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MeasureReport chf-scenario1-bodyweight3</b></p><a name=\"chf-scenario1-bodyweight3\"> </a><a name=\"hcchf-scenario1-bodyweight3\"> </a><a name=\"chf-scenario1-bodyweight3-en-US\"> </a><p><b>status</b>: Complete</p><p><b>type</b>: Individual</p><p><b>measure</b>: <a href=\"Measure-chf-bodyweight-measure.html\">CHF Body Weight Metric</a></p><p><b>subject</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><p><b>date</b>: 2019-02-02</p><p><b>period</b>: 2019-02-02 --&gt; 2019-02-02</p><p><b>improvementNotation</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-improvement-notation decrease}\">Decreased score indicates improvement</span></p><blockquote><p><b>group</b></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population measure-observation}\">Measure Observation</span></td><td>1</td></tr></table><p><b>measureScore</b>: 96.9 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p></blockquote><p><b>evaluatedResource</b>: <a href=\"Observation-chf-scenario1-bodyweight3-observation.html\">Observation Body weight</a></p></div>"
+  },
+  "status" : "complete",
+  "type" : "individual",
+  "measure" : "http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-measure",
+  "subject" : {
+    "reference" : "Patient/chf-scenario1-patient"
+  },
+  "date" : "2019-02-02",
+  "period" : {
+    "start" : "2019-02-02",
+    "end" : "2019-02-02"
+  },
+  "improvementNotation" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+      "code" : "decrease"
+    }]
+  },
+  "group" : [{
+    "population" : [{
+      "code" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/measure-population",
+          "code" : "measure-observation"
+        }]
+      },
+      "count" : 1
+    }],
+    "measureScore" : {
+      "value" : 96.9,
+      "unit" : "kg",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "kg"
+    }
+  }],
+  "evaluatedResource" : [{
+    "reference" : "Observation/chf-scenario1-bodyweight3-observation"
+  }]
+}

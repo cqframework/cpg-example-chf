@@ -1,0 +1,21 @@
+{
+  "resourceType" : "CareTeam",
+  "id" : "chf-careteamdefinition",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CareTeam chf-careteamdefinition</b></p><a name=\"chf-careteamdefinition\"> </a><a name=\"hcchf-careteamdefinition\"> </a><a name=\"chf-careteamdefinition-en-US\"> </a><p><b>name</b>: CHF Care Team (definition)</p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Role</b></td><td><b>Member</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 17561000}\">Cardiologist</span></td><td><a href=\"PractitionerRole-chf-practitionerroledefinition.html\">PractitionerRole Specialist medical practitioner</a></td></tr></table></div>"
+  },
+  "name" : "CHF Care Team (definition)",
+  "participant" : [{
+    "role" : [{
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "17561000",
+        "display" : "Cardiologist"
+      }]
+    }],
+    "member" : {
+      "reference" : "PractitionerRole/chf-practitionerroledefinition"
+    }
+  }]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="chf-scenario1-patient"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Patient chf-scenario1-patient</b></p><a name="chf-scenario1-patient"> </a><a name="hcchf-scenario1-patient"> </a><a name="chf-scenario1-patient-en-US"> </a><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;">Patterson, Jeremy Male, DoB: 1949-03-17</p><hr/><table class="grid"><tr><td style="background-color: #f3f5da" title="Record is active">Active:</td><td>true</td><td style="background-color: #f3f5da" title="Known status of Patient">Deceased:</td><td colspan="3">false</td></tr></table></div>
+  </text>
+  <active value="true"/>
+  <name>
+    <use value="usual"/>
+    <text value="Patterson, Jeremy"/>
+    <family value="Patterson"/>
+    <given value="Jeremy"/>
+  </name>
+  <gender value="male"/>
+  <birthDate value="1949-03-17"/>
+  <deceasedBoolean value="false"/>
+</Patient>

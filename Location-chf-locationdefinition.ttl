@@ -1,0 +1,26 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-locationdefinition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location chf-locationdefinition</b></p><a name=\"chf-locationdefinition\"> </a><a name=\"hcchf-locationdefinition\"> </a><a name=\"chf-locationdefinition-en-US\"> </a><p><b>name</b>: Cardiovascular diagnostics or therapeutics unit</p><p><b>mode</b>: Kind</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode CVDX}\">Cardiovascular diagnostics or therapeutics unit</span></p></div>"
+  ] ; # 
+  fhir:name [ fhir:v "Cardiovascular diagnostics or therapeutics unit"] ; # 
+  fhir:mode [ fhir:v "kind"] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CVDX" ] ;
+       fhir:display [ fhir:v "Cardiovascular diagnostics or therapeutics unit" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

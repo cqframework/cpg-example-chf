@@ -1,0 +1,33 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/Location/chf-scenario1-location> a fhir:Location ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-scenario1-location"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Location chf-scenario1-location</b></p><a name=\"chf-scenario1-location\"> </a><a name=\"hcchf-scenario1-location\"> </a><a name=\"chf-scenario1-location-en-US\"> </a><p><b>status</b>: Active</p><p><b>name</b>: Unit 3 East</p><p><b>mode</b>: Instance</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode CVDX}\">Cardiovascular diagnostics or therapeutics unit</span></p><p><b>managingOrganization</b>: <a href=\"Organization-chf-scenario1-organization.html\">Organization ACME Hospital</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:name [ fhir:v "Unit 3 East"] ; # 
+  fhir:mode [ fhir:v "instance"] ; # 
+  fhir:type ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleCode"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "CVDX" ] ;
+       fhir:display [ fhir:v "Cardiovascular diagnostics or therapeutics unit" ]
+     ] )
+  ] ) ; # 
+  fhir:managingOrganization [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> ;
+     fhir:reference [ fhir:v "Organization/chf-scenario1-organization" ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,38 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/Group/chf-scenario1-group> a fhir:Group ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-scenario1-group"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Group chf-scenario1-group</b></p><a name=\"chf-scenario1-group\"> </a><a name=\"hcchf-scenario1-group\"> </a><a name=\"chf-scenario1-group-en-US\"> </a><p><b>active</b>: true</p><p><b>type</b>: Person</p><p><b>actual</b>: true</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 42343007}\">Congestive heart failure (disorder)</span></p><p><b>name</b>: Congestive Heart Failure Patients</p><h3>Members</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Entity</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></td></tr></table></div>"
+  ] ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:type [ fhir:v "person"] ; # 
+  fhir:actual [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:code [
+     fhir:coding ( [
+       a sct:42343007 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "42343007" ] ;
+       fhir:display [ fhir:v "Congestive heart failure (disorder)" ]
+     ] )
+  ] ; # 
+  fhir:name [ fhir:v "Congestive Heart Failure Patients"] ; # 
+  fhir:member ( [
+     fhir:entity [
+       fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+       fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
+     ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

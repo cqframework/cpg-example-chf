@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-codes"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem chf-codes</b></p><a name=\"chf-codes\"> </a><a name=\"hcchf-codes\"> </a><a name=\"chf-codes-en-US\"> </a><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">body-weight-change<a name=\"chf-codes-body-weight-change\"> </a></td><td>Body weight change</td><td>The change in body weight between two body weight measurements, in kg. Typically captured daily.</td></tr><tr><td style=\"white-space:nowrap\">net-intake-output<a name=\"chf-codes-net-intake-output\"> </a></td><td>Net intake/output</td><td>The net intake and output, in Liters per day. Typically captured daily.</td></tr><tr><td style=\"white-space:nowrap\">measure-jvp<a name=\"chf-codes-measure-jvp\"> </a></td><td>Measure jugular venous pressure</td><td>Measure jugular venous pressure in cmH2O</td></tr><tr><td style=\"white-space:nowrap\">jvp<a name=\"chf-codes-jvp\"> </a></td><td>Jugular venous pressure</td><td>Jugular venous pressure in cmH2O. May be loinc#8595-1?</td></tr><tr><td style=\"white-space:nowrap\">egfr<a name=\"chf-codes-egfr\"> </a></td><td>eGFR result</td><td>eGFR result in mol/mm/m2. Too many codes to choose from, needs clinical/terminological SME input</td></tr><tr><td style=\"white-space:nowrap\">measure-egfr<a name=\"chf-codes-measure-egfr\"> </a></td><td>Measure eGFR</td><td>Measure eGFR, could not identify SNOMED code for this</td></tr><tr><td style=\"white-space:nowrap\">lasix-iv<a name=\"chf-codes-lasix-iv\"> </a></td><td>LASIX IV</td><td>LASIX IV</td></tr><tr><td style=\"white-space:nowrap\">lasix-po<a name=\"chf-codes-lasix-po\"> </a></td><td>LASIX PO</td><td>LASIX PO</td></tr><tr><td style=\"white-space:nowrap\">cardiology-consultation<a name=\"chf-codes-cardiology-consultation\"> </a></td><td>Cardiology Consultation</td><td>Cardiology consultation</td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "shareable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "computable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "publishable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "structured" ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "CHFCodes"] ; # 
+  fhir:title [ fhir:v "CHF Codes"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:36:46+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss/index.cfm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Codes used in the congestive heart failure pathway. Ideally these shouldn't exist, but where I couldn't find an appropriate code in a standard terminology, I defined codes here."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "body-weight-change" ] ;
+     fhir:display [ fhir:v "Body weight change" ] ;
+     fhir:definition [ fhir:v "The change in body weight between two body weight measurements, in kg. Typically captured daily." ]
+  ] [
+     fhir:code [ fhir:v "net-intake-output" ] ;
+     fhir:display [ fhir:v "Net intake/output" ] ;
+     fhir:definition [ fhir:v "The net intake and output, in Liters per day. Typically captured daily." ]
+  ] [
+     fhir:code [ fhir:v "measure-jvp" ] ;
+     fhir:display [ fhir:v "Measure jugular venous pressure" ] ;
+     fhir:definition [ fhir:v "Measure jugular venous pressure in cmH2O" ]
+  ] [
+     fhir:code [ fhir:v "jvp" ] ;
+     fhir:display [ fhir:v "Jugular venous pressure" ] ;
+     fhir:definition [ fhir:v "Jugular venous pressure in cmH2O. May be loinc#8595-1?" ]
+  ] [
+     fhir:code [ fhir:v "egfr" ] ;
+     fhir:display [ fhir:v "eGFR result" ] ;
+     fhir:definition [ fhir:v "eGFR result in mol/mm/m2. Too many codes to choose from, needs clinical/terminological SME input" ]
+  ] [
+     fhir:code [ fhir:v "measure-egfr" ] ;
+     fhir:display [ fhir:v "Measure eGFR" ] ;
+     fhir:definition [ fhir:v "Measure eGFR, could not identify SNOMED code for this" ]
+  ] [
+     fhir:code [ fhir:v "lasix-iv" ] ;
+     fhir:display [ fhir:v "LASIX IV" ] ;
+     fhir:definition [ fhir:v "LASIX IV" ]
+  ] [
+     fhir:code [ fhir:v "lasix-po" ] ;
+     fhir:display [ fhir:v "LASIX PO" ] ;
+     fhir:definition [ fhir:v "LASIX PO" ]
+  ] [
+     fhir:code [ fhir:v "cardiology-consultation" ] ;
+     fhir:display [ fhir:v "Cardiology Consultation" ] ;
+     fhir:definition [ fhir:v "Cardiology consultation" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

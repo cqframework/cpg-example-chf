@@ -1,0 +1,25 @@
+{
+  "resourceType" : "RelatedPerson",
+  "id" : "chf-scenario1-relatedperson",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: RelatedPerson chf-scenario1-relatedperson</b></p><a name=\"chf-scenario1-relatedperson\"> </a><a name=\"hcchf-scenario1-relatedperson\"> </a><a name=\"chf-scenario1-relatedperson-en-US\"> </a><p><b>active</b>: true</p><p><b>patient</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><p><b>relationship</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode SPS}\">spouse</span></p><p><b>name</b>: Patterson, Maggie</p></div>"
+  },
+  "active" : true,
+  "patient" : {
+    "reference" : "Patient/chf-scenario1-patient"
+  },
+  "relationship" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "code" : "SPS",
+      "display" : "spouse"
+    }]
+  }],
+  "name" : [{
+    "use" : "usual",
+    "text" : "Patterson, Maggie",
+    "family" : "Patterson",
+    "given" : ["Maggie"]
+  }]
+}

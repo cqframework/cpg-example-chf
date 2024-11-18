@@ -1,0 +1,105 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-o2-sat-ad> a fhir:ActivityDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-o2-sat-ad"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computableactivity>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ActivityDefinition chf-o2-sat-ad</b></p><a name=\"chf-o2-sat-ad\"> </a><a name=\"hcchf-o2-sat-ad\"> </a><a name=\"chf-o2-sat-ad-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>url</b>: <a href=\"ActivityDefinition-chf-o2-sat-ad.html\">ActivityDefinition CHFO2Sat</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFO2Sat</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Monitor Oxygen Saturation</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><p><b>kind</b>: ServiceRequest</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-servicerequest.html\">CPGServiceRequest</a></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type-cs order-service}\">Order a service</span></p><p><b>intent</b>: Proposal</p><p><b>doNotPerform</b>: false</p><p><b>location</b>: <a href=\"Location-chf-locationdefinition.html\">Location Cardiovascular diagnostics or therapeutics unit</a></p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Role</b></td></tr><tr><td style=\"display: none\">*</td><td>Practitioner</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/practitioner-role nurse}\">Nurse</span></td></tr></table><p><b>product</b>: <span title=\"Codes:{http://snomed.info/sct 104847001}\">Oxygen saturation measurement (procedure)</span></p><blockquote><p><b>dynamicValue</b></p><p><b>path</b>: status</p><h3>Expressions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Expression</b></td></tr><tr><td style=\"display: none\">*</td><td>CQL</td><td>'draft'</td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "shareable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "computable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "publishable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "structured" ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-o2-sat-ad"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "CHFO2Sat"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:36:46+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss/index.cfm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Monitor Oxygen Saturation"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:kind [ fhir:v "ServiceRequest"] ; # 
+  fhir:profile [
+     fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-servicerequest"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-servicerequest>
+  ] ; # 
+  fhir:code [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "order-service" ] ;
+       fhir:display [ fhir:v "Order a service" ]
+     ] )
+  ] ; # 
+  fhir:intent [ fhir:v "proposal"] ; # 
+  fhir:doNotPerform [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:location [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> ;
+     fhir:reference [ fhir:v "Location/chf-locationdefinition" ]
+  ] ; # 
+  fhir:participant ( [
+     fhir:type [ fhir:v "practitioner" ] ;
+     fhir:role [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/practitioner-role"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "nurse" ] ;
+         fhir:display [ fhir:v "Nurse" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:product [
+     a fhir:CodeableConcept ;
+     fhir:coding ( [
+       a sct:104847001 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "104847001" ] ;
+       fhir:display [ fhir:v "Oxygen saturation measurement (procedure)" ]
+     ] )
+  ] ; # 
+  fhir:dynamicValue ( [
+     fhir:path [ fhir:v "status" ] ;
+     fhir:expression [
+       fhir:language [ fhir:v "text/cql" ] ;
+       fhir:expression [ fhir:v "'draft'" ]
+     ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

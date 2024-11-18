@@ -1,0 +1,32 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "chf-scenario1-practitionerrole",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole chf-scenario1-practitionerrole</b></p><a name=\"chf-scenario1-practitionerrole\"> </a><a name=\"hcchf-scenario1-practitionerrole\"> </a><a name=\"chf-scenario1-practitionerrole-en-US\"> </a><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-chf-scenario1-practitioner.html\">Practitioner Rodriguez, Jesse</a></p><p><b>organization</b>: <a href=\"Organization-chf-scenario1-organization.html\">Organization ACME Hospital</a></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-persona-cs 2212}\">Specialist medical practitioner</span></p><p><b>specialty</b>: <span title=\"Codes:{http://snomed.info/sct 394579002}\">Cardiology</span></p><p><b>location</b>: <a href=\"Location-chf-scenario1-location.html\">Location Unit 3 East</a></p></div>"
+  },
+  "active" : true,
+  "practitioner" : {
+    "reference" : "Practitioner/chf-scenario1-practitioner"
+  },
+  "organization" : {
+    "reference" : "Organization/chf-scenario1-organization"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-persona-cs",
+      "code" : "2212",
+      "display" : "Specialist medical practitioner"
+    }]
+  }],
+  "specialty" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "394579002",
+      "display" : "Cardiology"
+    }]
+  }],
+  "location" : [{
+    "reference" : "Location/chf-scenario1-location"
+  }]
+}

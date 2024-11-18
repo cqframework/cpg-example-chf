@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Goal xmlns="http://hl7.org/fhir">
+  <id value="chf-scenario1-net-io"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Goal chf-scenario1-net-io</b></p><a name="chf-scenario1-net-io"> </a><a name="hcchf-scenario1-net-io"> </a><a name="chf-scenario1-net-io-en-US"> </a><p><b>goalFor</b>: <a href="PlanDefinition-chf-net-io-pd.html">CHFNetIO</a></p><p><b>lifecycleStatus</b>: Active</p><p><b>achievementStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/goal-achievement improving}">Improving</span></p><p><b>description</b>: <span title="Codes:">Net intake/output -1.5 L/day</span></p><p><b>subject</b>: <a href="Patient-chf-scenario1-patient.html">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><h3>Targets</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes net-intake-output}">Net intake/output</span></td><td>-1.5 L/day<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeL/d = 'L/d')</span></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor">
+    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-net-io-pd"/>
+  </extension>
+  <lifecycleStatus value="active"/>
+  <achievementStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/goal-achievement"/>
+      <code value="improving"/>
+    </coding>
+  </achievementStatus>
+  <description>
+    <text value="Net intake/output -1.5 L/day"/>
+  </description>
+  <subject>
+    <reference value="Patient/chf-scenario1-patient"/>
+  </subject>
+  <target>
+    <measure>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes"/>
+        <code value="net-intake-output"/>
+      </coding>
+    </measure>
+    <detailQuantity>
+      <value value="-1.5"/>
+      <unit value="L/day"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="L/d"/>
+    </detailQuantity>
+  </target>
+</Goal>

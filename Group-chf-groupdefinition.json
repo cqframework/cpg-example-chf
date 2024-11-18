@@ -1,0 +1,27 @@
+{
+  "resourceType" : "Group",
+  "id" : "chf-groupdefinition",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Group chf-groupdefinition</b></p><a name=\"chf-groupdefinition\"> </a><a name=\"hcchf-groupdefinition\"> </a><a name=\"chf-groupdefinition-en-US\"> </a><p><b>CQF Expression</b>: <a href=\"http://hl7.org/fhir/uv/cpg/chf/Library/CHF\"><span title=\"text/cql-identifier\"><code>Eligibility Criteria</code></span></a></p><p><b>active</b>: true</p><p><b>type</b>: Person</p><p><b>actual</b>: false</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 42343007}\">Congestive heart failure (disorder)</span></p><p><b>name</b>: Congestive Heart Failure Patients (definition)</p></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/cqf-expression",
+    "valueExpression" : {
+      "language" : "text/cql-identifier",
+      "expression" : "Eligibility Criteria",
+      "reference" : "http://hl7.org/fhir/uv/cpg/chf/Library/CHF"
+    }
+  }],
+  "active" : true,
+  "type" : "person",
+  "actual" : false,
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "42343007",
+      "display" : "Congestive heart failure (disorder)"
+    }]
+  },
+  "name" : "Congestive Heart Failure Patients (definition)"
+}

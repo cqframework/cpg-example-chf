@@ -1,0 +1,113 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd> a fhir:PlanDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-jvp-pd"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PlanDefinition chf-jvp-pd</b></p><a name=\"chf-jvp-pd\"> </a><a name=\"hcchf-jvp-pd\"> </a><a name=\"chf-jvp-pd-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href=\"PlanDefinition-chf-hypervolemia.html\">CHFHypervolemia</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href=\"PlanDefinition-chf-jvp-pd.html\">PlanDefinition CHFJVPPD</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFJVPPD</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type eca-rule}\">ECA Rule</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Measure jugular venous pressure</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><h3>Goals</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Description</b></td><td><b>Start</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">JVP target</span></td><td><span title=\"Codes:{http://snomed.info/sct 32485007}\">Admission to hospital</span></td></tr></table><blockquote><p><b>action</b></p><blockquote><p><b>id</b></p>jvp</blockquote><p><b>title</b>: JVP</p><p><b>description</b>: Measure JVP daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><h3>Triggers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Timing[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Periodic</td><td>Once per 1 days</td></tr></table><p><b>definition</b>: <a href=\"ActivityDefinition-chf-jvp-ad.html\">CHFJVP</a></p></blockquote></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "shareable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "computable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "publishable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "structured" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-partOf"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia>
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "true"^^xsd:boolean ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "CHFJVPPD"] ; # 
+  fhir:type [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/plan-definition-type"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "eca-rule" ]
+     ] )
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:36:46+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss/index.cfm" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Measure jugular venous pressure"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:goal ( [
+     fhir:description [
+       fhir:text [ fhir:v "JVP target" ]
+     ] ;
+     fhir:start [
+       fhir:coding ( [
+         a sct:32485007 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "32485007" ] ;
+         fhir:display [ fhir:v "Admission to hospital" ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:action ( [
+     fhir:id [ fhir:v "jvp" ] ;
+     fhir:title [ fhir:v "JVP" ] ;
+     fhir:description [ fhir:v "Measure JVP daily" ] ;
+     fhir:code ( [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "diagnostic-testing" ]
+       ] )
+     ] ) ;
+     fhir:trigger ( [
+       fhir:type [ fhir:v "periodic" ] ;
+       fhir:timing [
+         a fhir:Timing ;
+         fhir:repeat [
+           fhir:frequency [ fhir:v "1"^^xsd:positiveInteger ] ;
+           fhir:period [ fhir:v "1"^^xsd:decimal ] ;
+           fhir:periodUnit [ fhir:v "d" ]
+         ]
+       ]
+     ] ) ;
+     fhir:definition [
+       fhir:v "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad>
+     ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

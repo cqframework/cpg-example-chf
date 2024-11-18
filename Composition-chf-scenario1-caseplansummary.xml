@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="chf-scenario1-caseplansummary"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummary"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Composition chf-scenario1-caseplansummary</b></p><a name="chf-scenario1-caseplansummary"> </a><a name="hcchf-scenario1-caseplansummary"> </a><a name="chf-scenario1-caseplansummary-en-US"> </a><p><b>Definition</b>: <a href="GraphDefinition-chf-caseplansummarydefinition.html">CHFCasePlanSummaryDefinition</a></p><p><b>summaryFor</b>: <a href="EpisodeOfCare-chf-scenario1-eoc.html">EpisodeOfCare: extension = http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway; status = active; period = 2019-01-31 05:03:00+0000 --&gt; (ongoing)</a></p><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 11503-0}">Medical records</span></p><p><b>category</b>: <span title="Codes:{http://loinc.org 11503-0}">Medical records</span></p><p><b>encounter</b>: <a href="Encounter-chf-scenario1-encounter.html">Encounter: status = in-progress; class = inpatient encounter (ActCode#IMP); type = Inpatient stay 9 days; priority = High priority; period = 2019-01-31 05:03:00+0000 --&gt; (ongoing)</a></p><p><b>date</b>: 2019-02-03</p><p><b>author</b>: <a href="PractitionerRole-chf-scenario1-practitionerrole.html">PractitionerRole Specialist medical practitioner</a></p><p><b>title</b>: Congestive Heart Failure Case/Plan Summary</p><h3>Attesters</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style="display: none">*</td><td>Professional</td><td>2019-02-03</td><td><a href="PractitionerRole-chf-scenario1-practitionerrole.html">PractitionerRole Specialist medical practitioner</a></td></tr></table><p><b>custodian</b>: <a href="Organization-chf-scenario1-organization.html">Organization ACME Hospital</a></p><h3>Events</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Period</b></td><td><b>Detail</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://snomed.info/sct 42343007}">Congestive heart failure (disorder)</span></td><td>2019-01-31 05:03:00+0000 --&gt; (ongoing)</td><td><a href="EpisodeOfCare-chf-scenario1-eoc.html">EpisodeOfCare: extension = http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway; status = active; period = 2019-01-31 05:03:00+0000 --&gt; (ongoing)</a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/workflow-instantiatesCanonical">
+    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryFor">
+    <valueReference>
+      <reference value="EpisodeOfCare/chf-scenario1-eoc"/>
+    </valueReference>
+  </extension>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="11503-0"/>
+      <display value="Medical records"/>
+    </coding>
+  </type>
+  <category>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="11503-0"/>
+      <display value="Medical records"/>
+    </coding>
+  </category>
+  <subject>
+    <reference value="Patient/chf-scenario1-patient"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/chf-scenario1-encounter"/>
+  </encounter>
+  <date value="2019-02-03"/>
+  <author>
+    <reference value="PractitionerRole/chf-scenario1-practitionerrole"/>
+  </author>
+  <title value="Congestive Heart Failure Case/Plan Summary"/>
+  <attester>
+    <mode value="professional"/>
+    <time value="2019-02-03"/>
+    <party>
+      <reference value="PractitionerRole/chf-scenario1-practitionerrole"/>
+    </party>
+  </attester>
+  <custodian>
+    <reference value="Organization/chf-scenario1-organization"/>
+  </custodian>
+  <event>
+    <code>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="42343007"/>
+        <display value="Congestive heart failure (disorder)"/>
+      </coding>
+    </code>
+    <period>
+      <start value="2019-01-31T05:03:00Z"/>
+    </period>
+    <detail>
+      <reference value="EpisodeOfCare/chf-scenario1-eoc"/>
+    </detail>
+  </event>
+  <section>
+    <title value="Pathway Events"/>
+    <code>
+      <text value="Pathway Events"/>
+    </code>
+    <entry>
+      <reference value="Encounter/chf-scenario1-encounter"/>
+    </entry>
+    <section>
+      <title value="Weight"/>
+      <code>
+        <text value="Weight"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-bodyweight1-observation"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-bodyweight2-observation"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-bodyweight3-observation"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-bodyweight4-observation"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-bodyweight1"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-bodyweight2"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-bodyweight3"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-bodyweight4"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Weight Change"/>
+      <code>
+        <text value="Weight Change"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-bodyweight-change1-observation"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-bodyweight-change2-observation"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-bodyweight-change3-observation"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-bodyweight-change1"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-bodyweight-change2"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-bodyweight-change3"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Urine Out"/>
+      <code>
+        <text value="Urine Out"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-urineout3-observation"/>
+      </entry>
+      <entry>
+        <reference value="MeasureReport/chf-scenario1-urineout3"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Net IO's"/>
+      <code>
+        <text value="Net IO's"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-netio3"/>
+      </entry>
+    </section>
+    <section>
+      <title value="JVP"/>
+      <code>
+        <text value="JVP"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-jvp1"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-jvp2"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-jvp3"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-jvp4"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-jvp5"/>
+      </entry>
+      <entry>
+        <reference value="ServiceRequest/chf-scenario1-jvp"/>
+      </entry>
+    </section>
+    <section>
+      <title value="O2 Sat"/>
+      <code>
+        <text value="O2 Sat"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-o2sat1"/>
+      </entry>
+      <entry>
+        <reference value="Observation/chf-scenario1-o2sat2"/>
+      </entry>
+      <entry>
+        <reference value="ServiceRequest/chf-scenario1-o2-sat"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Potassium"/>
+      <code>
+        <text value="Potassium"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-potassium1"/>
+      </entry>
+    </section>
+    <section>
+      <title value="Creatinine"/>
+      <code>
+        <text value="Creatinine"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-creatinine1"/>
+      </entry>
+    </section>
+    <section>
+      <title value="eGFR"/>
+      <code>
+        <text value="eGFR"/>
+      </code>
+      <entry>
+        <reference value="Observation/chf-scenario1-egfr1"/>
+      </entry>
+    </section>
+    <section>
+      <title value="LASIX IV"/>
+      <code>
+        <text value="LASIX IV"/>
+      </code>
+      <entry>
+        <reference value="MedicationAdministration/chf-scenario1-lasix-iv"/>
+      </entry>
+      <entry>
+        <reference value="MedicationRequest/chf-scenario1-stop-lasix-iv"/>
+      </entry>
+      <entry>
+        <reference value="MedicationRequest/chf-scenario1-lasix-po-mr"/>
+      </entry>
+    </section>
+  </section>
+</Composition>

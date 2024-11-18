@@ -1,0 +1,271 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition> a fhir:GraphDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-caseplansummarydefinition"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: GraphDefinition chf-caseplansummarydefinition</b></p><a name=\"chf-caseplansummarydefinition\"> </a><a name=\"hcchf-caseplansummarydefinition\"> </a><a name=\"chf-caseplansummarydefinition-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>summaryDefinitionFor</b>: <a href=\"PlanDefinition-chf-pathway.html\">CHFPathway</a></p><p><b>copyright</b>: </p><div><p>Copyright (c) 2019+ HL7 International</p>\n</div><p><b>copyright</b>: </p><div><p>Copyright (c) 2019+ HL7 International</p>\n</div><p><b>topic</b>: <span title=\"Codes:{http://snomed.info/sct 42343007}\">Congestive heart failure</span></p><p><b>author</b>: Matthew Burton, MD: </p><p><b>editor</b>: Bryn Rhodes: </p><p><b>reviewer</b>: Davide Sottara: </p><p><b>endorser</b>: Example Quality Assurance Organization: </p><p><b>relatedArtifact</b>: No display for RelatedArtifact  (type: citation; citation: Representation primitives, process models and patient data in computer-interpretable clinical practice guidelines: A literature review of guideline representation models. Dongwen Wang, Mor Peleg, Samson W Tu, Aziz A Boxwala, Robert A Greenes, Vimla L Patel, Edward H Shortliffe. International Journal of Medical Informatics, Volume 68, Issues 1–3, 2002, Pages 59-70, ISSN 1386-5056, https://doi.org/10.1016/S1386-5056(02)00065-5.)</p><p><b>identifier</b>: <code>http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf</code>/CHFCasePlanSummaryDefinition (use: official, )</p><p><b>title</b>: CHF Case Plan Summary Definition</p><p><b>url</b>: <a href=\"GraphDefinition-chf-caseplansummarydefinition.html\">GraphDefinition CHFCasePlanSummaryDefinition</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFCasePlanSummaryDefinition</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>description</b>: </p><div><p>Definition of the case plan summary document for a congestive heart failure pathway</p>\n</div><p><b>start</b>: EpisodeOfCare</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-case.html\">CPGCase</a></p><blockquote><p><b>link</b></p><p><b>path</b>: encounter</p><p><b>description</b>: Pathway Events</p><blockquote><p><b>target</b></p><p><b>type</b>: Encounter</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-encounter.html\">CPGEncounter</a></p><blockquote><p><b>link</b></p><p><b>description</b>: Weight</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-bodyweight.html\">CHF Body Weight</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Weight Change</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-bodyweight-change.html\">CHF Body Weight Change</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Urine Out</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-urine-out.html\">CHF Urine Out</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Net IO's</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-net-io.html\">CHF Net Intake/Output</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: JVP</p><blockquote><p><b>target</b></p><p><b>type</b>: Observation</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-jvp.html\">CHF Jugular Venous Pressure</a></p></blockquote><blockquote><p><b>target</b></p><p><b>type</b>: ServiceRequest</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-jvp-request.html\">CHF Jugular Venous Pressure Request</a></p></blockquote></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: O2 Sat</p><blockquote><p><b>target</b></p><p><b>type</b>: Observation</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-o2-sat.html\">CHF Oxygen Saturation</a></p></blockquote><blockquote><p><b>target</b></p><p><b>type</b>: ServiceRequest</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-o2-sat-request.html\">CHF Oxygen Saturation Request</a></p></blockquote></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Potassium</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-potassium.html\">CHF Potassium</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Creatinine</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-creatinine.html\">CHF Creatinine</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: eGFR</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-egfr.html\">CHF eGFR</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: LASIX IV</p><blockquote><p><b>target</b></p><p><b>type</b>: MedicationAdministration</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-lasix-iv-administration.html\">CHF LASIX IV Administration</a></p></blockquote><blockquote><p><b>target</b></p><p><b>type</b>: MedicationRequest</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-lasix-iv-request.html\">CHF LASIX IV Request</a></p></blockquote></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: LASIX PO</p><blockquote><p><b>target</b></p><p><b>type</b>: MedicationAdministration</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-lasix-po-administration.html\">CHF LASIX PO Administration</a></p></blockquote><blockquote><p><b>target</b></p><p><b>type</b>: MedicationRequest</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-lasix-po-request.html\">CHF LASIX PO Request</a></p></blockquote></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Cardiology Consultation</p><blockquote><p><b>target</b></p><p><b>type</b>: Procedure</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-cardiology-consult.html\">CHF Cardiology Consult</a></p></blockquote><blockquote><p><b>target</b></p><p><b>type</b>: ServiceRequest</p><p><b>profile</b>: <a href=\"StructureDefinition-chf-cardiology-consult-request.html\">CHF Cardiology Consult Request</a></p></blockquote></blockquote></blockquote></blockquote></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "shareable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "computable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "publishable" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "structured" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryDefinitionFor"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway>
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Copyright (c) 2019+ HL7 International" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-topic"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:CodeableConcept ;
+       fhir:coding ( [
+         a sct:42343007 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "42343007" ] ;
+         fhir:display [ fhir:v "Congestive heart failure (disorder)" ]
+       ] ) ;
+       fhir:text [ fhir:v "Congestive heart failure" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-author"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "Matthew Burton, MD" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-editor"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "Bryn Rhodes" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-reviewer"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "Davide Sottara" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-endorser"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:ContactDetail ;
+       fhir:name [ fhir:v "Example Quality Assurance Organization" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "Copyright (c) 2019+ HL7 International" ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-relatedArtifact"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:RelatedArtifact ;
+       fhir:type [ fhir:v "citation" ] ;
+       fhir:citation [ fhir:v "Representation primitives, process models and patient data in computer-interpretable clinical practice guidelines: A literature review of guideline representation models. Dongwen Wang, Mor Peleg, Samson W Tu, Aziz A Boxwala, Robert A Greenes, Vimla L Patel, Edward H Shortliffe. International Journal of Medical Informatics, Volume 68, Issues 1–3, 2002, Pages 59-70, ISSN 1386-5056, https://doi.org/10.1016/S1386-5056(02)00065-5." ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-identifier"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Identifier ;
+       fhir:use [ fhir:v "official" ] ;
+       fhir:system [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "CHFCasePlanSummaryDefinition" ]
+     ]
+  ] [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-title"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "CHF Case Plan Summary Definition" ]
+  ] ) ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "CHFCasePlanSummaryDefinition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
+  fhir:description [ fhir:v "Definition of the case plan summary document for a congestive heart failure pathway"] ; # 
+  fhir:start [ fhir:v "EpisodeOfCare"] ; # 
+  fhir:profile [
+     fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-case"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-case>
+  ] ; # 
+  fhir:link ( [
+     fhir:path [ fhir:v "encounter" ] ;
+     fhir:description [ fhir:v "Pathway Events" ] ;
+     fhir:target ( [
+       fhir:type [ fhir:v "Encounter" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-encounter"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-encounter>
+       ] ;
+       fhir:link ( [
+         fhir:description [ fhir:v "Weight" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "Weight Change" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "Urine Out" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "Net IO's" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "JVP" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp>
+           ]
+         ] [
+           fhir:type [ fhir:v "ServiceRequest" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp-request"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp-request>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "O2 Sat" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat>
+           ]
+         ] [
+           fhir:type [ fhir:v "ServiceRequest" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "Potassium" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "Creatinine" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "eGFR" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Observation" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "LASIX IV" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "MedicationAdministration" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration>
+           ]
+         ] [
+           fhir:type [ fhir:v "MedicationRequest" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-request"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-request>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "LASIX PO" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "MedicationAdministration" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration>
+           ]
+         ] [
+           fhir:type [ fhir:v "MedicationRequest" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request>
+           ]
+         ] )
+       ] [
+         fhir:description [ fhir:v "Cardiology Consultation" ] ;
+         fhir:target ( [
+           fhir:type [ fhir:v "Procedure" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult>
+           ]
+         ] [
+           fhir:type [ fhir:v "ServiceRequest" ] ;
+           fhir:profile [
+             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request"^^xsd:anyURI ;
+             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request>
+           ]
+         ] )
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

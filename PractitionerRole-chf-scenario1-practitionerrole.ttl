@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-scenario1-practitionerrole> a fhir:PractitionerRole ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-scenario1-practitionerrole"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole chf-scenario1-practitionerrole</b></p><a name=\"chf-scenario1-practitionerrole\"> </a><a name=\"hcchf-scenario1-practitionerrole\"> </a><a name=\"chf-scenario1-practitionerrole-en-US\"> </a><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-chf-scenario1-practitioner.html\">Practitioner Rodriguez, Jesse</a></p><p><b>organization</b>: <a href=\"Organization-chf-scenario1-organization.html\">Organization ACME Hospital</a></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-persona-cs 2212}\">Specialist medical practitioner</span></p><p><b>specialty</b>: <span title=\"Codes:{http://snomed.info/sct 394579002}\">Cardiology</span></p><p><b>location</b>: <a href=\"Location-chf-scenario1-location.html\">Location Unit 3 East</a></p></div>"
+  ] ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:practitioner [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Practitioner/chf-scenario1-practitioner> ;
+     fhir:reference [ fhir:v "Practitioner/chf-scenario1-practitioner" ]
+  ] ; # 
+  fhir:organization [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> ;
+     fhir:reference [ fhir:v "Organization/chf-scenario1-organization" ]
+  ] ; # 
+  fhir:code ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-persona-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "2212" ] ;
+       fhir:display [ fhir:v "Specialist medical practitioner" ]
+     ] )
+  ] ) ; # 
+  fhir:specialty ( [
+     fhir:coding ( [
+       a sct:394579002 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "394579002" ] ;
+       fhir:display [ fhir:v "Cardiology" ]
+     ] )
+  ] ) ; # 
+  fhir:location ( [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Location/chf-scenario1-location> ;
+     fhir:reference [ fhir:v "Location/chf-scenario1-location" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Practitioner/chf-scenario1-practitioner> a fhir:uv .
+
+<http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> a fhir:uv .
+
+<http://hl7.org/fhir/uv/cpg/chf/Location/chf-scenario1-location> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

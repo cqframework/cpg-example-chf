@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<MedicationAdministration xmlns="http://hl7.org/fhir">
+  <id value="chf-scenario1-lasix-po"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationAdministration chf-scenario1-lasix-po</b></p><a name="chf-scenario1-lasix-po"> </a><a name="hcchf-scenario1-lasix-po"> </a><a name="chf-scenario1-lasix-po-en-US"> </a><p><b>Based on</b>: <a href="MedicationRequest-chf-scenario1-lasix-po-mr.html">MedicationRequest: status = draft; intent = proposal; priority = routine; medication[x] = LASIX PO; instantiatesCanonical = http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po</a></p><p><b>status</b>: On Hold</p><p><b>medication</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes lasix-po}">LASIX PO</span></p><p><b>subject</b>: <a href="Patient-chf-scenario1-patient.html">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><p><b>effective</b>: 2019-02-03 13:00:00+0000</p><h3>Dosages</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Text</b></td><td><b>Route</b></td><td><b>Dose</b></td></tr><tr><td style="display: none">*</td><td>40mg</td><td><span title="Codes:{http://snomed.info/sct 26643006}">Oral Route (qualifier value)</span></td><td>40 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM  codemg = 'mg')</span></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/event-basedOn">
+    <valueReference>
+      <reference value="MedicationRequest/chf-scenario1-lasix-po-mr"/>
+    </valueReference>
+  </extension>
+  <status value="on-hold"/>
+  <medicationCodeableConcept>
+    <coding>
+      <system value="http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes"/>
+      <code value="lasix-po"/>
+      <display value="LASIX PO"/>
+    </coding>
+  </medicationCodeableConcept>
+  <subject>
+    <reference value="Patient/chf-scenario1-patient"/>
+  </subject>
+  <effectiveDateTime value="2019-02-03T13:00:00Z"/>
+  <dosage>
+    <text value="40mg"/>
+    <route>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="26643006"/>
+        <display value="Oral Route (qualifier value)"/>
+      </coding>
+    </route>
+    <dose>
+      <value value="40"/>
+      <unit value="mg"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="mg"/>
+    </dose>
+  </dosage>
+</MedicationAdministration>

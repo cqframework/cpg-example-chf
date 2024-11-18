@@ -1,0 +1,196 @@
+{
+  "resourceType" : "GraphDefinition",
+  "id" : "chf-casesummarydefinition",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-shareablegraphdefinition",
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-computablegraphdefinition",
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseplansummarydefinition"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: GraphDefinition chf-casesummarydefinition</b></p><a name=\"chf-casesummarydefinition\"> </a><a name=\"hcchf-casesummarydefinition\"> </a><a name=\"chf-casesummarydefinition-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>summaryDefinitionFor</b>: <a href=\"PlanDefinition-chf-pathway.html\">CHFPathway</a></p><p><b>copyright</b>: </p><div><p>Copyright (c) 2019+ HL7 International</p>\n</div><p><b>copyright</b>: </p><div><p>Copyright (c) 2019+ HL7 International</p>\n</div><p><b>topic</b>: <span title=\"Codes:{http://snomed.info/sct 42343007}\">Congestive heart failure</span></p><p><b>author</b>: Matthew Burton, MD: </p><p><b>editor</b>: Bryn Rhodes: </p><p><b>reviewer</b>: Davide Sottara: </p><p><b>endorser</b>: Example Quality Assurance Organization: </p><p><b>relatedArtifact</b>: No display for RelatedArtifact  (type: citation; citation: Representation primitives, process models and patient data in computer-interpretable clinical practice guidelines: A literature review of guideline representation models. Dongwen Wang, Mor Peleg, Samson W Tu, Aziz A Boxwala, Robert A Greenes, Vimla L Patel, Edward H Shortliffe. International Journal of Medical Informatics, Volume 68, Issues 1–3, 2002, Pages 59-70, ISSN 1386-5056, https://doi.org/10.1016/S1386-5056(02)00065-5.)</p><p><b>identifier</b>: <code>http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf</code>/CHFCaseSummaryDefinition\u00a0(use:\u00a0official,\u00a0)</p><p><b>title</b>: CHF Case Summary Definition</p><p><b>url</b>: <a href=\"GraphDefinition-chf-casesummarydefinition.html\">GraphDefinition CHFCaseSummaryDefinition</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFCaseSummaryDefinition</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>description</b>: </p><div><p>Definition of the case summary document for a congestive heart failure pathway</p>\n</div><p><b>start</b>: EpisodeOfCare</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-case.html\">CPGCase</a></p><blockquote><p><b>link</b></p><p><b>path</b>: encounter</p><p><b>description</b>: Pathway Events</p><blockquote><p><b>target</b></p><p><b>type</b>: Encounter</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-encounter.html\">CPGEncounter</a></p><blockquote><p><b>link</b></p><p><b>description</b>: Weight</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-bodyweight.html\">CHF Body Weight</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Weight Change</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-bodyweight-change.html\">CHF Body Weight Change</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Urine Out</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-urine-out.html\">CHF Urine Out</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Net IO's</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-net-io.html\">CHF Net Intake/Output</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: JVP</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-jvp.html\">CHF Jugular Venous Pressure</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: O2 Sat</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-o2-sat.html\">CHF Oxygen Saturation</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Potassium</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-potassium.html\">CHF Potassium</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Creatinine</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-creatinine.html\">CHF Creatinine</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: eGFR</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Observation</td><td><a href=\"StructureDefinition-chf-egfr.html\">CHF eGFR</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: LASIX IV</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>MedicationAdministration</td><td><a href=\"StructureDefinition-chf-lasix-iv-administration.html\">CHF LASIX IV Administration</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: LASIX PO</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>MedicationAdministration</td><td><a href=\"StructureDefinition-chf-lasix-po-administration.html\">CHF LASIX PO Administration</a></td></tr></table></blockquote><blockquote><p><b>link</b></p><p><b>description</b>: Cardiology Consultation</p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Profile</b></td></tr><tr><td style=\"display: none\">*</td><td>Procedure</td><td><a href=\"StructureDefinition-chf-cardiology-consult.html\">CHF Cardiology Consult</a></td></tr></table></blockquote></blockquote></blockquote></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode" : "shareable"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode" : "computable"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
+    "valueCode" : "publishable"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
+    "valueCode" : "structured"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryDefinitionFor",
+    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright",
+    "valueMarkdown" : "Copyright (c) 2019+ HL7 International"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-topic",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "42343007",
+        "display" : "Congestive heart failure (disorder)"
+      }],
+      "text" : "Congestive heart failure"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-author",
+    "valueContactDetail" : {
+      "name" : "Matthew Burton, MD"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-editor",
+    "valueContactDetail" : {
+      "name" : "Bryn Rhodes"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-reviewer",
+    "valueContactDetail" : {
+      "name" : "Davide Sottara"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-endorser",
+    "valueContactDetail" : {
+      "name" : "Example Quality Assurance Organization"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright",
+    "valueMarkdown" : "Copyright (c) 2019+ HL7 International"
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-relatedArtifact",
+    "valueRelatedArtifact" : {
+      "type" : "citation",
+      "citation" : "Representation primitives, process models and patient data in computer-interpretable clinical practice guidelines: A literature review of guideline representation models. Dongwen Wang, Mor Peleg, Samson W Tu, Aziz A Boxwala, Robert A Greenes, Vimla L Patel, Edward H Shortliffe. International Journal of Medical Informatics, Volume 68, Issues 1–3, 2002, Pages 59-70, ISSN 1386-5056, https://doi.org/10.1016/S1386-5056(02)00065-5."
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-identifier",
+    "valueIdentifier" : {
+      "use" : "official",
+      "system" : "http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf",
+      "value" : "CHFCaseSummaryDefinition"
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-title",
+    "valueString" : "CHF Case Summary Definition"
+  }],
+  "url" : "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-casesummarydefinition",
+  "version" : "1.0.0",
+  "name" : "CHFCaseSummaryDefinition",
+  "status" : "active",
+  "experimental" : true,
+  "publisher" : "HL7 International - Clinical Decision Support WG",
+  "description" : "Definition of the case summary document for a congestive heart failure pathway",
+  "start" : "EpisodeOfCare",
+  "profile" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-case",
+  "link" : [{
+    "path" : "encounter",
+    "description" : "Pathway Events",
+    "target" : [{
+      "type" : "Encounter",
+      "profile" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-encounter",
+      "link" : [{
+        "description" : "Weight",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"
+        }]
+      },
+      {
+        "description" : "Weight Change",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"
+        }]
+      },
+      {
+        "description" : "Urine Out",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"
+        }]
+      },
+      {
+        "description" : "Net IO's",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"
+        }]
+      },
+      {
+        "description" : "JVP",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"
+        }]
+      },
+      {
+        "description" : "O2 Sat",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"
+        }]
+      },
+      {
+        "description" : "Potassium",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"
+        }]
+      },
+      {
+        "description" : "Creatinine",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"
+        }]
+      },
+      {
+        "description" : "eGFR",
+        "target" : [{
+          "type" : "Observation",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"
+        }]
+      },
+      {
+        "description" : "LASIX IV",
+        "target" : [{
+          "type" : "MedicationAdministration",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration"
+        }]
+      },
+      {
+        "description" : "LASIX PO",
+        "target" : [{
+          "type" : "MedicationAdministration",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration"
+        }]
+      },
+      {
+        "description" : "Cardiology Consultation",
+        "target" : [{
+          "type" : "Procedure",
+          "profile" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult"
+        }]
+      }]
+    }]
+  }]
+}

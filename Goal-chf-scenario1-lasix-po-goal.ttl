@@ -1,0 +1,48 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-lasix-po-goal> a fhir:Goal ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-scenario1-lasix-po-goal"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Goal chf-scenario1-lasix-po-goal</b></p><a name=\"chf-scenario1-lasix-po-goal\"> </a><a name=\"hcchf-scenario1-lasix-po-goal\"> </a><a name=\"chf-scenario1-lasix-po-goal-en-US\"> </a><p><b>goalFor</b>: <a href=\"PlanDefinition-chf-lasix.html\">CHFLASIX</a></p><p><b>lifecycleStatus</b>: Active</p><p><b>achievementStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/goal-achievement improving}\">Improving</span></p><p><b>description</b>: <span title=\"Codes:\">PO 24 hr Prior to Discharge</span></p><p><b>subject</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes lasix-po}\">LASIX PO</span></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix>
+     ]
+  ] ) ; # 
+  fhir:lifecycleStatus [ fhir:v "active"] ; # 
+  fhir:achievementStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/goal-achievement"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "improving" ]
+     ] )
+  ] ; # 
+  fhir:description [
+     fhir:text [ fhir:v "PO 24 hr Prior to Discharge" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
+  ] ; # 
+  fhir:target ( [
+     fhir:measure [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "lasix-po" ]
+       ] )
+     ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

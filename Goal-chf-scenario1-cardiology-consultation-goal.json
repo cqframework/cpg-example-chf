@@ -1,0 +1,33 @@
+{
+  "resourceType" : "Goal",
+  "id" : "chf-scenario1-cardiology-consultation-goal",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Goal chf-scenario1-cardiology-consultation-goal</b></p><a name=\"chf-scenario1-cardiology-consultation-goal\"> </a><a name=\"hcchf-scenario1-cardiology-consultation-goal\"> </a><a name=\"chf-scenario1-cardiology-consultation-goal-en-US\"> </a><p><b>goalFor</b>: <a href=\"PlanDefinition-chf-cardiology-consultation-pd.html\">CHFCardiologyConsultation</a></p><p><b>lifecycleStatus</b>: Active</p><p><b>achievementStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/goal-achievement improving}\">Improving</span></p><p><b>description</b>: <span title=\"Codes:\">Cardiology Consultation Within 24 Hours</span></p><p><b>subject</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes cardiology-consultation}\">Cardiology Consultation</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor",
+    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd"
+  }],
+  "lifecycleStatus" : "active",
+  "achievementStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/goal-achievement",
+      "code" : "improving"
+    }]
+  },
+  "description" : {
+    "text" : "Cardiology Consultation Within 24 Hours"
+  },
+  "subject" : {
+    "reference" : "Patient/chf-scenario1-patient"
+  },
+  "target" : [{
+    "measure" : {
+      "coding" : [{
+        "system" : "http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes",
+        "code" : "cardiology-consultation"
+      }]
+    }
+  }]
+}

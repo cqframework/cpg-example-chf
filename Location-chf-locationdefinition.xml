@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Location xmlns="http://hl7.org/fhir">
+  <id value="chf-locationdefinition"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Location chf-locationdefinition</b></p><a name="chf-locationdefinition"> </a><a name="hcchf-locationdefinition"> </a><a name="chf-locationdefinition-en-US"> </a><p><b>name</b>: Cardiovascular diagnostics or therapeutics unit</p><p><b>mode</b>: Kind</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-RoleCode CVDX}">Cardiovascular diagnostics or therapeutics unit</span></p></div>
+  </text>
+  <name value="Cardiovascular diagnostics or therapeutics unit"/>
+  <mode value="kind"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
+      <code value="CVDX"/>
+      <display value="Cardiovascular diagnostics or therapeutics unit"/>
+    </coding>
+  </type>
+</Location>

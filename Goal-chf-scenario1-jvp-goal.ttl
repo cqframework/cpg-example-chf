@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-jvp-goal> a fhir:Goal ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-scenario1-jvp-goal"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Goal chf-scenario1-jvp-goal</b></p><a name=\"chf-scenario1-jvp-goal\"> </a><a name=\"hcchf-scenario1-jvp-goal\"> </a><a name=\"chf-scenario1-jvp-goal-en-US\"> </a><p><b>goalFor</b>: <a href=\"PlanDefinition-chf-jvp-pd.html\">CHFJVPPD</a></p><p><b>lifecycleStatus</b>: Active</p><p><b>achievementStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/goal-achievement improving}\">Improving</span></p><p><b>description</b>: <span title=\"Codes:\">Jugular venous pressure &lt; 8.0 cmH2O</span></p><p><b>subject</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><h3>Targets</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes jvp}\">Jugular venous pressure</span></td><td>&lt;8 cmH2O<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codecm[H2O] = 'cm[H2O]')</span></td></tr></table></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"^^xsd:anyURI ] ;
+     fhir:value [
+       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd>
+     ]
+  ] ) ; # 
+  fhir:lifecycleStatus [ fhir:v "active"] ; # 
+  fhir:achievementStatus [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/goal-achievement"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "improving" ]
+     ] )
+  ] ; # 
+  fhir:description [
+     fhir:text [ fhir:v "Jugular venous pressure < 8.0 cmH2O" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
+  ] ; # 
+  fhir:target ( [
+     fhir:measure [
+       fhir:coding ( [
+         fhir:system [ fhir:v "http://hl7.org/fhir/uv/cpg/CodeSystem/chf-codes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "jvp" ]
+       ] )
+     ] ;
+     fhir:detail [
+       a fhir:Quantity ;
+       fhir:value [ fhir:v "8"^^xsd:decimal ] ;
+       fhir:comparator [ fhir:v "<" ] ;
+       fhir:unit [ fhir:v "cmH2O" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "cm[H2O]" ]
+     ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

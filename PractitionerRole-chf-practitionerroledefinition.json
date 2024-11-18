@@ -1,0 +1,25 @@
+{
+  "resourceType" : "PractitionerRole",
+  "id" : "chf-practitionerroledefinition",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PractitionerRole chf-practitionerroledefinition</b></p><a name=\"chf-practitionerroledefinition\"> </a><a name=\"hcchf-practitionerroledefinition\"> </a><a name=\"chf-practitionerroledefinition-en-US\"> </a><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-persona-cs 2212}\">Specialist medical practitioner</span></p><p><b>specialty</b>: <span title=\"Codes:{http://snomed.info/sct 394579002}\">Cardiology</span></p><p><b>location</b>: <a href=\"Location-chf-locationdefinition.html\">Location Cardiovascular diagnostics or therapeutics unit</a></p></div>"
+  },
+  "code" : [{
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-persona-cs",
+      "code" : "2212",
+      "display" : "Specialist medical practitioner"
+    }]
+  }],
+  "specialty" : [{
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "394579002",
+      "display" : "Cardiology"
+    }]
+  }],
+  "location" : [{
+    "reference" : "Location/chf-locationdefinition"
+  }]
+}

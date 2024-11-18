@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight4> a fhir:MeasureReport ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-scenario1-bodyweight4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: MeasureReport chf-scenario1-bodyweight4</b></p><a name=\"chf-scenario1-bodyweight4\"> </a><a name=\"hcchf-scenario1-bodyweight4\"> </a><a name=\"chf-scenario1-bodyweight4-en-US\"> </a><p><b>status</b>: Complete</p><p><b>type</b>: Individual</p><p><b>measure</b>: <a href=\"Measure-chf-bodyweight-measure.html\">CHF Body Weight Metric</a></p><p><b>subject</b>: <a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><p><b>date</b>: 2019-02-03</p><p><b>period</b>: 2019-02-03 --&gt; 2019-02-03</p><p><b>improvementNotation</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-improvement-notation decrease}\">Decreased score indicates improvement</span></p><blockquote><p><b>group</b></p><h3>Populations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Code</b></td><td><b>Count</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://terminology.hl7.org/CodeSystem/measure-population measure-observation}\">Measure Observation</span></td><td>1</td></tr></table><p><b>measureScore</b>: 95.7 kg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codekg = 'kg')</span></p></blockquote><p><b>evaluatedResource</b>: <a href=\"Observation-chf-scenario1-bodyweight4-observation.html\">Observation Body weight</a></p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "complete"] ; # 
+  fhir:type [ fhir:v "individual"] ; # 
+  fhir:measure [
+     fhir:v "http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-measure"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-measure>
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
+  ] ; # 
+  fhir:date [ fhir:v "2019-02-03"^^xsd:date] ; # 
+  fhir:period [
+     fhir:start [ fhir:v "2019-02-03"^^xsd:date ] ;
+     fhir:end [ fhir:v "2019-02-03"^^xsd:date ]
+  ] ; # 
+  fhir:improvementNotation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-improvement-notation"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "decrease" ]
+     ] )
+  ] ; # 
+  fhir:group ( [
+     fhir:population ( [
+       fhir:code [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/measure-population"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "measure-observation" ]
+         ] )
+       ] ;
+       fhir:count [ fhir:v "1"^^xsd:integer ]
+     ] ) ;
+     fhir:measureScore [
+       fhir:value [ fhir:v "95.7"^^xsd:decimal ] ;
+       fhir:unit [ fhir:v "kg" ] ;
+       fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "kg" ]
+     ]
+  ] ) ; # 
+  fhir:evaluatedResource ( [
+     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight4-observation> ;
+     fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight4-observation" ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
+
+<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight4-observation> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<EpisodeOfCare xmlns="http://hl7.org/fhir">
+  <id value="chf-scenario1-eoc"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: EpisodeOfCare chf-scenario1-eoc</b></p><a name="chf-scenario1-eoc"> </a><a name="hcchf-scenario1-eoc"> </a><a name="chf-scenario1-eoc-en-US"> </a><p><b>enrolledIn</b>: <a href="PlanDefinition-chf-pathway.html">CHFPathway</a></p><p><b>status</b>: Active</p><h3>Diagnoses</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Condition</b></td></tr><tr><td style="display: none">*</td><td><a href="Condition-chf-scenario1-condition.html">Condition Congestive heart failure (disorder)</a></td></tr></table><p><b>patient</b>: <a href="Patient-chf-scenario1-patient.html">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><p><b>period</b>: 2019-01-31 05:03:00+0000 --&gt; (ongoing)</p></div>
+  </text>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enrolledIn">
+    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"/>
+  </extension>
+  <status value="active"/>
+  <diagnosis>
+    <condition>
+      <reference value="Condition/chf-scenario1-condition"/>
+    </condition>
+  </diagnosis>
+  <patient>
+    <reference value="Patient/chf-scenario1-patient"/>
+  </patient>
+  <period>
+    <start value="2019-01-31T05:03:00Z"/>
+  </period>
+</EpisodeOfCare>

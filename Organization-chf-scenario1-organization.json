@@ -1,0 +1,10 @@
+{
+  "resourceType" : "Organization",
+  "id" : "chf-scenario1-organization",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Organization chf-scenario1-organization</b></p><a name=\"chf-scenario1-organization\"> </a><a name=\"hcchf-scenario1-organization\"> </a><a name=\"chf-scenario1-organization-en-US\"> </a><p><b>active</b>: true</p><p><b>name</b>: ACME Hospital</p></div>"
+  },
+  "active" : true,
+  "name" : "ACME Hospital"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf",
+  "name" : "CPGCongestiveHeartFailureExamples",
+  "title" : "Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure",
+  "description" : "Examples of CPG computable content representing a congestive heart failure pathway",
+  "status" : "active",
+  "package-id" : "hl7.fhir.uv.cpg.chf",
+  "ig-ver" : "1.0.0",
+  "date" : "Mon, 18 Nov, 2024 18:36:46 +0000",
+  "dateISO8601" : "2024-11-18T18:36:46+00:00",
+  "errs" : 109,
+  "warnings" : 92,
+  "hints" : 370,
+  "suppressed-hints" : 13,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1612794000
+}

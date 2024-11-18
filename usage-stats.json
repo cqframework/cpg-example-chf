@@ -1,0 +1,197 @@
+{
+  "package": "hl7.fhir.uv.cpg.chf",
+  "version": "1.0.0",
+  "fhirVersion": "4.0.1",
+  "jurisdiction": "001",
+  "extensions": [],
+  "profiles": {
+    "Observation": [
+      {
+        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium",
+        "title": "CHF Potassium"
+      },
+      {
+        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out",
+        "title": "CHF Urine Out"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult",
+        "title": "CHF Cardiology Consult"
+      }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request",
+        "title": "CHF Oxygen Saturation Request"
+      }
+    ],
+    "MedicationAdministration": [
+      {
+        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration",
+        "title": "CHF LASIX PO Administration"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request",
+        "title": "CHF LASIX PO Request"
+      }
+    ]
+  },
+  "usage": {
+    "http://hl7.org/fhir/StructureDefinition/cqf-expression": [
+      "Group"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
+      "StructureDefinition.snapshot.element.constraint"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
+      "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/event-basedOn": [
+      "MedicationAdministration"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/workflow-instantiatesCanonical": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
+      "ImplementationGuide.definition.page",
+      "ImplementationGuide.definition.page.page"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
+      "ImplementationGuide.dependsOn"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-assertionExpression": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-author": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeaturePertinence": [
+      "MedicationAdministration",
+      "Observation",
+      "Procedure"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType": [
+      "MedicationAdministration",
+      "Observation",
+      "Procedure"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-editor": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled": [
+      "PlanDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-endorser": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enrolledIn": [
+      "EpisodeOfCare"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-featureExpression": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor": [
+      "Goal"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-identifier": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-impressionFor": [
+      "ClinicalImpression"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-inferenceExpression": [
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature": [
+      "MedicationAdministration",
+      "Observation",
+      "Procedure"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability": [
+      "ActivityDefinition",
+      "CodeSystem",
+      "GraphDefinition",
+      "Library",
+      "Measure",
+      "PlanDefinition",
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel": [
+      "ActivityDefinition",
+      "CodeSystem",
+      "GraphDefinition",
+      "Library",
+      "Measure",
+      "PlanDefinition",
+      "StructureDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-partOf": [
+      "PlanDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pertinent": [
+      "Observation"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-planFor": [
+      "CarePlan"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-rationale": [
+      "MedicationRequest",
+      "ServiceRequest"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-relatedArtifact": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-reportWith": [
+      "ActivityDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-reviewer": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryDefinitionFor": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryFor": [
+      "Composition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-title": [
+      "GraphDefinition"
+    ],
+    "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-topic": [
+      "GraphDefinition"
+    ]
+  }
+}

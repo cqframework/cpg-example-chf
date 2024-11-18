@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/cpg/chf/CareTeam/chf-careteamdefinition> a fhir:CareTeam ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "chf-careteamdefinition"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CareTeam chf-careteamdefinition</b></p><a name=\"chf-careteamdefinition\"> </a><a name=\"hcchf-careteamdefinition\"> </a><a name=\"chf-careteamdefinition-en-US\"> </a><p><b>name</b>: CHF Care Team (definition)</p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Role</b></td><td><b>Member</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 17561000}\">Cardiologist</span></td><td><a href=\"PractitionerRole-chf-practitionerroledefinition.html\">PractitionerRole Specialist medical practitioner</a></td></tr></table></div>"
+  ] ; # 
+  fhir:name [ fhir:v "CHF Care Team (definition)"] ; # 
+  fhir:participant ( [
+     fhir:role ( [
+       fhir:coding ( [
+         a sct:17561000 ;
+         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "17561000" ] ;
+         fhir:display [ fhir:v "Cardiologist" ]
+       ] )
+     ] ) ;
+     fhir:member [
+       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-practitionerroledefinition> ;
+       fhir:reference [ fhir:v "PractitionerRole/chf-practitionerroledefinition" ]
+     ]
+  ] ) . # 
+
+<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-practitionerroledefinition> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

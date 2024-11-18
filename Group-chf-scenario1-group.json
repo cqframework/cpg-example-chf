@@ -1,0 +1,24 @@
+{
+  "resourceType" : "Group",
+  "id" : "chf-scenario1-group",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Group chf-scenario1-group</b></p><a name=\"chf-scenario1-group\"> </a><a name=\"hcchf-scenario1-group\"> </a><a name=\"chf-scenario1-group-en-US\"> </a><p><b>active</b>: true</p><p><b>type</b>: Person</p><p><b>actual</b>: true</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 42343007}\">Congestive heart failure (disorder)</span></p><p><b>name</b>: Congestive Heart Failure Patients</p><h3>Members</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Entity</b></td></tr><tr><td style=\"display: none\">*</td><td><a href=\"Patient-chf-scenario1-patient.html\">Patterson, Jeremy Male, DoB: 1949-03-17</a></td></tr></table></div>"
+  },
+  "active" : true,
+  "type" : "person",
+  "actual" : true,
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "42343007",
+      "display" : "Congestive heart failure (disorder)"
+    }]
+  },
+  "name" : "Congestive Heart Failure Patients",
+  "member" : [{
+    "entity" : {
+      "reference" : "Patient/chf-scenario1-patient"
+    }
+  }]
+}

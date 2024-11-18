@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="chf-creatinine-pd"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PlanDefinition chf-creatinine-pd</b></p><a name="chf-creatinine-pd"> </a><a name="hcchf-creatinine-pd"> </a><a name="chf-creatinine-pd-en-US"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href="PlanDefinition-chf-hypervolemia.html">CHFHypervolemia</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href="PlanDefinition-chf-creatinine-pd.html">PlanDefinition CHFCreatininePD</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFCreatininePD</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type eca-rule}">ECA Rule</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href="http://www.hl7.org/Special/committees/dss/index.cfm">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Monitor creatinine</p>
+</div><p><b>jurisdiction</b>: <span title="Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}">World</span></p><h3>Goals</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Description</b></td><td><b>Start</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">Monitor creatnine</span></td><td><span title="Codes:{http://snomed.info/sct 32485007}">Admission to hospital</span></td></tr></table><blockquote><p><b>action</b></p><blockquote><p><b>id</b></p>creatinine</blockquote><p><b>title</b>: Creatinine</p><p><b>description</b>: Monitor creatinine</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}">diagnostic-testing</span></p><h3>Triggers</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Timing[x]</b></td></tr><tr><td style="display: none">*</td><td>Periodic</td><td>Once per 1 days</td></tr></table><p><b>definition</b>: <a href="ActivityDefinition-chf-creatinine-ad.html">CHFCreatinine</a></p></blockquote></div>
+  </text>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
+    <valueCode value="shareable"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
+    <valueCode value="computable"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
+    <valueCode value="publishable"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel">
+    <valueCode value="structured"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-partOf">
+    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled">
+    <valueBoolean value="true"/>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-creatinine-pd"/>
+  <version value="1.0.0"/>
+  <name value="CHFCreatininePD"/>
+  <type>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/plan-definition-type"/>
+      <code value="eca-rule"/>
+    </coding>
+  </type>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2024-11-18T18:36:46+00:00"/>
+  <publisher value="HL7 International - Clinical Decision Support WG"/>
+  <contact>
+    <name value="HL7 International - Clinical Decision Support WG"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/dss/index.cfm"/>
+    </telecom>
+  </contact>
+  <description value="Monitor creatinine"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <goal>
+    <description>
+      <text value="Monitor creatnine"/>
+    </description>
+    <start>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="32485007"/>
+        <display value="Admission to hospital"/>
+      </coding>
+    </start>
+  </goal>
+  <action id="creatinine">
+    <title value="Creatinine"/>
+    <description value="Monitor creatinine"/>
+    <code>
+      <coding>
+        <system value="http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs"/>
+        <code value="diagnostic-testing"/>
+      </coding>
+    </code>
+    <trigger>
+      <type value="periodic"/>
+      <timingTiming>
+        <repeat>
+          <frequency value="1"/>
+          <period value="1"/>
+          <periodUnit value="d"/>
+        </repeat>
+      </timingTiming>
+    </trigger>
+    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-creatinine-ad"/>
+  </action>
+</PlanDefinition>
