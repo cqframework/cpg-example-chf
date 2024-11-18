@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-daily-management> a fhir:PlanDefinition ;
+<http://cqframework.org/cpg-example-chf/PlanDefinition/chf-daily-management> a fhir:PlanDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-daily-management"] ; # 
   fhir:meta [
@@ -16,7 +16,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PlanDefinition chf-daily-management</b></p><a name=\"chf-daily-management\"> </a><a name=\"hcchf-daily-management\"> </a><a name=\"chf-daily-management-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href=\"PlanDefinition-chf-pathway.html\">CHFPathway</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href=\"PlanDefinition-chf-daily-management.html\">PlanDefinition CHFDailyManagement</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFDailyManagement</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type workflow-definition}\">Workflow Definition</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Daily management strategy as part of a care pathway for patients with admitting diagnosis of congestive heart failure</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><blockquote><p><b>action</b></p><p><b>title</b>: Weight</p><p><b>description</b>: Measure weight daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-bodyweight-pd.html\">CHFBodyWeight</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Weight Change</p><p><b>description</b>: Manage weight change</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-bodyweight-change-pd.html\">CHFBodyWeightChange</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Urine Output</p><p><b>description</b>: Measure urine output daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-urine-out-pd.html\">CHFUrineOut</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Net I/Os</p><p><b>description</b>: Measure net intake/output daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-net-io-pd.html\">CHFNetIO</a></p></blockquote></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PlanDefinition chf-daily-management</b></p><a name=\"chf-daily-management\"> </a><a name=\"hcchf-daily-management\"> </a><a name=\"chf-daily-management-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href=\"PlanDefinition-chf-pathway.html\">CHFPathway</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href=\"PlanDefinition-chf-daily-management.html\">PlanDefinition CHFDailyManagement</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFDailyManagement</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type workflow-definition}\">Workflow Definition</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:43:23+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Daily management strategy as part of a care pathway for patients with admitting diagnosis of congestive heart failure</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><blockquote><p><b>action</b></p><p><b>title</b>: Weight</p><p><b>description</b>: Measure weight daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-bodyweight-pd.html\">CHFBodyWeight</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Weight Change</p><p><b>description</b>: Manage weight change</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-bodyweight-change-pd.html\">CHFBodyWeightChange</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Urine Output</p><p><b>description</b>: Measure urine output daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-urine-out-pd.html\">CHFUrineOut</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Net I/Os</p><p><b>description</b>: Measure net intake/output daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><p><b>definition</b>: <a href=\"PlanDefinition-chf-net-io-pd.html\">CHFNetIO</a></p></blockquote></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
@@ -33,14 +33,14 @@
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-partOf"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway>
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "true"^^xsd:boolean ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-daily-management"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-daily-management"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "CHFDailyManagement"] ; # 
   fhir:type [
@@ -51,7 +51,7 @@
   ] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-11-18T18:36:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;
@@ -78,8 +78,8 @@
        ] )
      ] ) ;
      fhir:definition [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-pd"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-pd>
      ]
   ] [
      fhir:title [ fhir:v "Weight Change" ] ;
@@ -91,8 +91,8 @@
        ] )
      ] ) ;
      fhir:definition [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-change-pd"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-change-pd>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-change-pd"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-change-pd>
      ]
   ] [
      fhir:title [ fhir:v "Urine Output" ] ;
@@ -104,8 +104,8 @@
        ] )
      ] ) ;
      fhir:definition [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-urine-out-pd"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-urine-out-pd>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-urine-out-pd"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-urine-out-pd>
      ]
   ] [
      fhir:title [ fhir:v "Net I/Os" ] ;
@@ -117,8 +117,8 @@
        ] )
      ] ) ;
      fhir:definition [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-net-io-pd"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-net-io-pd>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-net-io-pd"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-net-io-pd>
      ]
   ] ) . # 
 

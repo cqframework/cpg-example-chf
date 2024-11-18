@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-cardiology-consultation-goal> a fhir:Goal ;
+<http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-cardiology-consultation-goal> a fhir:Goal ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-cardiology-consultation-goal"] ; # 
   fhir:text [
@@ -15,8 +15,8 @@
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd>
+       fhir:v "http://cqframework.org/cpg-example-chf/PlanDefinition/chf-cardiology-consultation-pd"^^xsd:anyURI ;
+       fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-cardiology-consultation-pd>
      ]
   ] ) ; # 
   fhir:lifecycleStatus [ fhir:v "active"] ; # 
@@ -30,7 +30,7 @@
      fhir:text [ fhir:v "Cardiology Consultation Within 24 Hours" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:target ( [
@@ -41,8 +41,6 @@
        ] )
      ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

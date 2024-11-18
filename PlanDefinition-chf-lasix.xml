@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-recommendationdefinition"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PlanDefinition chf-lasix</b></p><a name="chf-lasix"> </a><a name="hcchf-lasix"> </a><a name="chf-lasix-en-US"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href="PlanDefinition-chf-hypervolemia.html">CHFHypervolemia</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href="PlanDefinition-chf-lasix.html">PlanDefinition CHFLASIX</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFLASIX</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type eca-rule}">ECA Rule</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href="http://www.hl7.org/Special/committees/dss/index.cfm">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Administer LASIX IV, transition to PO as appropriate</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PlanDefinition chf-lasix</b></p><a name="chf-lasix"> </a><a name="hcchf-lasix"> </a><a name="chf-lasix-en-US"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href="PlanDefinition-chf-hypervolemia.html">CHFHypervolemia</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href="PlanDefinition-chf-lasix.html">PlanDefinition CHFLASIX</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFLASIX</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type eca-rule}">ECA Rule</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:43:23+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href="http://www.hl7.org/Special/committees/dss/index.cfm">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Administer LASIX IV, transition to PO as appropriate</p>
 </div><p><b>jurisdiction</b>: <span title="Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}">World</span></p><h3>Goals</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Description</b></td><td><b>Start</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:">Transition to LASIX PO</span></td><td><span title="Codes:{http://snomed.info/sct 32485007}">Admission to hospital</span></td></tr></table><blockquote><p><b>action</b></p><blockquote><p><b>id</b></p>lasix-iv</blockquote><p><b>title</b>: LASIX IV</p><p><b>description</b>: Administer LASIX IV</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs dispense-medications}">dispense-medications</span></p><blockquote><p><b>condition</b></p><p><b>kind</b>: Stop</p><h3>Expressions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Language</b></td><td><b>Expression</b></td></tr><tr><td style="display: none">*</td><td>text/cql-identifier</td><td>Should Stop LASIX IV</td></tr></table></blockquote><p><b>definition</b>: <a href="ActivityDefinition-chf-lasix-iv.html">CHFLASIXIV</a></p></blockquote><blockquote><p><b>action</b></p><blockquote><p><b>id</b></p>lasix-po</blockquote><p><b>title</b>: LASIX PO</p><p><b>description</b>: Administer LASIX PO</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs dispense-medications}">dispense-medications</span></p><blockquote><p><b>condition</b></p><p><b>kind</b>: Start</p><h3>Expressions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Language</b></td><td><b>Expression</b></td></tr><tr><td style="display: none">*</td><td>text/cql-identifier</td><td>Should Start LASIX PO</td></tr></table></blockquote><p><b>definition</b>: <a href="ActivityDefinition-chf-lasix-po.html">CHFLASIXPO</a></p></blockquote></div>
   </text>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
@@ -22,12 +22,12 @@
     <valueCode value="structured"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-partOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled">
     <valueBoolean value="true"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix"/>
+  <url value="http://cqframework.cpg-example-chf/PlanDefinition/chf-lasix"/>
   <version value="1.0.0"/>
   <name value="CHFLASIX"/>
   <type>
@@ -38,7 +38,7 @@
   </type>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2024-11-18T18:36:46+00:00"/>
+  <date value="2024-11-18T18:43:23+00:00"/>
   <publisher value="HL7 International - Clinical Decision Support WG"/>
   <contact>
     <name value="HL7 International - Clinical Decision Support WG"/>
@@ -83,7 +83,7 @@
         <expression value="Should Stop LASIX IV"/>
       </expression>
     </condition>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-iv"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-iv"/>
   </action>
   <action id="lasix-po">
     <title value="LASIX PO"/>
@@ -101,6 +101,6 @@
         <expression value="Should Start LASIX PO"/>
       </expression>
     </condition>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-po"/>
   </action>
 </PlanDefinition>

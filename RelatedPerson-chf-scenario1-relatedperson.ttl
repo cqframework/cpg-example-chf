@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/RelatedPerson/chf-scenario1-relatedperson> a fhir:RelatedPerson ;
+<http://cqframework.org/cpg-example-chf/RelatedPerson/chf-scenario1-relatedperson> a fhir:RelatedPerson ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-relatedperson"] ; # 
   fhir:text [
@@ -14,7 +14,7 @@
   ] ; # 
   fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:relationship ( [
@@ -30,8 +30,6 @@
      fhir:family [ fhir:v "Patterson" ] ;
      fhir:given ( [ fhir:v "Maggie" ] )
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

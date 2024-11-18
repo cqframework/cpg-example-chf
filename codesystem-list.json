@@ -1,7 +1,7 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes",
+      "url" : "http://cqframework.cpg-example-chf/CodeSystem/chf-codes",
       "version" : "1.0.0",
       "status" : "active",
       "name" : "CHFCodes",

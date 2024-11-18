@@ -18,7 +18,7 @@
   "subject" : {
     "reference" : "Patient/chf-scenario1-patient"
   },
-  "instantiatesCanonical" : ["http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po"],
+  "instantiatesCanonical" : ["http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-po"],
   "dosageInstruction" : [{
     "sequence" : 1,
     "text" : "40mg",

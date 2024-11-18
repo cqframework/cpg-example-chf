@@ -22,21 +22,21 @@
     <valueCode value="structured"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-o2-sat-pd"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-o2-sat-pd"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request"/>
+  <url value="http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat-request"/>
   <version value="1.0.0"/>
   <name value="CHFO2SatRequest"/>
   <title value="CHF Oxygen Saturation Request"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2024-11-18T18:36:46+00:00"/>
+  <date value="2024-11-18T18:43:23+00:00"/>
   <publisher value="HL7 International - Clinical Decision Support WG"/>
   <contact>
     <name value="HL7 International - Clinical Decision Support WG"/>

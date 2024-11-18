@@ -18,7 +18,7 @@
   <subject>
     <reference value="Patient/chf-scenario1-patient"/>
   </subject>
-  <instantiatesCanonical value="http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po"/>
+  <instantiatesCanonical value="http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-po"/>
   <dosageInstruction>
     <sequence value="1"/>
     <text value="40mg"/>

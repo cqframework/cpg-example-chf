@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Group/chf-scenario1-group> a fhir:Group ;
+<http://cqframework.org/cpg-example-chf/Group/chf-scenario1-group> a fhir:Group ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-group"] ; # 
   fhir:text [
@@ -27,12 +27,10 @@
   fhir:name [ fhir:v "Congestive Heart Failure Patients"] ; # 
   fhir:member ( [
      fhir:entity [
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+       fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
        fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
      ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

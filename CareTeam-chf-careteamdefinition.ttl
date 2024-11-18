@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/CareTeam/chf-careteamdefinition> a fhir:CareTeam ;
+<http://cqframework.org/cpg-example-chf/CareTeam/chf-careteamdefinition> a fhir:CareTeam ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-careteamdefinition"] ; # 
   fhir:text [
@@ -24,12 +24,10 @@
        ] )
      ] ) ;
      fhir:member [
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-practitionerroledefinition> ;
+       fhir:link <http://cqframework.org/cpg-example-chf/PractitionerRole/chf-practitionerroledefinition> ;
        fhir:reference [ fhir:v "PractitionerRole/chf-practitionerroledefinition" ]
      ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-practitionerroledefinition> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/MedicationAdministration/chf-scenario1-lasix-iv> a fhir:MedicationAdministration ;
+<http://cqframework.org/cpg-example-chf/MedicationAdministration/chf-scenario1-lasix-iv> a fhir:MedicationAdministration ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-lasix-iv"] ; # 
   fhir:text [
@@ -23,7 +23,7 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:effective [ fhir:v "2019-02-03T07:08:00Z"^^xsd:dateTime] ; # 
@@ -44,8 +44,6 @@
        fhir:code [ fhir:v "mg" ]
      ]
   ] . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

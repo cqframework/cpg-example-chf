@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Procedure/chf-scenario1-cardiology-consult> a fhir:Procedure ;
+<http://cqframework.org/cpg-example-chf/Procedure/chf-scenario1-cardiology-consult> a fhir:Procedure ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-cardiology-consult"] ; # 
   fhir:text [
@@ -16,12 +16,12 @@
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult>
+       fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult>
      ]
   ] ) ; # 
   fhir:basedOn ( [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-cardiology-consultation> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/ServiceRequest/chf-scenario1-cardiology-consultation> ;
      fhir:reference [ fhir:v "ServiceRequest/chf-scenario1-cardiology-consultation" ]
   ] ) ; # 
   fhir:status [ fhir:v "preparation"] ; # 
@@ -43,23 +43,17 @@
      fhir:text [ fhir:v "Cardiology Consultation" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Encounter/chf-scenario1-encounter> ;
      fhir:reference [ fhir:v "Encounter/chf-scenario1-encounter" ]
   ] ; # 
   fhir:performed [
      a fhir:Period ;
      fhir:start [ fhir:v "2019-02-03T11:00:00Z"^^xsd:dateTime ]
   ] . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-cardiology-consultation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

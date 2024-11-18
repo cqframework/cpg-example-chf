@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/CareTeam/chf-scenario1-careteam> a fhir:CareTeam ;
+<http://cqframework.org/cpg-example-chf/CareTeam/chf-scenario1-careteam> a fhir:CareTeam ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-careteam"] ; # 
   fhir:text [
@@ -16,11 +16,11 @@
   fhir:status [ fhir:v "active"] ; # 
   fhir:name [ fhir:v "CHF Care Team"] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Encounter/chf-scenario1-encounter> ;
      fhir:reference [ fhir:v "Encounter/chf-scenario1-encounter" ]
   ] ; # 
   fhir:participant ( [
@@ -33,7 +33,7 @@
        ] )
      ] ) ;
      fhir:member [
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-scenario1-practitionerrole> ;
+       fhir:link <http://cqframework.org/cpg-example-chf/PractitionerRole/chf-scenario1-practitionerrole> ;
        fhir:reference [ fhir:v "PractitionerRole/chf-scenario1-practitionerrole" ]
      ]
   ] [
@@ -46,24 +46,14 @@
        ] )
      ] ) ;
      fhir:member [
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/RelatedPerson/chf-scenario1-relatedperson> ;
+       fhir:link <http://cqframework.org/cpg-example-chf/RelatedPerson/chf-scenario1-relatedperson> ;
        fhir:reference [ fhir:v "RelatedPerson/chf-scenario1-relatedperson" ]
      ]
   ] ) ; # 
   fhir:managingOrganization ( [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Organization/chf-scenario1-organization> ;
      fhir:reference [ fhir:v "Organization/chf-scenario1-organization" ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-scenario1-practitionerrole> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/RelatedPerson/chf-scenario1-relatedperson> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

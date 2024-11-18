@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-jvp> a fhir:ServiceRequest ;
+<http://cqframework.org/cpg-example-chf/ServiceRequest/chf-scenario1-jvp> a fhir:ServiceRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-jvp"] ; # 
   fhir:text [
@@ -18,8 +18,8 @@
      fhir:value [ fhir:v "TODO: ACC recommends measuring jugular venous pressure as part of management of hypervolemia?" ]
   ] ) ; # 
   fhir:instantiatesCanonical ( [
-     fhir:v "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad>
+     fhir:v "http://cqframework.cpg-example-chf/ActivityDefinition/chf-jvp-ad"^^xsd:anyURI ;
+     fhir:link <http://cqframework.cpg-example-chf/ActivityDefinition/chf-jvp-ad>
   ] ) ; # 
   fhir:status [ fhir:v "completed"] ; # 
   fhir:intent [ fhir:v "order"] ; # 
@@ -42,70 +42,46 @@
      fhir:text [ fhir:v "Measure jugular venous pressure" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Encounter/chf-scenario1-encounter> ;
      fhir:reference [ fhir:v "Encounter/chf-scenario1-encounter" ]
   ] ; # 
   fhir:occurrence [ fhir:v "2019-02-03T09:41:00Z"^^xsd:dateTime] ; # 
   fhir:authoredOn [ fhir:v "2019-02-03"^^xsd:date] ; # 
   fhir:supportingInfo ( [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp1> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp1> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-jvp1" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp2> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp2> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-jvp2" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp3> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp3> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-jvp3" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp4> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp4> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-jvp4" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight1-observation> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight1-observation> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight1-observation" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight2-observation> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight2-observation> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight2-observation" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight3-observation> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight3-observation> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight3-observation" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight4-observation> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight4-observation> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight4-observation" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-urineout3-observation> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-urineout3-observation> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-urineout3-observation" ]
   ] [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/MedicationAdministration/chf-scenario1-lasix-iv> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/MedicationAdministration/chf-scenario1-lasix-iv> ;
      fhir:reference [ fhir:v "MedicationAdministration/chf-scenario1-lasix-iv" ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp2> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp3> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp4> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight1-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight2-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight3-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight4-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-urineout3-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MedicationAdministration/chf-scenario1-lasix-iv> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

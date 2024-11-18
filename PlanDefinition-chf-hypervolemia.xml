@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-strategydefinition"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PlanDefinition chf-hypervolemia</b></p><a name="chf-hypervolemia"> </a><a name="hcchf-hypervolemia"> </a><a name="chf-hypervolemia-en-US"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href="PlanDefinition-chf-pathway.html">CHFPathway</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href="PlanDefinition-chf-hypervolemia.html">PlanDefinition CHFHypervolemia</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFHypervolemia</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type workflow-definition}">Workflow Definition</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href="http://www.hl7.org/Special/committees/dss/index.cfm">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Hypervolemia strategy as part of a care pathway for patients with admitting diagnosis of congestive heart failure</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PlanDefinition chf-hypervolemia</b></p><a name="chf-hypervolemia"> </a><a name="hcchf-hypervolemia"> </a><a name="chf-hypervolemia-en-US"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href="PlanDefinition-chf-pathway.html">CHFPathway</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href="PlanDefinition-chf-hypervolemia.html">PlanDefinition CHFHypervolemia</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFHypervolemia</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type workflow-definition}">Workflow Definition</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:43:23+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href="http://www.hl7.org/Special/committees/dss/index.cfm">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Hypervolemia strategy as part of a care pathway for patients with admitting diagnosis of congestive heart failure</p>
 </div><p><b>jurisdiction</b>: <span title="Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}">World</span></p><blockquote><p><b>action</b></p><p><b>title</b>: JVP</p><p><b>description</b>: Measure JVP daily</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}">diagnostic-testing</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-jvp-pd.html">CHFJVPPD</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: O2 Sat</p><p><b>description</b>: Monitor O2 Sat</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}">diagnostic-testing</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-o2-sat-pd.html">CHFO2SatPD</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Potassium</p><p><b>description</b>: Monitor Potassium</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}">diagnostic-testing</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-potassium-pd.html">CHFPotassiumPD</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Creatinine</p><p><b>description</b>: Monitor Creatinine</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}">diagnostic-testing</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-creatinine-pd.html">CHFCreatininePD</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: eGFR</p><p><b>description</b>: Monitor eGFR</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}">diagnostic-testing</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-egfr-pd.html">CHFEGFRPD</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: LASIX</p><p><b>description</b>: LASIX</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs guideline-based-care}">guideline-based-care</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-lasix.html">CHFLASIX</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: Cardiology Consultation</p><p><b>description</b>: Cardiology Consultation within 24 hours</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs guideline-based-care}">guideline-based-care</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-cardiology-consultation-pd.html">CHFCardiologyConsultation</a></p></blockquote></div>
   </text>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
@@ -22,12 +22,12 @@
     <valueCode value="structured"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-partOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled">
     <valueBoolean value="true"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"/>
+  <url value="http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia"/>
   <version value="1.0.0"/>
   <name value="CHFHypervolemia"/>
   <type>
@@ -38,7 +38,7 @@
   </type>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2024-11-18T18:36:46+00:00"/>
+  <date value="2024-11-18T18:43:23+00:00"/>
   <publisher value="HL7 International - Clinical Decision Support WG"/>
   <contact>
     <name value="HL7 International - Clinical Decision Support WG"/>
@@ -64,7 +64,7 @@
         <code value="diagnostic-testing"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-jvp-pd"/>
   </action>
   <action>
     <title value="O2 Sat"/>
@@ -75,7 +75,7 @@
         <code value="diagnostic-testing"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-o2-sat-pd"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-o2-sat-pd"/>
   </action>
   <action>
     <title value="Potassium"/>
@@ -86,7 +86,7 @@
         <code value="diagnostic-testing"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-potassium-pd"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-potassium-pd"/>
   </action>
   <action>
     <title value="Creatinine"/>
@@ -97,7 +97,7 @@
         <code value="diagnostic-testing"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-creatinine-pd"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-creatinine-pd"/>
   </action>
   <action>
     <title value="eGFR"/>
@@ -108,7 +108,7 @@
         <code value="diagnostic-testing"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-egfr-pd"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-egfr-pd"/>
   </action>
   <action>
     <title value="LASIX"/>
@@ -119,7 +119,7 @@
         <code value="guideline-based-care"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-lasix"/>
   </action>
   <action>
     <title value="Cardiology Consultation"/>
@@ -130,6 +130,6 @@
         <code value="guideline-based-care"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd"/>
+    <definitionCanonical value="http://cqframework.org/cpg-example-chf/PlanDefinition/chf-cardiology-consultation-pd"/>
   </action>
 </PlanDefinition>

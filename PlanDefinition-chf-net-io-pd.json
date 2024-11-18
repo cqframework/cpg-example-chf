@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PlanDefinition chf-net-io-pd</b></p><a name=\"chf-net-io-pd\"> </a><a name=\"hcchf-net-io-pd\"> </a><a name=\"chf-net-io-pd-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href=\"PlanDefinition-chf-daily-management.html\">CHFDailyManagement</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href=\"PlanDefinition-chf-net-io-pd.html\">PlanDefinition CHFNetIO</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFNetIO</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type eca-rule}\">ECA Rule</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Measure net intake/output daily</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><h3>Goals</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Description</b></td><td><b>Start</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">Net io target</span></td><td><span title=\"Codes:{http://snomed.info/sct 32485007}\">Admission to hospital</span></td></tr></table><blockquote><p><b>action</b></p><blockquote><p><b>id</b></p>net-io</blockquote><p><b>title</b>: Net IOs</p><p><b>description</b>: Measure net intake/output daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><h3>Triggers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Timing[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Periodic</td><td>Once per 1 days</td></tr></table><p><b>definition</b>: <a href=\"ActivityDefinition-chf-net-io-ad.html\">CHFNetIO</a></p></blockquote></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: PlanDefinition chf-net-io-pd</b></p><a name=\"chf-net-io-pd\"> </a><a name=\"hcchf-net-io-pd\"> </a><a name=\"chf-net-io-pd-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>partOf</b>: <a href=\"PlanDefinition-chf-daily-management.html\">CHFDailyManagement</a></p><p><b>enabled</b>: true</p><p><b>url</b>: <a href=\"PlanDefinition-chf-net-io-pd.html\">PlanDefinition CHFNetIO</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFNetIO</p><p><b>type</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type eca-rule}\">ECA Rule</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:43:23+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Measure net intake/output daily</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><h3>Goals</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Description</b></td><td><b>Start</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:\">Net io target</span></td><td><span title=\"Codes:{http://snomed.info/sct 32485007}\">Admission to hospital</span></td></tr></table><blockquote><p><b>action</b></p><blockquote><p><b>id</b></p>net-io</blockquote><p><b>title</b>: Net IOs</p><p><b>description</b>: Measure net intake/output daily</p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs diagnostic-testing}\">diagnostic-testing</span></p><h3>Triggers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Timing[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>Periodic</td><td>Once per 1 days</td></tr></table><p><b>definition</b>: <a href=\"ActivityDefinition-chf-net-io-ad.html\">CHFNetIO</a></p></blockquote></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
@@ -26,13 +26,13 @@
   },
   {
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-partOf",
-    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-daily-management"
+    "valueCanonical" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-daily-management"
   },
   {
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled",
     "valueBoolean" : true
   }],
-  "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-net-io-pd",
+  "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-net-io-pd",
   "version" : "1.0.0",
   "name" : "CHFNetIO",
   "type" : {
@@ -43,7 +43,7 @@
   },
   "status" : "active",
   "experimental" : true,
-  "date" : "2024-11-18T18:36:46+00:00",
+  "date" : "2024-11-18T18:43:23+00:00",
   "publisher" : "HL7 International - Clinical Decision Support WG",
   "contact" : [{
     "name" : "HL7 International - Clinical Decision Support WG",
@@ -92,6 +92,6 @@
         }
       }
     }],
-    "definitionCanonical" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-net-io-ad"
+    "definitionCanonical" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-net-io-ad"
   }]
 }

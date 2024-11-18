@@ -7,7 +7,7 @@
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor",
-    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-change-pd"
+    "valueCanonical" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-change-pd"
   }],
   "lifecycleStatus" : "active",
   "achievementStatus" : {

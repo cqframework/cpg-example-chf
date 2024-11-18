@@ -6,7 +6,7 @@
     <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Goal chf-scenario1-urine-out</b></p><a name="chf-scenario1-urine-out"> </a><a name="hcchf-scenario1-urine-out"> </a><a name="chf-scenario1-urine-out-en-US"> </a><p><b>goalFor</b>: <a href="PlanDefinition-chf-urine-out-pd.html">CHFUrineOut</a></p><p><b>lifecycleStatus</b>: Active</p><p><b>achievementStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/goal-achievement improving}">Improving</span></p><p><b>description</b>: <span title="Codes:">Urine output 3-5 L/day</span></p><p><b>subject</b>: <a href="Patient-chf-scenario1-patient.html">Patterson, Jeremy Male, DoB: 1949-03-17</a></p><h3>Targets</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Measure</b></td><td><b>Detail[x]</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://loinc.org 9192-6}">Urine output 24 hour</span></td><td>3-5 L/day</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-urine-out-pd"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-urine-out-pd"/>
   </extension>
   <lifecycleStatus value="active"/>
   <achievementStatus>

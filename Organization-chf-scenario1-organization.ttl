@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> a fhir:Organization ;
+<http://cqframework.org/cpg-example-chf/Organization/chf-scenario1-organization> a fhir:Organization ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-organization"] ; # 
   fhir:text [

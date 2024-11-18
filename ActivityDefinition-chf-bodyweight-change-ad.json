@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ActivityDefinition chf-bodyweight-change-ad</b></p><a name=\"chf-bodyweight-change-ad\"> </a><a name=\"hcchf-bodyweight-change-ad\"> </a><a name=\"chf-bodyweight-change-ad-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>url</b>: <a href=\"ActivityDefinition-chf-bodyweight-change-ad.html\">ActivityDefinition CHFBodyWeightChange</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFBodyWeightChange</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Record body weight change</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><p><b>kind</b>: Task</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-recordinferencetask.html\">CPGRecordInferenceTask</a></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type-cs record-inference}\">Record an inference</span></p><p><b>doNotPerform</b>: false</p><blockquote><p><b>dynamicValue</b></p><p><b>path</b>: input.type</p><h3>Expressions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Expression</b></td></tr><tr><td style=\"display: none\">*</td><td>text/cql-expression</td><td>code</td></tr></table></blockquote><blockquote><p><b>dynamicValue</b></p><p><b>path</b>: input.value</p><h3>Expressions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Expression</b></td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td>text/cql-identifier</td><td>Body Weight Change</td><td><a href=\"Library-CHF.html\">CHF</a></td></tr></table></blockquote></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ActivityDefinition chf-bodyweight-change-ad</b></p><a name=\"chf-bodyweight-change-ad\"> </a><a name=\"hcchf-bodyweight-change-ad\"> </a><a name=\"chf-bodyweight-change-ad-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>url</b>: <a href=\"ActivityDefinition-chf-bodyweight-change-ad.html\">ActivityDefinition CHFBodyWeightChange</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFBodyWeightChange</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:43:23+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Record body weight change</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><p><b>kind</b>: Task</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-recordinferencetask.html\">CPGRecordInferenceTask</a></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type-cs record-inference}\">Record an inference</span></p><p><b>doNotPerform</b>: false</p><blockquote><p><b>dynamicValue</b></p><p><b>path</b>: input.type</p><h3>Expressions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Expression</b></td></tr><tr><td style=\"display: none\">*</td><td>text/cql-expression</td><td>code</td></tr></table></blockquote><blockquote><p><b>dynamicValue</b></p><p><b>path</b>: input.value</p><h3>Expressions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Expression</b></td><td><b>Reference</b></td></tr><tr><td style=\"display: none\">*</td><td>text/cql-identifier</td><td>Body Weight Change</td><td><a href=\"Library-CHF.html\">CHF</a></td></tr></table></blockquote></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
@@ -24,12 +24,12 @@
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode" : "structured"
   }],
-  "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-bodyweight-change-ad",
+  "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-bodyweight-change-ad",
   "version" : "1.0.0",
   "name" : "CHFBodyWeightChange",
   "status" : "active",
   "experimental" : true,
-  "date" : "2024-11-18T18:36:46+00:00",
+  "date" : "2024-11-18T18:43:23+00:00",
   "publisher" : "HL7 International - Clinical Decision Support WG",
   "contact" : [{
     "name" : "HL7 International - Clinical Decision Support WG",
@@ -68,7 +68,7 @@
     "expression" : {
       "language" : "text/cql-identifier",
       "expression" : "Body Weight Change",
-      "reference" : "http://hl7.org/fhir/uv/cpg/chf/Library/CHF"
+      "reference" : "http://cqframework.cpg-example-chf/Library/CHF"
     }
   }]
 }

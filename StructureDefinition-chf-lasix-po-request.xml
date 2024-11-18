@@ -22,21 +22,21 @@
     <valueCode value="structured"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-lasix"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request"/>
+  <url value="http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-request"/>
   <version value="1.0.0"/>
   <name value="CHFLASIXPORequest"/>
   <title value="CHF LASIX PO Request"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2024-11-18T18:36:46+00:00"/>
+  <date value="2024-11-18T18:43:23+00:00"/>
   <publisher value="HL7 International - Clinical Decision Support WG"/>
   <contact>
     <name value="HL7 International - Clinical Decision Support WG"/>

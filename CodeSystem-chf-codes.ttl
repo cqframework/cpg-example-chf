@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes> a fhir:CodeSystem ;
+<http://cqframework.org/cpg-example-chf/CodeSystem/chf-codes> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-codes"] ; # 
   fhir:meta [
@@ -16,7 +16,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem chf-codes</b></p><a name=\"chf-codes\"> </a><a name=\"hcchf-codes\"> </a><a name=\"chf-codes-en-US\"> </a><p>This case-sensitive code system <code>http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">body-weight-change<a name=\"chf-codes-body-weight-change\"> </a></td><td>Body weight change</td><td>The change in body weight between two body weight measurements, in kg. Typically captured daily.</td></tr><tr><td style=\"white-space:nowrap\">net-intake-output<a name=\"chf-codes-net-intake-output\"> </a></td><td>Net intake/output</td><td>The net intake and output, in Liters per day. Typically captured daily.</td></tr><tr><td style=\"white-space:nowrap\">measure-jvp<a name=\"chf-codes-measure-jvp\"> </a></td><td>Measure jugular venous pressure</td><td>Measure jugular venous pressure in cmH2O</td></tr><tr><td style=\"white-space:nowrap\">jvp<a name=\"chf-codes-jvp\"> </a></td><td>Jugular venous pressure</td><td>Jugular venous pressure in cmH2O. May be loinc#8595-1?</td></tr><tr><td style=\"white-space:nowrap\">egfr<a name=\"chf-codes-egfr\"> </a></td><td>eGFR result</td><td>eGFR result in mol/mm/m2. Too many codes to choose from, needs clinical/terminological SME input</td></tr><tr><td style=\"white-space:nowrap\">measure-egfr<a name=\"chf-codes-measure-egfr\"> </a></td><td>Measure eGFR</td><td>Measure eGFR, could not identify SNOMED code for this</td></tr><tr><td style=\"white-space:nowrap\">lasix-iv<a name=\"chf-codes-lasix-iv\"> </a></td><td>LASIX IV</td><td>LASIX IV</td></tr><tr><td style=\"white-space:nowrap\">lasix-po<a name=\"chf-codes-lasix-po\"> </a></td><td>LASIX PO</td><td>LASIX PO</td></tr><tr><td style=\"white-space:nowrap\">cardiology-consultation<a name=\"chf-codes-cardiology-consultation\"> </a></td><td>Cardiology Consultation</td><td>Cardiology consultation</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem chf-codes</b></p><a name=\"chf-codes\"> </a><a name=\"hcchf-codes\"> </a><a name=\"chf-codes-en-US\"> </a><p>This case-sensitive code system <code>http://cqframework.cpg-example-chf/CodeSystem/chf-codes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">body-weight-change<a name=\"chf-codes-body-weight-change\"> </a></td><td>Body weight change</td><td>The change in body weight between two body weight measurements, in kg. Typically captured daily.</td></tr><tr><td style=\"white-space:nowrap\">net-intake-output<a name=\"chf-codes-net-intake-output\"> </a></td><td>Net intake/output</td><td>The net intake and output, in Liters per day. Typically captured daily.</td></tr><tr><td style=\"white-space:nowrap\">measure-jvp<a name=\"chf-codes-measure-jvp\"> </a></td><td>Measure jugular venous pressure</td><td>Measure jugular venous pressure in cmH2O</td></tr><tr><td style=\"white-space:nowrap\">jvp<a name=\"chf-codes-jvp\"> </a></td><td>Jugular venous pressure</td><td>Jugular venous pressure in cmH2O. May be loinc#8595-1?</td></tr><tr><td style=\"white-space:nowrap\">egfr<a name=\"chf-codes-egfr\"> </a></td><td>eGFR result</td><td>eGFR result in mol/mm/m2. Too many codes to choose from, needs clinical/terminological SME input</td></tr><tr><td style=\"white-space:nowrap\">measure-egfr<a name=\"chf-codes-measure-egfr\"> </a></td><td>Measure eGFR</td><td>Measure eGFR, could not identify SNOMED code for this</td></tr><tr><td style=\"white-space:nowrap\">lasix-iv<a name=\"chf-codes-lasix-iv\"> </a></td><td>LASIX IV</td><td>LASIX IV</td></tr><tr><td style=\"white-space:nowrap\">lasix-po<a name=\"chf-codes-lasix-po\"> </a></td><td>LASIX PO</td><td>LASIX PO</td></tr><tr><td style=\"white-space:nowrap\">cardiology-consultation<a name=\"chf-codes-cardiology-consultation\"> </a></td><td>Cardiology Consultation</td><td>Cardiology consultation</td></tr></table></div>"
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability"^^xsd:anyURI ] ;
@@ -31,13 +31,13 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "structured" ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://cqframework.cpg-example-chf/CodeSystem/chf-codes"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "CHFCodes"] ; # 
   fhir:title [ fhir:v "CHF Codes"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-11-18T18:36:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;

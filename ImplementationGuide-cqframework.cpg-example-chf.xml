@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="hl7.fhir.uv.cpg.chf"/>
+  <id value="cqframework.cpg-example-chf"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.cpg.chf</b></p><a name="hl7.fhir.uv.cpg.chf"> </a><a name="hchl7.fhir.uv.cpg.chf"> </a><a name="hl7.fhir.uv.cpg.chf-en-US"> </a><h2>CPGCongestiveHeartFailureExamples</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf</pre><div><p>Examples of CPG computable content representing a congestive heart failure pathway</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide cqframework.cpg-example-chf</b></p><a name="cqframework.cpg-example-chf"> </a><a name="hccqframework.cpg-example-chf"> </a><a name="cqframework.cpg-example-chf-en-US"> </a><h2>CPGCongestiveHeartFailureExamples</h2><p>The official URL for this implementation guide is: </p><pre>http://cqframework.org/cpg-example-chf/ImplementationGuide/cqframework.cpg-example-chf</pre><div><p>Examples of CPG computable content representing a congestive heart failure pathway</p>
 </div></div>
   </text>
-  <url value="http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf"/>
+  <url value="http://cqframework.org/cpg-example-chf/ImplementationGuide/cqframework.cpg-example-chf"/>
   <version value="1.0.0"/>
   <name value="CPGCongestiveHeartFailureExamples"/>
   <title value="Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure"/>
   <status value="active"/>
-  <date value="2024-11-18T18:36:46+00:00"/>
+  <date value="2024-11-18T18:43:23+00:00"/>
   <publisher value="HL7 International - Clinical Decision Support WG"/>
   <contact>
     <name value="HL7 International - Clinical Decision Support WG"/>
@@ -28,7 +28,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <packageId value="hl7.fhir.uv.cpg.chf"/>
+  <packageId value="cqframework.cpg-example-chf"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -127,14 +127,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/uv/cpg/chf/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -187,6 +179,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://cqframework.org/cpg-example-chf/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -338,14 +338,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueCode value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/uv/cpg/chf/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueCode value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -398,6 +390,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://cqframework.org/cpg-example-chf/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -1097,7 +1097,7 @@
       </reference>
       <name value="chf-scenario1-bodyweight-change1-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1119,7 +1119,7 @@
       </reference>
       <name value="chf-scenario1-bodyweight-change2-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1141,7 +1141,7 @@
       </reference>
       <name value="chf-scenario1-bodyweight-change3-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1163,7 +1163,7 @@
       </reference>
       <name value="chf-scenario1-bodyweight1-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1185,7 +1185,7 @@
       </reference>
       <name value="chf-scenario1-bodyweight2-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1207,7 +1207,7 @@
       </reference>
       <name value="chf-scenario1-bodyweight3-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1229,7 +1229,7 @@
       </reference>
       <name value="chf-scenario1-bodyweight4-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1317,7 +1317,7 @@
       </reference>
       <name value="chf-scenario1-creatinine1"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1350,7 +1350,7 @@
       </reference>
       <name value="chf-scenario1-egfr1"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1427,7 +1427,7 @@
       </reference>
       <name value="chf-scenario1-jvp1"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1438,7 +1438,7 @@
       </reference>
       <name value="chf-scenario1-jvp2"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1449,7 +1449,7 @@
       </reference>
       <name value="chf-scenario1-jvp3"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1460,7 +1460,7 @@
       </reference>
       <name value="chf-scenario1-jvp4"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1471,7 +1471,7 @@
       </reference>
       <name value="chf-scenario1-jvp5"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1559,7 +1559,7 @@
       </reference>
       <name value="chf-scenario1-netio3"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1592,7 +1592,7 @@
       </reference>
       <name value="chf-scenario1-o2sat1"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1603,7 +1603,7 @@
       </reference>
       <name value="chf-scenario1-o2sat2"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1647,7 +1647,7 @@
       </reference>
       <name value="chf-scenario1-potassium1"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1724,7 +1724,7 @@
       </reference>
       <name value="chf-scenario1-urineout3-observation"/>
       <description value="CHF Scenario One"/>
-      <exampleCanonical value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"/>
+      <exampleCanonical value="http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

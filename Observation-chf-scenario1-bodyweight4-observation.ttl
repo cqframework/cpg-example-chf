@@ -6,13 +6,13 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight4-observation> a fhir:Observation ;
+<http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight4-observation> a fhir:Observation ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-bodyweight4-observation"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+       fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight>
      ] )
   ] ; # 
   fhir:text [
@@ -22,8 +22,8 @@
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+       fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight>
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType"^^xsd:anyURI ] ;
@@ -44,17 +44,17 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Encounter/chf-scenario1-encounter> ;
      fhir:reference [ fhir:v "Encounter/chf-scenario1-encounter" ]
   ] ; # 
   fhir:effective [ fhir:v "2019-02-03T07:00:00Z"^^xsd:dateTime] ; # 
   fhir:issued [ fhir:v "2019-02-03T07:00:00Z"^^xsd:dateTime] ; # 
   fhir:performer ( [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-scenario1-practitionerrole> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/PractitionerRole/chf-scenario1-practitionerrole> ;
      fhir:reference [ fhir:v "PractitionerRole/chf-scenario1-practitionerrole" ]
   ] ) ; # 
   fhir:value [
@@ -64,12 +64,6 @@
      fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
      fhir:code [ fhir:v "kg" ]
   ] . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-scenario1-practitionerrole> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

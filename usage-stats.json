@@ -1,5 +1,5 @@
 {
-  "package": "hl7.fhir.uv.cpg.chf",
+  "package": "cqframework.cpg-example-chf",
   "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",
@@ -7,35 +7,35 @@
   "profiles": {
     "Observation": [
       {
-        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium",
+        "url": "http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium",
         "title": "CHF Potassium"
       },
       {
-        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out",
+        "url": "http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out",
         "title": "CHF Urine Out"
       }
     ],
     "Procedure": [
       {
-        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult",
+        "url": "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult",
         "title": "CHF Cardiology Consult"
       }
     ],
     "ServiceRequest": [
       {
-        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request",
+        "url": "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat-request",
         "title": "CHF Oxygen Saturation Request"
       }
     ],
     "MedicationAdministration": [
       {
-        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration",
+        "url": "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-administration",
         "title": "CHF LASIX PO Administration"
       }
     ],
     "MedicationRequest": [
       {
-        "url": "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request",
+        "url": "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-request",
         "title": "CHF LASIX PO Request"
       }
     ]

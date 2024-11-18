@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:Patient ;
+<http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> a fhir:Patient ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-patient"] ; # 
   fhir:text [

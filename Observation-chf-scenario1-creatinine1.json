@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "chf-scenario1-creatinine1",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"]
+    "profile" : ["http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine"]
   },
   "text" : {
     "status" : "extensions",
@@ -10,7 +10,7 @@
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature",
-    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"
+    "valueCanonical" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine"
   },
   {
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType",

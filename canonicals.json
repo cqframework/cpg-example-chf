@@ -2,379 +2,379 @@
   {
     "id" : "chf-bodyweight-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-bodyweight-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-bodyweight-ad",
     "version" : "1.0.0",
     "name" : "CHFBodyWeight"
   },
   {
     "id" : "chf-bodyweight-change-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-bodyweight-change-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-bodyweight-change-ad",
     "version" : "1.0.0",
     "name" : "CHFBodyWeightChange"
   },
   {
     "id" : "chf-cardiology-consultation",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-cardiology-consultation",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-cardiology-consultation",
     "version" : "1.0.0",
     "name" : "CHFCardiologyConsultation"
   },
   {
     "id" : "chf-creatinine-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-creatinine-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-creatinine-ad",
     "version" : "1.0.0",
     "name" : "CHFCreatinine"
   },
   {
     "id" : "chf-egfr-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-egfr-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-egfr-ad",
     "version" : "1.0.0",
     "name" : "CHFEGFR"
   },
   {
     "id" : "chf-jvp-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-jvp-ad",
     "version" : "1.0.0",
     "name" : "CHFJVP"
   },
   {
     "id" : "chf-lasix-iv",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-iv",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-iv",
     "version" : "1.0.0",
     "name" : "CHFLASIXIV"
   },
   {
     "id" : "chf-lasix-po",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-po",
     "version" : "1.0.0",
     "name" : "CHFLASIXPO"
   },
   {
     "id" : "chf-net-io-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-net-io-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-net-io-ad",
     "version" : "1.0.0",
     "name" : "CHFNetIO"
   },
   {
     "id" : "chf-o2-sat-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-o2-sat-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-o2-sat-ad",
     "version" : "1.0.0",
     "name" : "CHFO2Sat"
   },
   {
     "id" : "chf-potassium-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-potassium-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-potassium-ad",
     "version" : "1.0.0",
     "name" : "CHFPotassium"
   },
   {
     "id" : "chf-report-bodyweight",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-bodyweight",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-report-bodyweight",
     "version" : "1.0.0",
     "name" : "CHFReportBodyWeight"
   },
   {
     "id" : "chf-report-bodyweight-change",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-bodyweight-change",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-report-bodyweight-change",
     "version" : "1.0.0",
     "name" : "CHFReportBodyWeightChange"
   },
   {
     "id" : "chf-report-urine-out",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-urine-out",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-report-urine-out",
     "version" : "1.0.0",
     "name" : "CHFReportUrineOut"
   },
   {
     "id" : "chf-urine-out-ad",
     "type" : "ActivityDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-urine-out-ad",
+    "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-urine-out-ad",
     "version" : "1.0.0",
     "name" : "CHFUrineOut"
   },
   {
     "id" : "chf-codes",
     "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes",
+    "url" : "http://cqframework.cpg-example-chf/CodeSystem/chf-codes",
     "version" : "1.0.0",
     "name" : "CHFCodes"
   },
   {
     "id" : "chf-caseplansummarydefinition",
     "type" : "GraphDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition",
+    "url" : "http://cqframework.cpg-example-chf/GraphDefinition/chf-caseplansummarydefinition",
     "version" : "1.0.0",
     "name" : "CHFCasePlanSummaryDefinition"
   },
   {
     "id" : "chf-casesummarydefinition",
     "type" : "GraphDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-casesummarydefinition",
+    "url" : "http://cqframework.cpg-example-chf/GraphDefinition/chf-casesummarydefinition",
     "version" : "1.0.0",
     "name" : "CHFCaseSummaryDefinition"
   },
   {
-    "id" : "hl7.fhir.uv.cpg.chf",
-    "type" : "ImplementationGuide",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf",
-    "version" : "1.0.0",
-    "name" : "CPGCongestiveHeartFailureExamples"
-  },
-  {
     "id" : "CHF",
     "type" : "Library",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/Library/CHF",
+    "url" : "http://cqframework.cpg-example-chf/Library/CHF",
     "version" : "1.0.0",
     "name" : "CHF"
   },
   {
     "id" : "chf-bodyweight-change-measure",
     "type" : "Measure",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-change-measure",
+    "url" : "http://cqframework.cpg-example-chf/Measure/chf-bodyweight-change-measure",
     "version" : "1.0.0",
     "name" : "CHFBodyWeightChange"
   },
   {
     "id" : "chf-bodyweight-measure",
     "type" : "Measure",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-measure",
+    "url" : "http://cqframework.cpg-example-chf/Measure/chf-bodyweight-measure",
     "version" : "1.0.0",
     "name" : "CHFBodyWeight"
   },
   {
     "id" : "chf-urine-out-measure",
     "type" : "Measure",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/Measure/chf-urine-out-measure",
+    "url" : "http://cqframework.cpg-example-chf/Measure/chf-urine-out-measure",
     "version" : "1.0.0",
     "name" : "CHFUrineOut"
   },
   {
     "id" : "chf-bodyweight-change-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-change-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-change-pd",
     "version" : "1.0.0",
     "name" : "CHFBodyWeightChange"
   },
   {
     "id" : "chf-bodyweight-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-pd",
     "version" : "1.0.0",
     "name" : "CHFBodyWeight"
   },
   {
-    "id" : "chf-cardiology-consultation-pd",
-    "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd",
-    "version" : "1.0.0",
-    "name" : "CHFCardiologyConsultation"
-  },
-  {
     "id" : "chf-creatinine-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-creatinine-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-creatinine-pd",
     "version" : "1.0.0",
     "name" : "CHFCreatininePD"
   },
   {
     "id" : "chf-daily-management",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-daily-management",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-daily-management",
     "version" : "1.0.0",
     "name" : "CHFDailyManagement"
   },
   {
     "id" : "chf-egfr-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-egfr-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-egfr-pd",
     "version" : "1.0.0",
     "name" : "CHFEGFRPD"
   },
   {
     "id" : "chf-hypervolemia",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia",
     "version" : "1.0.0",
     "name" : "CHFHypervolemia"
   },
   {
     "id" : "chf-jvp-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-jvp-pd",
     "version" : "1.0.0",
     "name" : "CHFJVPPD"
   },
   {
     "id" : "chf-lasix",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-lasix",
     "version" : "1.0.0",
     "name" : "CHFLASIX"
   },
   {
     "id" : "chf-net-io-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-net-io-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-net-io-pd",
     "version" : "1.0.0",
     "name" : "CHFNetIO"
   },
   {
     "id" : "chf-o2-sat-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-o2-sat-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-o2-sat-pd",
     "version" : "1.0.0",
     "name" : "CHFO2SatPD"
   },
   {
     "id" : "chf-pathway",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway",
     "version" : "1.0.0",
     "name" : "CHFPathway"
   },
   {
     "id" : "chf-potassium-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-potassium-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-potassium-pd",
     "version" : "1.0.0",
     "name" : "CHFPotassiumPD"
   },
   {
     "id" : "chf-urine-out-pd",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-urine-out-pd",
+    "url" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-urine-out-pd",
     "version" : "1.0.0",
     "name" : "CHFUrineOut"
   },
   {
     "id" : "chf-bodyweight",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight",
     "version" : "1.0.0",
     "name" : "CHFBodyWeight"
   },
   {
     "id" : "chf-bodyweight-change",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change",
     "version" : "1.0.0",
     "name" : "CHFBodyWeightChange"
   },
   {
     "id" : "chf-cardiology-consult",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult",
     "version" : "1.0.0",
     "name" : "CHFCardiologyConsult"
   },
   {
     "id" : "chf-cardiology-consult-request",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult-request",
     "version" : "1.0.0",
     "name" : "CHFCardiologyConsultRequest"
   },
   {
     "id" : "chf-creatinine",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine",
     "version" : "1.0.0",
     "name" : "CHFCreatinine"
   },
   {
     "id" : "chf-egfr",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr",
     "version" : "1.0.0",
     "name" : "CHFEGFR"
   },
   {
     "id" : "chf-jvp",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp",
     "version" : "1.0.0",
     "name" : "CHFJVP"
   },
   {
     "id" : "chf-jvp-request",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp-request",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp-request",
     "version" : "1.0.0",
     "name" : "CHFJVPRequest"
   },
   {
     "id" : "chf-lasix-iv-administration",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-administration",
     "version" : "1.0.0",
     "name" : "CHFLASIXIVAdminisistration"
   },
   {
     "id" : "chf-lasix-iv-request",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-request",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-request",
     "version" : "1.0.0",
     "name" : "CHFLASIXIVRequest"
   },
   {
     "id" : "chf-lasix-po-administration",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-administration",
     "version" : "1.0.0",
     "name" : "CHFLASIXPOAdminisistration"
   },
   {
     "id" : "chf-lasix-po-request",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-request",
     "version" : "1.0.0",
     "name" : "CHFLASIXPORequest"
   },
   {
     "id" : "chf-net-io",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io",
     "version" : "1.0.0",
     "name" : "CHFNetIO"
   },
   {
     "id" : "chf-o2-sat",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat",
     "version" : "1.0.0",
     "name" : "CHFO2Sat"
   },
   {
     "id" : "chf-o2-sat-request",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat-request",
     "version" : "1.0.0",
     "name" : "CHFO2SatRequest"
   },
   {
     "id" : "chf-potassium",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium",
     "version" : "1.0.0",
     "name" : "CHFPotassium"
   },
   {
     "id" : "chf-urine-out",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out",
+    "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out",
     "version" : "1.0.0",
     "name" : "CHFUrineOut"
+  },
+  {
+    "id" : "cqframework.cpg-example-chf",
+    "type" : "ImplementationGuide",
+    "url" : "http://cqframework.org/cpg-example-chf/ImplementationGuide/cqframework.cpg-example-chf",
+    "version" : "1.0.0",
+    "name" : "CPGCongestiveHeartFailureExamples"
+  },
+  {
+    "id" : "chf-cardiology-consultation-pd",
+    "type" : "PlanDefinition",
+    "url" : "http://cqframework.org/cpg-example-chf/PlanDefinition/chf-cardiology-consultation-pd",
+    "version" : "1.0.0",
+    "name" : "CHFCardiologyConsultation"
   }
 ]

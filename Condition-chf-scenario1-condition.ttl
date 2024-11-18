@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Condition/chf-scenario1-condition> a fhir:Condition ;
+<http://cqframework.org/cpg-example-chf/Condition/chf-scenario1-condition> a fhir:Condition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-condition"] ; # 
   fhir:text [
@@ -40,18 +40,14 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:encounter [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Encounter/chf-scenario1-encounter> ;
      fhir:reference [ fhir:v "Encounter/chf-scenario1-encounter" ]
   ] ; # 
   fhir:onset [ fhir:v "2019-01-31T05:03:00Z"^^xsd:dateTime] . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

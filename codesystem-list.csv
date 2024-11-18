@@ -1,2 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes,1.0.0,active,,CHFCodes,CHF Codes,"Codes used in the congestive heart failure pathway. Ideally these shouldn't exist, but where I couldn't find an appropriate code in a standard terminology, I defined codes here.",
+http://cqframework.cpg-example-chf/CodeSystem/chf-codes,1.0.0,active,,CHFCodes,CHF Codes,"Codes used in the congestive heart failure pathway. Ideally these shouldn't exist, but where I couldn't find an appropriate code in a standard terminology, I defined codes here.",

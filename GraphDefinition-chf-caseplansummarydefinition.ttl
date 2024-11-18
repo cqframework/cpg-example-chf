@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition> a fhir:GraphDefinition ;
+<http://cqframework.org/cpg-example-chf/GraphDefinition/chf-caseplansummarydefinition> a fhir:GraphDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-caseplansummarydefinition"] ; # 
   fhir:meta [
@@ -40,8 +40,8 @@
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryDefinitionFor"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway>
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright"^^xsd:anyURI ] ;
@@ -104,7 +104,7 @@
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-title"^^xsd:anyURI ] ;
      fhir:value [ fhir:v "CHF Case Plan Summary Definition" ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://cqframework.cpg-example-chf/GraphDefinition/chf-caseplansummarydefinition"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "CHFCasePlanSummaryDefinition"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -130,8 +130,8 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight>
            ]
          ] )
        ] [
@@ -139,8 +139,8 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change>
            ]
          ] )
        ] [
@@ -148,8 +148,8 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out>
            ]
          ] )
        ] [
@@ -157,8 +157,8 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io>
            ]
          ] )
        ] [
@@ -166,14 +166,14 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp>
            ]
          ] [
            fhir:type [ fhir:v "ServiceRequest" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp-request"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp-request>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp-request"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp-request>
            ]
          ] )
        ] [
@@ -181,14 +181,14 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat>
            ]
          ] [
            fhir:type [ fhir:v "ServiceRequest" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat-request"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat-request>
            ]
          ] )
        ] [
@@ -196,8 +196,8 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium>
            ]
          ] )
        ] [
@@ -205,8 +205,8 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine>
            ]
          ] )
        ] [
@@ -214,8 +214,8 @@
          fhir:target ( [
            fhir:type [ fhir:v "Observation" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr>
            ]
          ] )
        ] [
@@ -223,14 +223,14 @@
          fhir:target ( [
            fhir:type [ fhir:v "MedicationAdministration" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-administration"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-administration>
            ]
          ] [
            fhir:type [ fhir:v "MedicationRequest" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-request"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-request>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-request"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-request>
            ]
          ] )
        ] [
@@ -238,14 +238,14 @@
          fhir:target ( [
            fhir:type [ fhir:v "MedicationAdministration" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-administration"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-administration>
            ]
          ] [
            fhir:type [ fhir:v "MedicationRequest" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-request"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-request>
            ]
          ] )
        ] [
@@ -253,14 +253,14 @@
          fhir:target ( [
            fhir:type [ fhir:v "Procedure" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult>
            ]
          ] [
            fhir:type [ fhir:v "ServiceRequest" ] ;
            fhir:profile [
-             fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request"^^xsd:anyURI ;
-             fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request>
+             fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult-request"^^xsd:anyURI ;
+             fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult-request>
            ]
          ] )
        ] )

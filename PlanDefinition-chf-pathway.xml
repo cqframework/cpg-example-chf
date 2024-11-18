@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-pathwaydefinition"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PlanDefinition chf-pathway</b></p><a name="chf-pathway"> </a><a name="hcchf-pathway"> </a><a name="chf-pathway-en-US"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>enabled</b>: true</p><p><b>url</b>: <a href="PlanDefinition-chf-pathway.html">PlanDefinition CHFPathway</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFPathway</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}">Clinical Protocol</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href="http://www.hl7.org/Special/committees/dss/index.cfm">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Treatment and management care pathway for patients with admitting diagnosis of congestive heart failure</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: PlanDefinition chf-pathway</b></p><a name="chf-pathway"> </a><a name="hcchf-pathway"> </a><a name="chf-pathway-en-US"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>enabled</b>: true</p><p><b>url</b>: <a href="PlanDefinition-chf-pathway.html">PlanDefinition CHFPathway</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFPathway</p><p><b>type</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/plan-definition-type clinical-protocol}">Clinical Protocol</span></p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:43:23+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href="http://www.hl7.org/Special/committees/dss/index.cfm">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Treatment and management care pathway for patients with admitting diagnosis of congestive heart failure</p>
 </div><p><b>jurisdiction</b>: <span title="Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}">World</span></p><blockquote><p><b>action</b></p><p><b>title</b>: CHF Daily Management</p><p><b>description</b>: Daily Management strategy for Congestive Heart Failure</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs guideline-based-care}">guideline-based-care</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-daily-management.html">CHFDailyManagement</a></p></blockquote><blockquote><p><b>action</b></p><p><b>title</b>: CHF Hypervolemia</p><p><b>description</b>: Hypervolemia strategy for Congestive Heart Failure</p><p><b>code</b>: <span title="Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-common-process-cs guideline-based-care}">guideline-based-care</span></p><p><b>definition</b>: <a href="PlanDefinition-chf-hypervolemia.html">CHFHypervolemia</a></p></blockquote></div>
   </text>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability">
@@ -24,7 +24,7 @@
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enabled">
     <valueBoolean value="true"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"/>
+  <url value="http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"/>
   <version value="1.0.0"/>
   <name value="CHFPathway"/>
   <type>
@@ -35,7 +35,7 @@
   </type>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2024-11-18T18:36:46+00:00"/>
+  <date value="2024-11-18T18:43:23+00:00"/>
   <publisher value="HL7 International - Clinical Decision Support WG"/>
   <contact>
     <name value="HL7 International - Clinical Decision Support WG"/>
@@ -61,7 +61,7 @@
         <code value="guideline-based-care"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-daily-management"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-daily-management"/>
   </action>
   <action>
     <title value="CHF Hypervolemia"/>
@@ -72,6 +72,6 @@
         <code value="guideline-based-care"/>
       </coding>
     </code>
-    <definitionCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"/>
+    <definitionCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia"/>
   </action>
 </PlanDefinition>

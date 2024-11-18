@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ActivityDefinition chf-cardiology-consultation</b></p><a name=\"chf-cardiology-consultation\"> </a><a name=\"hcchf-cardiology-consultation\"> </a><a name=\"chf-cardiology-consultation-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>url</b>: <a href=\"ActivityDefinition-chf-cardiology-consultation.html\">ActivityDefinition CHFCardiologyConsultation</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFCardiologyConsultation</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:36:46+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Cardiology consultation as part of a congestive heart failure care pathway</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><p><b>kind</b>: ServiceRequest</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-servicerequest.html\">CPGServiceRequest</a></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type-cs order-service}\">Order a service</span></p><p><b>intent</b>: Proposal</p><p><b>doNotPerform</b>: false</p><p><b>product</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes cardiology-consultation}\">Cardiology Consultation</span></p><blockquote><p><b>dynamicValue</b></p><p><b>path</b>: status</p><h3>Expressions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Expression</b></td></tr><tr><td style=\"display: none\">*</td><td>CQL</td><td>'draft'</td></tr></table></blockquote></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ActivityDefinition chf-cardiology-consultation</b></p><a name=\"chf-cardiology-consultation\"> </a><a name=\"hcchf-cardiology-consultation\"> </a><a name=\"chf-cardiology-consultation-en-US\"> </a><p><b>knowledgeCapability</b>: shareable</p><p><b>knowledgeCapability</b>: computable</p><p><b>knowledgeCapability</b>: publishable</p><p><b>knowledgeRepresentationLevel</b>: structured</p><p><b>url</b>: <a href=\"ActivityDefinition-chf-cardiology-consultation.html\">ActivityDefinition CHFCardiologyConsultation</a></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: CHFCardiologyConsultation</p><p><b>status</b>: Active</p><p><b>experimental</b>: true</p><p><b>date</b>: 2024-11-18 18:43:23+0000</p><p><b>publisher</b>: HL7 International - Clinical Decision Support WG</p><p><b>contact</b>: HL7 International - Clinical Decision Support WG: <a href=\"http://www.hl7.org/Special/committees/dss/index.cfm\">http://www.hl7.org/Special/committees/dss/index.cfm</a></p><p><b>description</b>: </p><div><p>Cardiology consultation as part of a congestive heart failure care pathway</p>\n</div><p><b>jurisdiction</b>: <span title=\"Codes:{http://unstats.un.org/unsd/methods/m49/m49.htm 001}\">World</span></p><p><b>kind</b>: ServiceRequest</p><p><b>profile</b>: <a href=\"http://hl7.org/fhir/uv/cpg/STU1/StructureDefinition-cpg-servicerequest.html\">CPGServiceRequest</a></p><p><b>code</b>: <span title=\"Codes:{http://hl7.org/fhir/uv/cpg/CodeSystem/cpg-activity-type-cs order-service}\">Order a service</span></p><p><b>intent</b>: Proposal</p><p><b>doNotPerform</b>: false</p><p><b>product</b>: <span title=\"Codes:{http://cqframework.cpg-example-chf/CodeSystem/chf-codes cardiology-consultation}\">Cardiology Consultation</span></p><blockquote><p><b>dynamicValue</b></p><p><b>path</b>: status</p><h3>Expressions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Language</b></td><td><b>Expression</b></td></tr><tr><td style=\"display: none\">*</td><td>CQL</td><td>'draft'</td></tr></table></blockquote></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeCapability",
@@ -24,12 +24,12 @@
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode" : "structured"
   }],
-  "url" : "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-cardiology-consultation",
+  "url" : "http://cqframework.cpg-example-chf/ActivityDefinition/chf-cardiology-consultation",
   "version" : "1.0.0",
   "name" : "CHFCardiologyConsultation",
   "status" : "active",
   "experimental" : true,
-  "date" : "2024-11-18T18:36:46+00:00",
+  "date" : "2024-11-18T18:43:23+00:00",
   "publisher" : "HL7 International - Clinical Decision Support WG",
   "contact" : [{
     "name" : "HL7 International - Clinical Decision Support WG",
@@ -59,7 +59,7 @@
   "doNotPerform" : false,
   "productCodeableConcept" : {
     "coding" : [{
-      "system" : "http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes",
+      "system" : "http://cqframework.cpg-example-chf/CodeSystem/chf-codes",
       "code" : "cardiology-consultation",
       "display" : "Cardiology Consultation"
     }]

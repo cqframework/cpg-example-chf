@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/EpisodeOfCare/chf-scenario1-eoc> a fhir:EpisodeOfCare ;
+<http://cqframework.org/cpg-example-chf/EpisodeOfCare/chf-scenario1-eoc> a fhir:EpisodeOfCare ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-eoc"] ; # 
   fhir:text [
@@ -15,28 +15,24 @@
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-enrolledIn"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway>
      ]
   ] ) ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:diagnosis ( [
      fhir:condition [
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/Condition/chf-scenario1-condition> ;
+       fhir:link <http://cqframework.org/cpg-example-chf/Condition/chf-scenario1-condition> ;
        fhir:reference [ fhir:v "Condition/chf-scenario1-condition" ]
      ]
   ] ) ; # 
   fhir:patient [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:period [
      fhir:start [ fhir:v "2019-01-31T05:03:00Z"^^xsd:dateTime ]
   ] . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Condition/chf-scenario1-condition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

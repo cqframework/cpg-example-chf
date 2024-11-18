@@ -7,7 +7,7 @@
   },
   "status" : "complete",
   "type" : "individual",
-  "measure" : "http://hl7.org/fhir/uv/cpg/chf/Measure/chf-urine-out-measure",
+  "measure" : "http://cqframework.cpg-example-chf/Measure/chf-urine-out-measure",
   "subject" : {
     "reference" : "Patient/chf-scenario1-patient"
   },

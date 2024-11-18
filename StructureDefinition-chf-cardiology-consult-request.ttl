@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request> a fhir:StructureDefinition ;
+<http://cqframework.org/cpg-example-chf/StructureDefinition/chf-cardiology-consult-request> a fhir:StructureDefinition ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-cardiology-consult-request"] ; # 
   fhir:meta [
@@ -33,29 +33,29 @@
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway>
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia>
      ]
   ] [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-cardiology-consultation-pd"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-cardiology-consultation-pd>
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult-request"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "CHFCardiologyConsultRequest"] ; # 
   fhir:title [ fhir:v "CHF Cardiology Consult Request"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-11-18T18:36:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;

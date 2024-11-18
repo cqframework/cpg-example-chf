@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "chf-scenario1-bodyweight3-observation",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"]
+    "profile" : ["http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"]
   },
   "text" : {
     "status" : "extensions",
@@ -10,7 +10,7 @@
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-instantiatesCaseFeature",
-    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"
+    "valueCanonical" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"
   },
   {
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureType",

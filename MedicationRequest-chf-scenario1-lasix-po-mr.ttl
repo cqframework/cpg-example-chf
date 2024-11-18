@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/MedicationRequest/chf-scenario1-lasix-po-mr> a fhir:MedicationRequest ;
+<http://cqframework.org/cpg-example-chf/MedicationRequest/chf-scenario1-lasix-po-mr> a fhir:MedicationRequest ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-lasix-po-mr"] ; # 
   fhir:text [
@@ -25,12 +25,12 @@
      ] )
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:instantiatesCanonical ( [
-     fhir:v "http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po>
+     fhir:v "http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-po"^^xsd:anyURI ;
+     fhir:link <http://cqframework.cpg-example-chf/ActivityDefinition/chf-lasix-po>
   ] ) ; # 
   fhir:dosageInstruction ( [
      fhir:sequence [ fhir:v "1"^^xsd:integer ] ;
@@ -60,8 +60,6 @@
        ]
      ] )
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

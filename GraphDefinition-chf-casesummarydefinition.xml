@@ -26,7 +26,7 @@
     <valueCode value="structured"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryDefinitionFor">
-    <valueCanonical value="http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"/>
+    <valueCanonical value="http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"/>
   </extension>
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright">
     <valueMarkdown value="Copyright (c) 2019+ HL7 International"/>
@@ -80,7 +80,7 @@
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-title">
     <valueString value="CHF Case Summary Definition"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-casesummarydefinition"/>
+  <url value="http://cqframework.cpg-example-chf/GraphDefinition/chf-casesummarydefinition"/>
   <version value="1.0.0"/>
   <name value="CHFCaseSummaryDefinition"/>
   <status value="active"/>
@@ -99,84 +99,84 @@
         <description value="Weight"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"/>
         </target>
       </link>
       <link>
         <description value="Weight Change"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"/>
         </target>
       </link>
       <link>
         <description value="Urine Out"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out"/>
         </target>
       </link>
       <link>
         <description value="Net IO's"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io"/>
         </target>
       </link>
       <link>
         <description value="JVP"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"/>
         </target>
       </link>
       <link>
         <description value="O2 Sat"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat"/>
         </target>
       </link>
       <link>
         <description value="Potassium"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium"/>
         </target>
       </link>
       <link>
         <description value="Creatinine"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine"/>
         </target>
       </link>
       <link>
         <description value="eGFR"/>
         <target>
           <type value="Observation"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr"/>
         </target>
       </link>
       <link>
         <description value="LASIX IV"/>
         <target>
           <type value="MedicationAdministration"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-administration"/>
         </target>
       </link>
       <link>
         <description value="LASIX PO"/>
         <target>
           <type value="MedicationAdministration"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-administration"/>
         </target>
       </link>
       <link>
         <description value="Cardiology Consultation"/>
         <target>
           <type value="Procedure"/>
-          <profile value="http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult"/>
+          <profile value="http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult"/>
         </target>
       </link>
     </target>

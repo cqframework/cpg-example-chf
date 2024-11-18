@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-urineout3> a fhir:MeasureReport ;
+<http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-urineout3> a fhir:MeasureReport ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-urineout3"] ; # 
   fhir:text [
@@ -15,11 +15,11 @@
   fhir:status [ fhir:v "complete"] ; # 
   fhir:type [ fhir:v "individual"] ; # 
   fhir:measure [
-     fhir:v "http://hl7.org/fhir/uv/cpg/chf/Measure/chf-urine-out-measure"^^xsd:anyURI ;
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Measure/chf-urine-out-measure>
+     fhir:v "http://cqframework.cpg-example-chf/Measure/chf-urine-out-measure"^^xsd:anyURI ;
+     fhir:link <http://cqframework.cpg-example-chf/Measure/chf-urine-out-measure>
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:date [ fhir:v "2019-02-03"^^xsd:date] ; # 
@@ -51,13 +51,9 @@
      ]
   ] ) ; # 
   fhir:evaluatedResource ( [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-urineout3-observation> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-urineout3-observation> ;
      fhir:reference [ fhir:v "Observation/chf-scenario1-urineout3-observation" ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-urineout3-observation> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

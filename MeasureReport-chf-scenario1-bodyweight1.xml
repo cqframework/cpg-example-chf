@@ -7,7 +7,7 @@
   </text>
   <status value="complete"/>
   <type value="individual"/>
-  <measure value="http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-measure"/>
+  <measure value="http://cqframework.cpg-example-chf/Measure/chf-bodyweight-measure"/>
   <subject>
     <reference value="Patient/chf-scenario1-patient"/>
   </subject>

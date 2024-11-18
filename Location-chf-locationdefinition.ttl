@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> a fhir:Location ;
+<http://cqframework.org/cpg-example-chf/Location/chf-locationdefinition> a fhir:Location ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-locationdefinition"] ; # 
   fhir:text [

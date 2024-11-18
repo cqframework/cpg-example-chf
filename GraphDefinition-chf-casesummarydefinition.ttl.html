@@ -117,7 +117,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-  <!-- ReleaseHeader --><p id="publish-box">Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure - Local Development build (v1.0.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.org/fhir/uv/cpg/chf/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  <!-- ReleaseHeader --><p id="publish-box">Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure - Local Development build (v1.0.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://cqframework.org/cpg-example-chf/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
 
 
@@ -228,8 +228,8 @@ fhir:div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p class=\"res-he
   ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-summaryDefinitionFor"^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway&gt;     ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway&gt;     ]
   ] [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-copyright"^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> "Copyright (c) 2019+ HL7 International" ]
@@ -283,7 +283,7 @@ a sct:42343007 ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-title"^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "CHF Case Summary Definition" ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-casesummarydefinition"^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> "http://cqframework.cpg-example-chf/GraphDefinition/chf-casesummarydefinition"^^xsd:anyURI] ; # 
   <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "1.0.0"] ; # 
   <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "CHFCaseSummaryDefinition"] ; # 
   <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "active"] ; # 
@@ -308,74 +308,74 @@ a sct:42343007 ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Weight Change" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Urine Out" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Net IO's" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "JVP" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "O2 Sat" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Potassium" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Creatinine" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "eGFR" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Observation" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "LASIX IV" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "MedicationAdministration" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-administration"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-iv-administration&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "LASIX PO" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "MedicationAdministration" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration&gt;           ]         ] )       ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-administration"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-lasix-po-administration&gt;           ]         ] )       ] [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> "Cardiology Consultation" ] ;
         ( <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target">fhir:target</a> [
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> "Procedure" ] ;
 <a href="http://hl7.org/fhir/R4/graphdefinition.html#GraphDefinition.link.target.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult"^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult&gt;           ]         ] )       ] )     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> "http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult"^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://cqframework.cpg-example-chf/StructureDefinition/chf-cardiology-consult&gt;           ]         ] )       ] )     ] )
   ] ) . # 
 
 </code></pre>
@@ -403,14 +403,14 @@ a sct:42343007 ;
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/dss/index.cfm">HL7 International - Clinical Decision Support WG</a>.  Package hl7.fhir.uv.cpg.chf#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 18, 2024 18:36+0000">2024-11-18</span>
+          IG &copy; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/dss/index.cfm">HL7 International - Clinical Decision Support WG</a>.  Package cqframework.cpg-example-chf#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 18, 2024 18:43+0000">2024-11-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"><a name="l1024">​</a>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-| <a style="color: #81BEF7" href="http://hl7.org/fhir/uv/cpg/chf/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+| <a style="color: #81BEF7" href="http://cqframework.org/cpg-example-chf/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
   <!-- <a style="color: #81BEF7" href="todo.html">Search</a> | -->
           </span>
         </p>

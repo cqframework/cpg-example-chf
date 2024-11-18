@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-weight> a fhir:Goal ;
+<http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-weight> a fhir:Goal ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-weight"] ; # 
   fhir:text [
@@ -16,8 +16,8 @@
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-goalFor"^^xsd:anyURI ] ;
      fhir:value [
-       fhir:v "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd>
+       fhir:v "http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-pd"^^xsd:anyURI ;
+       fhir:link <http://cqframework.cpg-example-chf/PlanDefinition/chf-bodyweight-pd>
      ]
   ] ) ; # 
   fhir:lifecycleStatus [ fhir:v "active"] ; # 
@@ -31,7 +31,7 @@
      fhir:text [ fhir:v "Body weight 92kg" ]
   ] ; # 
   fhir:subject [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
      fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
   ] ; # 
   fhir:target ( [
@@ -50,8 +50,6 @@
        fhir:code [ fhir:v "kg" ]
      ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

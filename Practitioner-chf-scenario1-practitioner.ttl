@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/Practitioner/chf-scenario1-practitioner> a fhir:Practitioner ;
+<http://cqframework.org/cpg-example-chf/Practitioner/chf-scenario1-practitioner> a fhir:Practitioner ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-scenario1-practitioner"] ; # 
   fhir:text [

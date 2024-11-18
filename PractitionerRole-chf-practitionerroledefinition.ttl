@@ -6,7 +6,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-practitionerroledefinition> a fhir:PractitionerRole ;
+<http://cqframework.org/cpg-example-chf/PractitionerRole/chf-practitionerroledefinition> a fhir:PractitionerRole ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "chf-practitionerroledefinition"] ; # 
   fhir:text [
@@ -29,11 +29,9 @@
      ] )
   ] ) ; # 
   fhir:location ( [
-     fhir:link <http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> ;
+     fhir:link <http://cqframework.org/cpg-example-chf/Location/chf-locationdefinition> ;
      fhir:reference [ fhir:v "Location/chf-locationdefinition" ]
   ] ) . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

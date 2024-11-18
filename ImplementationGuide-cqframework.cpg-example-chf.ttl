@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf> a fhir:ImplementationGuide ;
+<http://cqframework.org/cpg-example-chf/ImplementationGuide/cqframework.cpg-example-chf> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "hl7.fhir.uv.cpg.chf"] ; # 
+  fhir:id [ fhir:v "cqframework.cpg-example-chf"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.cpg.chf</b></p><a name=\"hl7.fhir.uv.cpg.chf\"> </a><a name=\"hchl7.fhir.uv.cpg.chf\"> </a><a name=\"hl7.fhir.uv.cpg.chf-en-US\"> </a><h2>CPGCongestiveHeartFailureExamples</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf</pre><div><p>Examples of CPG computable content representing a congestive heart failure pathway</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide cqframework.cpg-example-chf</b></p><a name=\"cqframework.cpg-example-chf\"> </a><a name=\"hccqframework.cpg-example-chf\"> </a><a name=\"cqframework.cpg-example-chf-en-US\"> </a><h2>CPGCongestiveHeartFailureExamples</h2><p>The official URL for this implementation guide is: </p><pre>http://cqframework.org/cpg-example-chf/ImplementationGuide/cqframework.cpg-example-chf</pre><div><p>Examples of CPG computable content representing a congestive heart failure pathway</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/ImplementationGuide/hl7.fhir.uv.cpg.chf"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://cqframework.org/cpg-example-chf/ImplementationGuide/cqframework.cpg-example-chf"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "CPGCongestiveHeartFailureExamples"] ; # 
   fhir:title [ fhir:v "Clinical Practice Guidelines Example Implementation Guide - Congestive Heart Failure"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-18T18:36:46+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:43:23+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;
@@ -34,7 +34,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "hl7.fhir.uv.cpg.chf"] ; # 
+  fhir:packageId [ fhir:v "cqframework.cpg-example-chf"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -155,15 +155,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/history.html" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "autoload-resources" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -222,6 +213,15 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://cqframework.org/cpg-example-chf/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -392,15 +392,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/uv/cpg/chf/history.html" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "autoload-resources" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -459,6 +450,15 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://cqframework.org/cpg-example-chf/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -549,7 +549,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-bodyweight> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-bodyweight" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight" ] ;
@@ -561,7 +561,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-bodyweight-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-bodyweight-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-bodyweight-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight Activity Defintion" ] ;
@@ -573,7 +573,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-bodyweight-change> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-bodyweight-change" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight Change" ] ;
@@ -585,7 +585,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-bodyweight-change-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-bodyweight-change-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-bodyweight-change-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight Change Activity Defintion" ] ;
@@ -597,7 +597,7 @@
          fhir:value [ fhir:v "Measure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-change-measure> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Measure/chf-bodyweight-change-measure> ;
          fhir:reference [ fhir:v "Measure/chf-bodyweight-change-measure" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight Change Metric" ] ;
@@ -609,7 +609,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-change-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-bodyweight-change-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-bodyweight-change-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight Change Recommendation" ] ;
@@ -621,7 +621,7 @@
          fhir:value [ fhir:v "Measure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-measure> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Measure/chf-bodyweight-measure> ;
          fhir:reference [ fhir:v "Measure/chf-bodyweight-measure" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight Metric" ] ;
@@ -633,7 +633,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-bodyweight-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-bodyweight-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Body Weight Recommendation" ] ;
@@ -645,7 +645,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-cardiology-consult> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-cardiology-consult" ]
        ] ;
        fhir:name [ fhir:v "CHF Cardiology Consult" ] ;
@@ -657,7 +657,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-cardiology-consult-request> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-cardiology-consult-request" ]
        ] ;
        fhir:name [ fhir:v "CHF Cardiology Consult Request" ] ;
@@ -669,7 +669,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-cardiology-consultation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-cardiology-consultation> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-cardiology-consultation" ]
        ] ;
        fhir:name [ fhir:v "CHF Cardiology Consultation Activity Defintion" ] ;
@@ -681,7 +681,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-cardiology-consultation-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-cardiology-consultation-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Cardiology Consultation Recommendation" ] ;
@@ -693,7 +693,7 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/CodeSystem/chf-codes> ;
          fhir:reference [ fhir:v "CodeSystem/chf-codes" ]
        ] ;
        fhir:name [ fhir:v "CHF Codes" ] ;
@@ -705,7 +705,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-creatinine> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-creatinine" ]
        ] ;
        fhir:name [ fhir:v "CHF Creatinine" ] ;
@@ -717,7 +717,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-creatinine-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-creatinine-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-creatinine-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Creatinine Activity Defintion" ] ;
@@ -729,7 +729,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-creatinine-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-creatinine-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-creatinine-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Creatinine Recommendation" ] ;
@@ -741,7 +741,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-daily-management> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-daily-management> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-daily-management" ]
        ] ;
        fhir:name [ fhir:v "CHF Daily Management Strategy" ] ;
@@ -753,7 +753,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-egfr> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-egfr" ]
        ] ;
        fhir:name [ fhir:v "CHF eGFR" ] ;
@@ -765,7 +765,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-egfr-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-egfr-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-egfr-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF eGFR Activity Defintion" ] ;
@@ -777,7 +777,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-egfr-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-egfr-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-egfr-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF eGFR Recommendation" ] ;
@@ -789,7 +789,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-hypervolemia> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-hypervolemia" ]
        ] ;
        fhir:name [ fhir:v "CHF Hypervolemia Strategy" ] ;
@@ -801,7 +801,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-jvp> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-jvp" ]
        ] ;
        fhir:name [ fhir:v "CHF Jugular Venous Pressure" ] ;
@@ -813,7 +813,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-jvp-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-jvp-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Jugular Venous Pressure Activity Defintion" ] ;
@@ -825,7 +825,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-jvp-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-jvp-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Jugular Venous Pressure Recommendation" ] ;
@@ -837,7 +837,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp-request> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-jvp-request> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-jvp-request" ]
        ] ;
        fhir:name [ fhir:v "CHF Jugular Venous Pressure Request" ] ;
@@ -849,7 +849,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-iv> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-lasix-iv> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-lasix-iv" ]
        ] ;
        fhir:name [ fhir:v "CHF LASIX IV Activity Defintion" ] ;
@@ -861,7 +861,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-lasix-iv-administration> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-lasix-iv-administration" ]
        ] ;
        fhir:name [ fhir:v "CHF LASIX IV Administration" ] ;
@@ -873,7 +873,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-request> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-lasix-iv-request> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-lasix-iv-request" ]
        ] ;
        fhir:name [ fhir:v "CHF LASIX IV Request" ] ;
@@ -885,7 +885,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-lasix-po> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-lasix-po" ]
        ] ;
        fhir:name [ fhir:v "CHF LASIX PO Activity Defintion" ] ;
@@ -897,7 +897,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-lasix-po-administration> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-lasix-po-administration" ]
        ] ;
        fhir:name [ fhir:v "CHF LASIX PO Administration" ] ;
@@ -909,7 +909,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-lasix-po-request> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-lasix-po-request" ]
        ] ;
        fhir:name [ fhir:v "CHF LASIX PO Request" ] ;
@@ -921,7 +921,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-lasix> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-lasix" ]
        ] ;
        fhir:name [ fhir:v "CHF LASIX Recommendation" ] ;
@@ -933,7 +933,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-net-io> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-net-io" ]
        ] ;
        fhir:name [ fhir:v "CHF Net Intake/Output" ] ;
@@ -945,7 +945,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-net-io-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-net-io-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-net-io-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Net IO Activity Defintion" ] ;
@@ -957,7 +957,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-net-io-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-net-io-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-net-io-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Net IO Recommendation" ] ;
@@ -969,7 +969,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-o2-sat> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-o2-sat" ]
        ] ;
        fhir:name [ fhir:v "CHF Oxygen Saturation" ] ;
@@ -981,7 +981,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-o2-sat-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-o2-sat-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-o2-sat-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Oxygen Saturation Activity Defintion" ] ;
@@ -993,7 +993,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-o2-sat-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-o2-sat-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-o2-sat-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Oxygen Saturation Recommendation" ] ;
@@ -1005,7 +1005,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-o2-sat-request> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-o2-sat-request" ]
        ] ;
        fhir:name [ fhir:v "CHF Oxygen Saturation Request" ] ;
@@ -1017,7 +1017,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-potassium> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-potassium" ]
        ] ;
        fhir:name [ fhir:v "CHF Potassium" ] ;
@@ -1029,7 +1029,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-potassium-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-potassium-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-potassium-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Potassium Activity Defintion" ] ;
@@ -1041,7 +1041,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-potassium-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-potassium-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-potassium-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Potassium Recommendation" ] ;
@@ -1053,7 +1053,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-bodyweight> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-report-bodyweight> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-report-bodyweight" ]
        ] ;
        fhir:name [ fhir:v "CHF Report Body Weight Activity Defintion" ] ;
@@ -1065,7 +1065,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-bodyweight-change> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-report-bodyweight-change> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-report-bodyweight-change" ]
        ] ;
        fhir:name [ fhir:v "CHF Report Body Weight Change Activity Defintion" ] ;
@@ -1077,7 +1077,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-urine-out> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-report-urine-out> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-report-urine-out" ]
        ] ;
        fhir:name [ fhir:v "CHF Report Urine Out Activity Defintion" ] ;
@@ -1089,7 +1089,7 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/StructureDefinition/chf-urine-out> ;
          fhir:reference [ fhir:v "StructureDefinition/chf-urine-out" ]
        ] ;
        fhir:name [ fhir:v "CHF Urine Out" ] ;
@@ -1101,7 +1101,7 @@
          fhir:value [ fhir:v "ActivityDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-urine-out-ad> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ActivityDefinition/chf-urine-out-ad> ;
          fhir:reference [ fhir:v "ActivityDefinition/chf-urine-out-ad" ]
        ] ;
        fhir:name [ fhir:v "CHF Urine Out Activity Defintion" ] ;
@@ -1113,7 +1113,7 @@
          fhir:value [ fhir:v "Measure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Measure/chf-urine-out-measure> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Measure/chf-urine-out-measure> ;
          fhir:reference [ fhir:v "Measure/chf-urine-out-measure" ]
        ] ;
        fhir:name [ fhir:v "CHF Urine Out Metric" ] ;
@@ -1125,7 +1125,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-urine-out-pd> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-urine-out-pd> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-urine-out-pd" ]
        ] ;
        fhir:name [ fhir:v "CHF Urine Out Recommendation" ] ;
@@ -1137,7 +1137,7 @@
          fhir:value [ fhir:v "CareTeam" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/CareTeam/chf-careteamdefinition> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/CareTeam/chf-careteamdefinition> ;
          fhir:reference [ fhir:v "CareTeam/chf-careteamdefinition" ]
        ] ;
        fhir:name [ fhir:v "chf-careteamdefinition" ] ;
@@ -1149,7 +1149,7 @@
          fhir:value [ fhir:v "GraphDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/GraphDefinition/chf-caseplansummarydefinition> ;
          fhir:reference [ fhir:v "GraphDefinition/chf-caseplansummarydefinition" ]
        ] ;
        fhir:name [ fhir:v "chf-caseplansummarydefinition" ] ;
@@ -1161,7 +1161,7 @@
          fhir:value [ fhir:v "GraphDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-casesummarydefinition> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/GraphDefinition/chf-casesummarydefinition> ;
          fhir:reference [ fhir:v "GraphDefinition/chf-casesummarydefinition" ]
        ] ;
        fhir:name [ fhir:v "chf-casesummarydefinition" ] ;
@@ -1173,7 +1173,7 @@
          fhir:value [ fhir:v "Group" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Group/chf-groupdefinition> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Group/chf-groupdefinition> ;
          fhir:reference [ fhir:v "Group/chf-groupdefinition" ]
        ] ;
        fhir:name [ fhir:v "chf-groupdefinition" ] ;
@@ -1185,7 +1185,7 @@
          fhir:value [ fhir:v "Location" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Location/chf-locationdefinition> ;
          fhir:reference [ fhir:v "Location/chf-locationdefinition" ]
        ] ;
        fhir:name [ fhir:v "chf-locationdefinition" ] ;
@@ -1197,7 +1197,7 @@
          fhir:value [ fhir:v "PractitionerRole" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-practitionerroledefinition> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PractitionerRole/chf-practitionerroledefinition> ;
          fhir:reference [ fhir:v "PractitionerRole/chf-practitionerroledefinition" ]
        ] ;
        fhir:name [ fhir:v "chf-practitionerroledefinition" ] ;
@@ -1209,7 +1209,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight-change1> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-bodyweight-change1> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-bodyweight-change1" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight-change1" ] ;
@@ -1221,14 +1221,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight-change1-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight-change1-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight-change1-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight-change1-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change>
        ]
      ] [
        fhir:extension ( [
@@ -1236,7 +1236,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight-change2> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-bodyweight-change2> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-bodyweight-change2" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight-change2" ] ;
@@ -1248,14 +1248,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight-change2-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight-change2-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight-change2-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight-change2-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change>
        ]
      ] [
        fhir:extension ( [
@@ -1263,7 +1263,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight-change3> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-bodyweight-change3> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-bodyweight-change3" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight-change3" ] ;
@@ -1275,14 +1275,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight-change3-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight-change3-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight-change3-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight-change3-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight-change>
        ]
      ] [
        fhir:extension ( [
@@ -1290,7 +1290,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight1> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-bodyweight1> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-bodyweight1" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight1" ] ;
@@ -1302,14 +1302,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight1-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight1-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight1-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight1-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight>
        ]
      ] [
        fhir:extension ( [
@@ -1317,7 +1317,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight2> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-bodyweight2> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-bodyweight2" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight2" ] ;
@@ -1329,14 +1329,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight2-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight2-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight2-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight2-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight>
        ]
      ] [
        fhir:extension ( [
@@ -1344,7 +1344,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight3> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-bodyweight3> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-bodyweight3" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight3" ] ;
@@ -1356,14 +1356,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight3-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight3-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight3-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight3-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight>
        ]
      ] [
        fhir:extension ( [
@@ -1371,7 +1371,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight4> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-bodyweight4> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-bodyweight4" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight4" ] ;
@@ -1383,14 +1383,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight4-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-bodyweight4-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-bodyweight4-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-bodyweight4-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-bodyweight>
        ]
      ] [
        fhir:extension ( [
@@ -1398,7 +1398,7 @@
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Procedure/chf-scenario1-cardiology-consult> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Procedure/chf-scenario1-cardiology-consult> ;
          fhir:reference [ fhir:v "Procedure/chf-scenario1-cardiology-consult" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-cardiology-consult" ] ;
@@ -1410,7 +1410,7 @@
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-cardiology-consultation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ServiceRequest/chf-scenario1-cardiology-consultation> ;
          fhir:reference [ fhir:v "ServiceRequest/chf-scenario1-cardiology-consultation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-cardiology-consultation" ] ;
@@ -1422,7 +1422,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-cardiology-consultation-goal> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-cardiology-consultation-goal> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-cardiology-consultation-goal" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-cardiology-consultation-goal" ] ;
@@ -1434,7 +1434,7 @@
          fhir:value [ fhir:v "CareTeam" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/CareTeam/chf-scenario1-careteam> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/CareTeam/chf-scenario1-careteam> ;
          fhir:reference [ fhir:v "CareTeam/chf-scenario1-careteam" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-careteam" ] ;
@@ -1446,7 +1446,7 @@
          fhir:value [ fhir:v "ClinicalImpression" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ClinicalImpression/chf-scenario1-clinicalimpression> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ClinicalImpression/chf-scenario1-clinicalimpression> ;
          fhir:reference [ fhir:v "ClinicalImpression/chf-scenario1-clinicalimpression" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-clinicalimpression" ] ;
@@ -1458,7 +1458,7 @@
          fhir:value [ fhir:v "Condition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Condition/chf-scenario1-condition> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Condition/chf-scenario1-condition> ;
          fhir:reference [ fhir:v "Condition/chf-scenario1-condition" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-condition" ] ;
@@ -1470,7 +1470,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-creatinine> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-creatinine> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-creatinine" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-creatinine" ] ;
@@ -1482,14 +1482,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-creatinine1> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-creatinine1> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-creatinine1" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-creatinine1" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-creatinine>
        ]
      ] [
        fhir:extension ( [
@@ -1497,7 +1497,7 @@
          fhir:value [ fhir:v "RequestGroup" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/RequestGroup/chf-scenario1-daily-management> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/RequestGroup/chf-scenario1-daily-management> ;
          fhir:reference [ fhir:v "RequestGroup/chf-scenario1-daily-management" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-daily-management" ] ;
@@ -1509,7 +1509,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-egfr> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-egfr> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-egfr" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-egfr" ] ;
@@ -1521,14 +1521,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-egfr1> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-egfr1> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-egfr1" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-egfr1" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-egfr>
        ]
      ] [
        fhir:extension ( [
@@ -1536,7 +1536,7 @@
          fhir:value [ fhir:v "Encounter" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Encounter/chf-scenario1-encounter> ;
          fhir:reference [ fhir:v "Encounter/chf-scenario1-encounter" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-encounter" ] ;
@@ -1548,7 +1548,7 @@
          fhir:value [ fhir:v "EpisodeOfCare" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/EpisodeOfCare/chf-scenario1-eoc> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/EpisodeOfCare/chf-scenario1-eoc> ;
          fhir:reference [ fhir:v "EpisodeOfCare/chf-scenario1-eoc" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-eoc" ] ;
@@ -1560,7 +1560,7 @@
          fhir:value [ fhir:v "Group" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Group/chf-scenario1-group> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Group/chf-scenario1-group> ;
          fhir:reference [ fhir:v "Group/chf-scenario1-group" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-group" ] ;
@@ -1572,7 +1572,7 @@
          fhir:value [ fhir:v "RequestGroup" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/RequestGroup/chf-scenario1-hypervolemia> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/RequestGroup/chf-scenario1-hypervolemia> ;
          fhir:reference [ fhir:v "RequestGroup/chf-scenario1-hypervolemia" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-hypervolemia" ] ;
@@ -1584,7 +1584,7 @@
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-jvp> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ServiceRequest/chf-scenario1-jvp> ;
          fhir:reference [ fhir:v "ServiceRequest/chf-scenario1-jvp" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-jvp" ] ;
@@ -1596,7 +1596,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-jvp-goal> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-jvp-goal> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-jvp-goal" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-jvp-goal" ] ;
@@ -1608,14 +1608,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp1> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp1> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-jvp1" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-jvp1" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp>
        ]
      ] [
        fhir:extension ( [
@@ -1623,14 +1623,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp2> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp2> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-jvp2" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-jvp2" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp>
        ]
      ] [
        fhir:extension ( [
@@ -1638,14 +1638,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp3> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp3> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-jvp3" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-jvp3" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp>
        ]
      ] [
        fhir:extension ( [
@@ -1653,14 +1653,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp4> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp4> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-jvp4" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-jvp4" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp>
        ]
      ] [
        fhir:extension ( [
@@ -1668,14 +1668,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp5> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-jvp5> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-jvp5" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-jvp5" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-jvp>
        ]
      ] [
        fhir:extension ( [
@@ -1683,7 +1683,7 @@
          fhir:value [ fhir:v "MedicationAdministration" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MedicationAdministration/chf-scenario1-lasix-iv> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MedicationAdministration/chf-scenario1-lasix-iv> ;
          fhir:reference [ fhir:v "MedicationAdministration/chf-scenario1-lasix-iv" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-lasix-iv" ] ;
@@ -1695,7 +1695,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-lasix-iv-goal> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-lasix-iv-goal> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-lasix-iv-goal" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-lasix-iv-goal" ] ;
@@ -1707,7 +1707,7 @@
          fhir:value [ fhir:v "MedicationAdministration" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MedicationAdministration/chf-scenario1-lasix-po> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MedicationAdministration/chf-scenario1-lasix-po> ;
          fhir:reference [ fhir:v "MedicationAdministration/chf-scenario1-lasix-po" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-lasix-po" ] ;
@@ -1719,7 +1719,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-lasix-po-goal> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-lasix-po-goal> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-lasix-po-goal" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-lasix-po-goal" ] ;
@@ -1731,7 +1731,7 @@
          fhir:value [ fhir:v "MedicationRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MedicationRequest/chf-scenario1-lasix-po-mr> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MedicationRequest/chf-scenario1-lasix-po-mr> ;
          fhir:reference [ fhir:v "MedicationRequest/chf-scenario1-lasix-po-mr" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-lasix-po-mr" ] ;
@@ -1743,7 +1743,7 @@
          fhir:value [ fhir:v "Location" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Location/chf-scenario1-location> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Location/chf-scenario1-location> ;
          fhir:reference [ fhir:v "Location/chf-scenario1-location" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-location" ] ;
@@ -1755,7 +1755,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-net-io> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-net-io> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-net-io" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-net-io" ] ;
@@ -1767,14 +1767,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-netio3> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-netio3> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-netio3" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-netio3" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-net-io>
        ]
      ] [
        fhir:extension ( [
@@ -1782,7 +1782,7 @@
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-o2-sat> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/ServiceRequest/chf-scenario1-o2-sat> ;
          fhir:reference [ fhir:v "ServiceRequest/chf-scenario1-o2-sat" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-o2-sat" ] ;
@@ -1794,7 +1794,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-o2-sat-goal> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-o2-sat-goal> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-o2-sat-goal" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-o2-sat-goal" ] ;
@@ -1806,14 +1806,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-o2sat1> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-o2sat1> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-o2sat1" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-o2sat1" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat>
        ]
      ] [
        fhir:extension ( [
@@ -1821,14 +1821,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-o2sat2> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-o2sat2> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-o2sat2" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-o2sat2" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat>
        ]
      ] [
        fhir:extension ( [
@@ -1836,7 +1836,7 @@
          fhir:value [ fhir:v "Organization" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Organization/chf-scenario1-organization> ;
          fhir:reference [ fhir:v "Organization/chf-scenario1-organization" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-organization" ] ;
@@ -1848,7 +1848,7 @@
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Patient/chf-scenario1-patient> ;
          fhir:reference [ fhir:v "Patient/chf-scenario1-patient" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-patient" ] ;
@@ -1860,7 +1860,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-potassium> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-potassium> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-potassium" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-potassium" ] ;
@@ -1872,14 +1872,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-potassium1> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-potassium1> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-potassium1" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-potassium1" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-potassium>
        ]
      ] [
        fhir:extension ( [
@@ -1887,7 +1887,7 @@
          fhir:value [ fhir:v "Practitioner" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Practitioner/chf-scenario1-practitioner> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Practitioner/chf-scenario1-practitioner> ;
          fhir:reference [ fhir:v "Practitioner/chf-scenario1-practitioner" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-practitioner" ] ;
@@ -1899,7 +1899,7 @@
          fhir:value [ fhir:v "PractitionerRole" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-scenario1-practitionerrole> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PractitionerRole/chf-scenario1-practitionerrole> ;
          fhir:reference [ fhir:v "PractitionerRole/chf-scenario1-practitionerrole" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-practitionerrole" ] ;
@@ -1911,7 +1911,7 @@
          fhir:value [ fhir:v "RelatedPerson" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/RelatedPerson/chf-scenario1-relatedperson> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/RelatedPerson/chf-scenario1-relatedperson> ;
          fhir:reference [ fhir:v "RelatedPerson/chf-scenario1-relatedperson" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-relatedperson" ] ;
@@ -1923,7 +1923,7 @@
          fhir:value [ fhir:v "MedicationRequest" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MedicationRequest/chf-scenario1-stop-lasix-iv> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MedicationRequest/chf-scenario1-stop-lasix-iv> ;
          fhir:reference [ fhir:v "MedicationRequest/chf-scenario1-stop-lasix-iv" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-stop-lasix-iv" ] ;
@@ -1935,7 +1935,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-urine-out> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-urine-out> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-urine-out" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-urine-out" ] ;
@@ -1947,7 +1947,7 @@
          fhir:value [ fhir:v "MeasureReport" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-urineout3> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/MeasureReport/chf-scenario1-urineout3> ;
          fhir:reference [ fhir:v "MeasureReport/chf-scenario1-urineout3" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-urineout3" ] ;
@@ -1959,14 +1959,14 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-urineout3-observation> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Observation/chf-scenario1-urineout3-observation> ;
          fhir:reference [ fhir:v "Observation/chf-scenario1-urineout3-observation" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-urineout3-observation" ] ;
        fhir:description [ fhir:v "CHF Scenario One" ] ;
        fhir:example [
-         fhir:v "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out"^^xsd:anyURI ;
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out>
+         fhir:v "http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out"^^xsd:anyURI ;
+         fhir:link <http://cqframework.cpg-example-chf/StructureDefinition/chf-urine-out>
        ]
      ] [
        fhir:extension ( [
@@ -1974,7 +1974,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-weight> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-weight> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-weight" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-weight" ] ;
@@ -1986,7 +1986,7 @@
          fhir:value [ fhir:v "Goal" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-weight-change> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Goal/chf-scenario1-weight-change> ;
          fhir:reference [ fhir:v "Goal/chf-scenario1-weight-change" ]
        ] ;
        fhir:name [ fhir:v "chf-scenario1-weight-change" ] ;
@@ -1998,7 +1998,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/PlanDefinition/chf-pathway> ;
          fhir:reference [ fhir:v "PlanDefinition/chf-pathway" ]
        ] ;
        fhir:name [ fhir:v "Congestive Heart Failure Care Pathway" ] ;
@@ -2010,7 +2010,7 @@
          fhir:value [ fhir:v "Composition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Composition/chf-scenario1-casesummary> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Composition/chf-scenario1-casesummary> ;
          fhir:reference [ fhir:v "Composition/chf-scenario1-casesummary" ]
        ] ;
        fhir:name [ fhir:v "Congestive Heart Failure Case Summary" ] ;
@@ -2022,7 +2022,7 @@
          fhir:value [ fhir:v "Composition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Composition/chf-scenario1-caseplanprogressingnote> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Composition/chf-scenario1-caseplanprogressingnote> ;
          fhir:reference [ fhir:v "Composition/chf-scenario1-caseplanprogressingnote" ]
        ] ;
        fhir:name [ fhir:v "Congestive Heart Failure Case/Plan Progressing Note" ] ;
@@ -2034,7 +2034,7 @@
          fhir:value [ fhir:v "Composition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Composition/chf-scenario1-caseplansummary> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Composition/chf-scenario1-caseplansummary> ;
          fhir:reference [ fhir:v "Composition/chf-scenario1-caseplansummary" ]
        ] ;
        fhir:name [ fhir:v "Congestive Heart Failure Case/Plan Summary" ] ;
@@ -2046,7 +2046,7 @@
          fhir:value [ fhir:v "Library" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/Library/CHF> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/Library/CHF> ;
          fhir:reference [ fhir:v "Library/CHF" ]
        ] ;
        fhir:name [ fhir:v "Congestive Heart Failure Logic" ] ;
@@ -2058,7 +2058,7 @@
          fhir:value [ fhir:v "CarePlan" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/chf/CarePlan/chf-scenario1-careplan> ;
+         fhir:link <http://cqframework.org/cpg-example-chf/CarePlan/chf-scenario1-careplan> ;
          fhir:reference [ fhir:v "CarePlan/chf-scenario1-careplan" ]
        ] ;
        fhir:name [ fhir:v "Heart Failure Care Pathway" ] ;
@@ -2130,250 +2130,6 @@
        fhir:value [ fhir:v "input-cache/txcache" ]
      ] )
   ] . # 
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-bodyweight-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-bodyweight-change> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-bodyweight-change-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-change-measure> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-change-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Measure/chf-bodyweight-measure> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-bodyweight-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-cardiology-consult-request> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-cardiology-consultation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-cardiology-consultation-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/CodeSystem/chf-codes> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-creatinine> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-creatinine-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-creatinine-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-daily-management> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-egfr> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-egfr-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-egfr-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-jvp-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-jvp-request> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-iv> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-administration> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-iv-request> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-lasix-po> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-administration> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-lasix-po-request> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-lasix> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-net-io> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-net-io-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-net-io-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-o2-sat-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-o2-sat-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-potassium> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-potassium-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-potassium-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-bodyweight> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-bodyweight-change> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-report-urine-out> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-urine-out> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-urine-out-ad> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Measure/chf-urine-out-measure> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-urine-out-pd> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/CareTeam/chf-careteamdefinition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-caseplansummarydefinition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/GraphDefinition/chf-casesummarydefinition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Group/chf-groupdefinition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Location/chf-locationdefinition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-practitionerroledefinition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight-change1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight-change1-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight-change2> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight-change2-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight-change3> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight-change3-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight1-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight2> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight2-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight3> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight3-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-bodyweight4> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-bodyweight4-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Procedure/chf-scenario1-cardiology-consult> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-cardiology-consultation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-cardiology-consultation-goal> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/CareTeam/chf-scenario1-careteam> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ClinicalImpression/chf-scenario1-clinicalimpression> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Condition/chf-scenario1-condition> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-creatinine> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-creatinine1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/RequestGroup/chf-scenario1-daily-management> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-egfr> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-egfr1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Encounter/chf-scenario1-encounter> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/EpisodeOfCare/chf-scenario1-eoc> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Group/chf-scenario1-group> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/RequestGroup/chf-scenario1-hypervolemia> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-jvp> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-jvp-goal> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp2> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp3> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp4> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-jvp5> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MedicationAdministration/chf-scenario1-lasix-iv> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-lasix-iv-goal> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MedicationAdministration/chf-scenario1-lasix-po> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-lasix-po-goal> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MedicationRequest/chf-scenario1-lasix-po-mr> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Location/chf-scenario1-location> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-net-io> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-netio3> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/ServiceRequest/chf-scenario1-o2-sat> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-o2-sat-goal> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-o2sat1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-o2sat2> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Organization/chf-scenario1-organization> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Patient/chf-scenario1-patient> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-potassium> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-potassium1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Practitioner/chf-scenario1-practitioner> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PractitionerRole/chf-scenario1-practitionerrole> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/RelatedPerson/chf-scenario1-relatedperson> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MedicationRequest/chf-scenario1-stop-lasix-iv> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-urine-out> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/MeasureReport/chf-scenario1-urineout3> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Observation/chf-scenario1-urineout3-observation> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-weight> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Goal/chf-scenario1-weight-change> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Composition/chf-scenario1-casesummary> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Composition/chf-scenario1-caseplanprogressingnote> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Composition/chf-scenario1-caseplansummary> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/Library/CHF> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/chf/CarePlan/chf-scenario1-careplan> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

@@ -26,23 +26,23 @@
   },
   {
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf",
-    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-pathway"
+    "valueCanonical" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-pathway"
   },
   {
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf",
-    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-hypervolemia"
+    "valueCanonical" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-hypervolemia"
   },
   {
     "url" : "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-caseFeatureOf",
-    "valueCanonical" : "http://hl7.org/fhir/uv/cpg/chf/PlanDefinition/chf-o2-sat-pd"
+    "valueCanonical" : "http://cqframework.cpg-example-chf/PlanDefinition/chf-o2-sat-pd"
   }],
-  "url" : "http://hl7.org/fhir/uv/cpg/chf/StructureDefinition/chf-o2-sat-request",
+  "url" : "http://cqframework.cpg-example-chf/StructureDefinition/chf-o2-sat-request",
   "version" : "1.0.0",
   "name" : "CHFO2SatRequest",
   "title" : "CHF Oxygen Saturation Request",
   "status" : "active",
   "experimental" : true,
-  "date" : "2024-11-18T18:36:46+00:00",
+  "date" : "2024-11-18T18:43:23+00:00",
   "publisher" : "HL7 International - Clinical Decision Support WG",
   "contact" : [{
     "name" : "HL7 International - Clinical Decision Support WG",

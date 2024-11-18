@@ -9,7 +9,7 @@
   <extension url="http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-rationale">
     <valueMarkdown value="TODO: ACC recommends measuring jugular venous pressure as part of management of hypervolemia?"/>
   </extension>
-  <instantiatesCanonical value="http://hl7.org/fhir/uv/cpg/chf/ActivityDefinition/chf-jvp-ad"/>
+  <instantiatesCanonical value="http://cqframework.cpg-example-chf/ActivityDefinition/chf-jvp-ad"/>
   <status value="completed"/>
   <intent value="order"/>
   <category>
